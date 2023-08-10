@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MindRL hub</title>
+    <link>https://RLDMJC.github.io/</link>
+    <description>Recent content on MindRL hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upcoming Events</title>
+      <link>https://RLDMJC.github.io/upcoming/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/upcoming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Recap | Neural network modeling reveals diverse human exploration behaviors via state space analysis</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/xiong230809/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/xiong230809/</guid>
+      <description>Speaker Huadong Xiong
+Bio I am a first-year Ph.D student in the CNS program, the department of psychology at the University of Arizona, directed by Dr. Robert Wilson. I build models to understand behaviors and I study how computation could be implemented in neural networks. Following the release of GPT-4, my research interest has partially shifted towards understanding the emergence of intelligence within large language models.
+Abstract The exploration-exploitation trade-off, balancing the acquisition of new information with the utilization of known resources, is a fundamental dilemma faced by all adaptive intelligence.</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>What is MindRL</title>
+      <link>https://RLDMJC.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/about/</guid>
+      <description>about</description>
+    </item>
+    
+  </channel>
+</rss>
