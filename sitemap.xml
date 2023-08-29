@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://RLDMJC.github.io/</loc>
+    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://RLDMJC.github.io/posts/</loc>
+    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://RLDMJC.github.io/posts/tutorialtalk/</loc>
+    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://RLDMJC.github.io/posts/tutorialtalk/xu230826/</loc>
+    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://RLDMJC.github.io/upcoming/</loc>
     <lastmod>2023-08-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://RLDMJC.github.io/</loc>
-    <lastmod>2023-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://RLDMJC.github.io/posts/researchrecap/</loc>
     <lastmod>2023-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://RLDMJC.github.io/posts/researchrecap/xiong230809/</loc>
-    <lastmod>2023-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://RLDMJC.github.io/posts/</loc>
     <lastmod>2023-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://RLDMJC.github.io/archives/</loc>
@@ -30,8 +36,6 @@
     <loc>https://RLDMJC.github.io/tags/</loc>
   </url><url>
     <loc>https://RLDMJC.github.io/posts/tooltime/</loc>
-  </url><url>
-    <loc>https://RLDMJC.github.io/posts/tutorialtalk/</loc>
   </url><url>
     <loc>https://RLDMJC.github.io/about/</loc>
   </url>

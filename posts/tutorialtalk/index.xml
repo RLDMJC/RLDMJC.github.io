@@ -5,6 +5,18 @@
     <link>https://RLDMJC.github.io/posts/tutorialtalk/</link>
     <description>Recent content in Tutorial Talk on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://RLDMJC.github.io/posts/tutorialtalk/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/tutorialtalk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial Talk | Crash tutorials on fitting hierarchical Bayesian reinforcement learning models</title>
+      <link>https://RLDMJC.github.io/posts/tutorialtalk/xu230826/</link>
+      <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/tutorialtalk/xu230826/</guid>
+      <description>Recording https://www.bilibili.com/video/BV1qm4y1u7JU/?spm_id_from=333.999.0.0&amp;amp;vd_source=1a260a61416c0a766c7c16e727b2f404
+Speaker Shen Xu
+Bio Shen Xu is a third-year Ph.D. student from the School of Psychological and Cognitive Sciences at Peking University. He studies Basic Psychology under the supervision of Professor Dr. Xiaolin Zhou, and he is mainly keen on millisecond tactile information integration and computational social cognition. For the former, Shen focuses on how different tactile information is integrated and its temporal dynamics in the human brain. For the latter, he focuses on the computational and neural mechanisms of advantageous and disadvantageous unfair decision-making in Parkinson&amp;rsquo;s patients.</description>
+    </item>
+    
   </channel>
 </rss>
