@@ -6,7 +6,18 @@
     <description>Recent content in Research Recap on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Recap | Working memory guides action valuation in model-based inference</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/zuo230909/</link>
+      <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/zuo230909/</guid>
+      <description>Recording https://www.bilibili.com/video/BV1Sj411C77e/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
+Speaker Zhaoyu Zuo
+Bio Zhaoyu Zuo obtained a master&amp;rsquo;s degree in pattern recognition and intelligent systems from the University of Science and Technology of China and is now a research assistant at Shanghai Jiao Tong University. He is concerned with the nature of human intelligence and the mechanisms that lead to behavior and mental disorders. He uses brain-inspired models to study the cognitive computational mechanisms behind complex decisions, particularly the cooperative relationship between memory systems and reinforcement learning.</description>
+    </item>
+    
     <item>
       <title>Research Recap | Neural network modeling reveals diverse human exploration behaviors via state space analysis</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/xiong230809/</link>
@@ -17,17 +28,6 @@
 Speaker Huadong Xiong
 Bio I am a first-year Ph.D student in the CNS program, the department of psychology at the University of Arizona, directed by Dr. Robert Wilson. I build models to understand behaviors and I study how computation could be implemented in neural networks. Following the release of GPT-4, my research interest has partially shifted towards understanding the emergence of intelligence within large language models.
 Abstract The exploration-exploitation trade-off, balancing the acquisition of new information with the utilization of known resources, is a fundamental dilemma faced by all adaptive intelligence.</description>
-    </item>
-    
-    <item>
-      <title>Research Recap | Neural network modeling reveals diverse human exploration behaviors via state space analysis</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/zuo230909/</link>
-      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://RLDMJC.github.io/posts/researchrecap/zuo230909/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1Sj411C77e/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Zhaoyu Zuo
-Bio Zhaoyu Zuo obtained a master&amp;rsquo;s degree in pattern recognition and intelligent systems from the University of Science and Technology of China and is now a research assistant at Shanghai Jiao Tong University. He is concerned with the nature of human intelligence and the mechanisms that lead to behavior and mental disorders. He uses brain-inspired models to study the cognitive computational mechanisms behind complex decisions, particularly the cooperative relationship between memory systems and reinforcement learning.</description>
     </item>
     
   </channel>
