@@ -6,14 +6,25 @@
     <description>Recent content in Research Recap on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Recap | Trait somatic anxiety is associated with reduced directed exploration and underestimation of uncertainty</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/fan230922/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/fan230922/</guid>
+      <description>Recording TBD
+Speaker Haoxue Fan
+Bio Haoxue Fan is a fifth-year graduate student at Harvard working with Dr. Elizabeth Phelps. She is interested in how emotion interacts with decision-making under uncertainty, including cognitive processes such as exploration, information seeking, and planning. To answer these questions, she uses a combination of computational modeling, physiological measurements, and behavioral experiments. She is originally from Shanghai in China, and is always eager to know where is the best coffee and boba tea place in town :)</description>
+    </item>
+    
     <item>
       <title>Research Recap | Reinforcement learning biases that makes us smart</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/palminteri230915/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://RLDMJC.github.io/posts/researchrecap/palminteri230915/</guid>
-      <description>Recording TBD
+      <description>Recording https://www.bilibili.com/video/BV1sh4y1A7eu/
 Speaker Stefano Palminteri
 Bio I am a Research Director (equivalent of Full Professor) and head of the Human Reinforcement Learning team, which is part of the Laboratoire de Neurosciences Cognitives et Computationelles. My goal is understanding how humans learn to make decisions at the behavioral, computational and neural levels. I am mainly (but not only!) interested in situations when decisions are based on past experience (a.k.a. reinforcement learning). In the last few years I mainly worked on two computational hypotheses, &amp;ldquo;relative value&amp;rdquo; and &amp;ldquo;learning bias&amp;rdquo;, concerning human reinforcement learning.</description>
     </item>
