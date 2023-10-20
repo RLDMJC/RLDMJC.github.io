@@ -6,7 +6,19 @@
     <description>Recent content in Research Recap on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Seongmin A. Park | Structural abstraction and behavioral flexibility</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/park231020/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/park231020/</guid>
+      <description>Recording https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
+Speaker Seongmin A. Park
+Bio Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
+Abstract Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems.</description>
+    </item>
+    
     <item>
       <title>Matt Nassar | Dynamic representations for behavioral flexibility</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/nassar231012/</link>
