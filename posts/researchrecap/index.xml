@@ -6,7 +6,29 @@
     <description>Recent content in Research Recap on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robert C. Wilson | Information, randomization, and simulation in exploration and exploitation</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/wilson231205/</link>
+      <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/wilson231205/</guid>
+      <description>Recording Speaker Robert C. Wilson
+Bio Bob Wilson is an Associate Professor of Psychology and Director of the Cognitive Science Program at the University of Arizona. Bob is interested in the computational neuroscience of decision-making, studying all kinds of choices from simple perceptual decisions to judgments about phishing emails. Outside of the lab, Bob enjoys raising chickens and learning the piano.
+Abstract Many decisions involve a trade-off between exploring unknown options for information and exploiting known options for a more certain payoff.</description>
+    </item>
+    
+    <item>
+      <title>Weiji Ma | The cognitive science of complex planning</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/ma231201/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/ma231201/</guid>
+      <description>Recording https://www.bilibili.com/video/BV1ye411d7Ty/?spm_id_from=333.999.0.0&amp;amp;vd_source=8b926cc5cb9e7d8fb85957e534d96e47
+Speaker Weiji Ma
+Bio Wei Ji Ma is Professor of Neural Science and Psychology at New York University. He received his Ph.D. in Theoretical Physics from the University of Groningen, the Netherlands, in 2001. He switched to computational neuroscience and computational cognitive science, doing postdocs at Caltech and the University of Rochester. He was Assistant Professor of Neuroscience at Baylor College of Medicine from 2008 to 2013 before he joined New York University.</description>
+    </item>
+    
     <item>
       <title>Charley Wu | Visual-spatial dynamics drive adaptive social learning in immersive environments</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/wu231108/</link>
