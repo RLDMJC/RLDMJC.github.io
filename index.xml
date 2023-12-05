@@ -6,7 +6,18 @@
     <description>Recent content on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Michael J. Frank | Clustering and generalization of abstract structures in reinforcement learning</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/frank231214/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/frank231214/</guid>
+      <description>Recording TBD
+Speaker Michael J. Frank
+Bio Michael J. Frank is Edgar L Marston Professor of Cognitive, Linguistic &amp;amp; Psychological Sciences at Brown University. He directs the Center for Computational Brain Science within the Carney Institute for Brain Science. He received his PhD in Neuroscience and Psychology in 2004 at the University of Colorado, following undergraduate and master&amp;rsquo;s degrees in electrical engineering. Frank’s work focuses primarily on theoretical models of frontostriatal circuits and their modulation by dopamine, especially their cognitive functions and implications for neurological and psychiatric disorders.</description>
+    </item>
+    
     <item>
       <title>Robert C. Wilson | Information, randomization, and simulation in exploration and exploitation</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/wilson231205/</link>
@@ -136,7 +147,7 @@ Bio Shen Xu is a third-year Ph.D. student from the School of Psychological and C
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://RLDMJC.github.io/upcoming/</guid>
-      <description> Title Speaker Time (UTC+8) Type Language Zoom (password) Compositionality (Exact title TBD) Michael J Frank (Brown University) 2023/12/14 22：00 Research Recap English TBD TBD Toby Wise (KCL) 2024/2/29 21：00 Research Recap English TBD </description>
+      <description> Title Speaker Time (UTC+8) Type Language Zoom (password) Clustering and generalization of abstract structures in reinforcement learning Michael J Frank (Brown University) 2023/12/14 22：00 Research Recap English 81138199644 (644223) TBD Toby Wise (KCL) 2024/2/29 21：00 Research Recap English TBD </description>
     </item>
     
     <item>
