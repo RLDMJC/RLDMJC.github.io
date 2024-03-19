@@ -6,14 +6,25 @@
     <description>Recent content in Research Recap on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Anne Collins | Deconstructing human reinforcement learning</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/fan230922/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/fan230922/</guid>
+      <description>Recording Speaker Anne Collins
+Bio I am currently an associate professor at UC Berkeley in the psychology department, with an affiliation in the Helen Wills Neuroscience institute. This semester, I&amp;rsquo;m also a visiting scholar at the University of Bordeaux, France. I did my undergrad at Ecole Polytechnique in France in Maths and engineering, and my PhD at Universite Pierre et Marie Curie, France. Then I was a postdoc at Brown university.</description>
+    </item>
+    
     <item>
       <title>Toby Wise | Learning about uncertainty: mechanisms and implications for mental health</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/wise240229/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://RLDMJC.github.io/posts/researchrecap/wise240229/</guid>
-      <description>Recording Speaker Toby Wise
+      <description>Recording https://www.bilibili.com/video/BV12y421z7sj/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b
+Speaker Toby Wise
 Bio Toby Wise is a Senior Research Fellow in the Department of Neuroimaging at the Institute of Psychiatry, Psychology &amp;amp; Neuroscience (IoPPN) at King&amp;rsquo;s College London.Toby started his academic career with a BSc in Psychology and MSc in Cognitive Neuroscience at the University of Sussex, before completing a PhD at the Institute of Psychiatry, Psychology and Neuroscience at King’s College London, where he focused on neuroimaging markers of depression and bipolar disorder.</description>
     </item>
     
@@ -98,10 +109,10 @@ Bio Mark Ho is an Assistant Professor in the Computer Science Department at Stev
     
     <item>
       <title>Haoxue Fan | Trait somatic anxiety is associated with reduced directed exploration and underestimation of uncertainty</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/fan230922/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/collins240329/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/fan230922/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/collins240329/</guid>
       <description>Recording https://www.bilibili.com/video/BV1Rh4y1a7iq/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
 Speaker Haoxue Fan
 Bio Haoxue Fan is a fifth-year graduate student at Harvard working with Dr. Elizabeth Phelps. She is interested in how emotion interacts with decision-making under uncertainty, including cognitive processes such as exploration, information seeking, and planning. To answer these questions, she uses a combination of computational modeling, physiological measurements, and behavioral experiments. She is originally from Shanghai in China, and is always eager to know where is the best coffee and boba tea place in town :)</description>
