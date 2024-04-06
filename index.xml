@@ -6,23 +6,34 @@
     <description>Recent content on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arkady Konovalov | Strategic Computations and Learning in the Social Brain</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/240405konovalov/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/240405konovalov/</guid>
+      <description>Recording Speaker Arkady Konovalov
+Bio I am an Associate Professor in the School of Psychology at the University of Birmingham. My research focuses on neuroeconomics and decision making in general, including models of the choice process, value-based learning, and social and strategic interactions, using methods of computational neuroscience such as response times modeling, fMRI, EEG, eye-tracking, and mouse-tracking.
+I received my PhD from the Ohio State University, where I worked with Ian Krajbich, PJ Healy, and John Kagel; I then got my postdoctoral training with Christian Ruff at the University of Zurich.</description>
+    </item>
+    
     <item>
       <title> Anne Collins | Deconstructing human reinforcement learning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/fan230922/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/230922fan/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/fan230922/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/230922fan/</guid>
       <description>Recording Speaker Anne Collins
 Bio I am currently an associate professor at UC Berkeley in the psychology department, with an affiliation in the Helen Wills Neuroscience institute. This semester, I&amp;rsquo;m also a visiting scholar at the University of Bordeaux, France. I did my undergrad at Ecole Polytechnique in France in Maths and engineering, and my PhD at Universite Pierre et Marie Curie, France. Then I was a postdoc at Brown university.</description>
     </item>
     
     <item>
       <title>Toby Wise | Learning about uncertainty: mechanisms and implications for mental health</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/wise240229/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/240229wise/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/wise240229/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/240229wise/</guid>
       <description>Recording https://www.bilibili.com/video/BV12y421z7sj/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b
 Speaker Toby Wise
 Bio Toby Wise is a Senior Research Fellow in the Department of Neuroimaging at the Institute of Psychiatry, Psychology &amp;amp; Neuroscience (IoPPN) at King&amp;rsquo;s College London.Toby started his academic career with a BSc in Psychology and MSc in Cognitive Neuroscience at the University of Sussex, before completing a PhD at the Institute of Psychiatry, Psychology and Neuroscience at King’s College London, where he focused on neuroimaging markers of depression and bipolar disorder.</description>
@@ -30,10 +41,10 @@ Bio Toby Wise is a Senior Research Fellow in the Department of Neuroimaging at t
     
     <item>
       <title>Michael J. Frank | Clustering and generalization of abstract structures in reinforcement learning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/frank231214/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/231214frank/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/frank231214/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/231214frank/</guid>
       <description>Recording https://www.bilibili.com/video/BV14i4y1e7Lc/?vd_source=8b926cc5cb9e7d8fb85957e534d96e47
 Speaker Michael J. Frank
 Bio Michael J. Frank is Edgar L Marston Professor of Cognitive, Linguistic &amp;amp; Psychological Sciences at Brown University. He directs the Center for Computational Brain Science within the Carney Institute for Brain Science. He received his PhD in Neuroscience and Psychology in 2004 at the University of Colorado, following undergraduate and master&amp;rsquo;s degrees in electrical engineering. Frank’s work focuses primarily on theoretical models of frontostriatal circuits and their modulation by dopamine, especially their cognitive functions and implications for neurological and psychiatric disorders.</description>
@@ -41,10 +52,10 @@ Bio Michael J. Frank is Edgar L Marston Professor of Cognitive, Linguistic &amp;
     
     <item>
       <title>Robert C. Wilson | Information, randomization, and simulation in exploration and exploitation</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/wilson231205/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/231205wilson/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/wilson231205/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/231205wilson/</guid>
       <description>Recording https://www.bilibili.com/video/BV1vg4y1f7ey/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5
 Speaker Robert C. Wilson
 Bio Bob Wilson is an Associate Professor of Psychology and Director of the Cognitive Science Program at the University of Arizona. Bob is interested in the computational neuroscience of decision-making, studying all kinds of choices from simple perceptual decisions to judgments about phishing emails. Outside of the lab, Bob enjoys raising chickens and learning the piano.
@@ -53,10 +64,10 @@ Abstract Many decisions involve a trade-off between exploring unknown options fo
     
     <item>
       <title>Weiji Ma | The cognitive science of complex planning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/ma231201/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/231201ma/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/ma231201/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/231201ma/</guid>
       <description>Recording https://www.bilibili.com/video/BV1ye411d7Ty/?spm_id_from=333.999.0.0&amp;amp;vd_source=8b926cc5cb9e7d8fb85957e534d96e47
 Speaker Weiji Ma
 Bio Wei Ji Ma is Professor of Neural Science and Psychology at New York University. He received his Ph.D. in Theoretical Physics from the University of Groningen, the Netherlands, in 2001. He switched to computational neuroscience and computational cognitive science, doing postdocs at Caltech and the University of Rochester. He was Assistant Professor of Neuroscience at Baylor College of Medicine from 2008 to 2013 before he joined New York University.</description>
@@ -64,10 +75,10 @@ Bio Wei Ji Ma is Professor of Neural Science and Psychology at New York Universi
     
     <item>
       <title>Charley Wu | Visual-spatial dynamics drive adaptive social learning in immersive environments</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/wu231108/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/231108wu/</link>
       <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/wu231108/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/231108wu/</guid>
       <description>Recording https://www.bilibili.com/video/BV1ZM411S7d7/
 Speaker Charley Wu
 Bio Charley Wu is a cognitive scientist who is interested in the specific shortcuts and cognitive algorithms that people use to make inference tractable. Using online and virtual reality experiments, He employs computational models to predict and understand human behavior. These models allow us to understand the strategies and approximations that allow people to do so much with so little. Originally trained in Philosophy at the University of British Columbia, He pivoted to cognitive science via a M.</description>
@@ -86,10 +97,10 @@ Bio Taicheng Huang (黄泰诚) is a postdoc at Shanghai Mental Health Center, af
     
     <item>
       <title> Seongmin A. Park | Structural abstraction and behavioral flexibility</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/park231020/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/231020park/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/park231020/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/231020park/</guid>
       <description>Recording https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
 Speaker Seongmin A. Park
 Bio Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
@@ -98,10 +109,10 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
     
     <item>
       <title>Matt Nassar | Dynamic representations for behavioral flexibility</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/nassar231012/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/231012nassar/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/nassar231012/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/231012nassar/</guid>
       <description>Recording https://www.bilibili.com/video/BV1G34y1g7Q6/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5
 Speaker Matt Nassar
 Bio Matt Nassar is an Assistant Professor in the Department of Neuroscience at Brown University. He received his BA at Colgate University and his Doctorate from the University of Pennsylvania. He completed post-doctoral training at the University of Pennsylvania and Brown University before joining the faculty at Brown. His research examines how the brain prioritizes, segregates, and combines information collected in complex environments and how this process differs across individuals, pathologies, and over-healthy aging.</description>
@@ -109,10 +120,10 @@ Bio Matt Nassar is an Assistant Professor in the Department of Neuroscience at B
     
     <item>
       <title>Mark Ho | Construction of mental representations in human planning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/ho231004/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/231004ho/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/ho231004/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/231004ho/</guid>
       <description>Recording https://www.bilibili.com/video/BV1P94y1a7Kf/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5
 Speaker Mark Ho
 Bio Mark Ho is an Assistant Professor in the Computer Science Department at Stevens Institute of Technology. Previously, he was a faculty fellow at NYU and a postdoc at Princeton and UC Berkeley. He received his Ph.D in Cognitive Science and M.S. in Computer Science from Brown University. His research combines approaches from cognitive science, social psychology, and computer science to study the computational principles underlying human problem solving and social cognition.</description>
@@ -120,10 +131,10 @@ Bio Mark Ho is an Assistant Professor in the Computer Science Department at Stev
     
     <item>
       <title>Haoxue Fan | Trait somatic anxiety is associated with reduced directed exploration and underestimation of uncertainty</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/collins240329/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/240329collins/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/collins240329/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/240329collins/</guid>
       <description>Recording https://www.bilibili.com/video/BV1Rh4y1a7iq/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
 Speaker Haoxue Fan
 Bio Haoxue Fan is a fifth-year graduate student at Harvard working with Dr. Elizabeth Phelps. She is interested in how emotion interacts with decision-making under uncertainty, including cognitive processes such as exploration, information seeking, and planning. To answer these questions, she uses a combination of computational modeling, physiological measurements, and behavioral experiments. She is originally from Shanghai in China, and is always eager to know where is the best coffee and boba tea place in town :)</description>
@@ -131,10 +142,10 @@ Bio Haoxue Fan is a fifth-year graduate student at Harvard working with Dr. Eliz
     
     <item>
       <title>Stefano Palminteri | Reinforcement learning biases that makes us smart</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/palminteri230915/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/230915palminteri/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/palminteri230915/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/230915palminteri/</guid>
       <description>Recording https://www.bilibili.com/video/BV1sh4y1A7eu/
 Speaker Stefano Palminteri
 Bio I am a Research Director (equivalent of Full Professor) and head of the Human Reinforcement Learning team, which is part of the Laboratoire de Neurosciences Cognitives et Computationelles. My goal is understanding how humans learn to make decisions at the behavioral, computational and neural levels. I am mainly (but not only!) interested in situations when decisions are based on past experience (a.k.a. reinforcement learning). In the last few years I mainly worked on two computational hypotheses, &amp;ldquo;relative value&amp;rdquo; and &amp;ldquo;learning bias&amp;rdquo;, concerning human reinforcement learning.</description>
@@ -142,10 +153,10 @@ Bio I am a Research Director (equivalent of Full Professor) and head of the Huma
     
     <item>
       <title>Zhaoyu Zuo | Working memory guides action valuation in model-based inference</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/zuo230909/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/230909zuo/</link>
       <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/zuo230909/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/230909zuo/</guid>
       <description>Recording https://www.bilibili.com/video/BV1Sj411C77e/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
 Speaker Zhaoyu Zuo
 Bio Zhaoyu Zuo obtained a master&amp;rsquo;s degree in pattern recognition and intelligent systems from the University of Science and Technology of China and is now a research assistant at Shanghai Jiao Tong University. He is concerned with the nature of human intelligence and the mechanisms that lead to behavior and mental disorders. He uses brain-inspired models to study the cognitive computational mechanisms behind complex decisions, particularly the cooperative relationship between memory systems and reinforcement learning.</description>
@@ -168,15 +179,15 @@ Bio Shen Xu is a third-year Ph.D. student from the School of Psychological and C
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://RLDMJC.github.io/upcoming/</guid>
-      <description> Title Speaker Time (UTC+8) Type Language Zoom (password) Deconstructing human reinforcement learning Anne Collins 2024/3/29 16:00 Research Recap English 878 4343 1423（277024） </description>
+      <description> Title Speaker Time (UTC+8) Type Language Zoom (password) </description>
     </item>
     
     <item>
       <title>Huadong Xiong | Neural network modeling reveals diverse human exploration behaviors via state space analysis</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/xiong230809/</link>
+      <link>https://RLDMJC.github.io/posts/researchrecap/230809xiong/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://RLDMJC.github.io/posts/researchrecap/xiong230809/</guid>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/230809xiong/</guid>
       <description>Recording https://www.bilibili.com/video/BV1au4y1R7kh/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5
 Speaker Huadong Xiong
 Bio I am a first-year Ph.D student in the CNS program, the department of psychology at the University of Arizona, directed by Dr. Robert Wilson. I build models to understand behaviors and I study how computation could be implemented in neural networks. Following the release of GPT-4, my research interest has partially shifted towards understanding the emergence of intelligence within large language models.
