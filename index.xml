@@ -6,7 +6,29 @@
     <description>Recent content on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Christopher Summerfield | Comparing the learning dynamics of humans and deep networks</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/240628christopher-summerfield/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/240628christopher-summerfield/</guid>
+      <description>Recording Speaker Christopher Summerfield
+Bio Christopher Summerfield is a Fellow by special election and principal investigator at the Summerfield lab which conducts research into how humans make decisions. Chris Summerfield was trained in psychology and neuroscience at University College London, Columbia University (New York), and the École normale supérieure (Paris). He is a Professor of Cognitive Neuroscience in the Department of Experimental Psychology, where he heads a lab focused on understanding the computational mechanisms by which humans make decisions, and how these processes are implemented in the brain.</description>
+    </item>
+    
+    <item>
+      <title>Marc-Lluis Vives | On the relationship between semantic representations and decision-making</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/240614marc-lluis-vives/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/240614marc-lluis-vives/</guid>
+      <description>Recording https://www.bilibili.com/video/BV1rs421T7xX/?share_source=copy_web
+Speaker Marc-Lluis Vives
+Bio Marc-Lluis Vives is an Assistant Professor at Leiden University. He is interested in how the structure of mental representations predicts behavior in general and decision-making in particular.
+Abstract Decision-making is driven by how the situation is mentally constructed. Past research has successfully manipulated these decision frames by changing how a situation is described. It remains unknown, however, how decision frames are spontaneously constructed in the first place.</description>
+    </item>
+    
     <item>
       <title>Arkady Konovalov | Strategic Computations and Learning in the Social Brain</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/240405konovalov/</link>
