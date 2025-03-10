@@ -6,7 +6,17 @@
     <description>Recent content on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paul Masset | Multi-timescale reinforcement learning in the brain</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/250319masset/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://RLDMJC.github.io/posts/researchrecap/250319masset/</guid>
+      <description>Recording Speaker Paul Masset
+Bio Paul Masset is an Assistant Professor in the Department of Psychology at McGill University working at the intersection of neuroscience, AI and cognitive science. The focus of his research group is to understand how the structure of neural circuits endows the brain with efficient distributed computations underlying cognition and how we can leverage these principles to design more efficient learning algorithms. Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University.</description>
+    </item>
+    
     <item>
       <title>Marcel Binz | Foundation models of human cognition</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/241119binz/</link>
@@ -212,7 +222,7 @@ Bio Shen Xu is a third-year Ph.D. student from the School of Psychological and C
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://RLDMJC.github.io/upcoming/</guid>
-      <description> Title Speaker Time (UTC+8) Type Language Zoom (password) </description>
+      <description> Title Speaker Time (UTC+8) Type Language Zoom (password) Multi-timescale reinforcement learning in the brain Paul Masset 2025-03-19 8pm Research Recap English 811 7968 1759 (302707) </description>
     </item>
     
     <item>
