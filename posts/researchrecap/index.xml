@@ -6,204 +6,303 @@
     <description>Recent content in Research Recap on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>lynn0503@outlook.com (Lynn)</managingEditor>
+    <webMaster>lynn0503@outlook.com (Lynn)</webMaster>
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/posts/researchrecap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jake Russin | Parallel trade-offs in human cognition and neural networks: The dynamic interplay between in-context and in-weight learning</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/251010russin/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <author>lynn0503@outlook.com (Lynn)</author>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/251010russin/</guid>
+      <description>&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Jake Russin&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Dr. Russin is a postdoc at Brown University working with Michael Frank and Ellie Pavlick. He received PhD from UC Davis, where he worked with Randall O&amp;rsquo;Reilly in the Computational Cognitive Neuroscience Lab. His interests lie broadly in the intersection of computational neuroscience and machine learning, with a particular focus on: 1）Compositionality, systematicity, and reasoning in neural networks (including large language models), 2）Neural network models of cognitive flexibility and cognitive control, 3）Neural network models of learning and inference with cognitive maps. He also conducts experiments with human subjects and collaborates with experimental cognitive neuroscientists to study how the human brain can accomplish these cognitive functions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Steven Miletić | Understanding trial-by-trial variability in decision making</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/250514miletic/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <author>lynn0503@outlook.com (Lynn)</author>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/250514miletic/</guid>
+      <description>&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Steven Miletić&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Dr. Steven Miletić obtained all his academic degrees (BSc, MSc, PhD) cum laude at the University of Amsterdam. Dr. Miletić did his PhD under supervision of Dr. Birte Forstmann, followed by one postdoc in her group, before becoming (tenured) assistant professor at Leiden University in 2023. Dr. Miletić&amp;rsquo;s research focuses on cognitive and neural modelling of decision and learning processes in humans, with emphasis on the human subcortex and on advanced methodology including hierarchical Bayesian approaches and ultra-high field fMRI.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tom Griffiths | The rational use of cognitive resources</title>
+      <link>https://RLDMJC.github.io/posts/researchrecap/250404griffiths/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <author>lynn0503@outlook.com (Lynn)</author>
+      <guid>https://RLDMJC.github.io/posts/researchrecap/250404griffiths/</guid>
+      <description>&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Tom Griffiths&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Tom Griffiths is Henry R. Luce Professor of Information Technology, Consciousness, and Culture, at the Department of Psychology and Computer Science at Princeton University. He is also the director of Princeton AI Lab, a new effort that supports innovative research efforts in AI and related fields. His research focuses on developing mathematical models of human cognition, emphasizing what makes human intelligence distinct from modern AI. By studying how humans operate under constraints like limited time, computational capacity, and communication bandwidth, he seeks to understand how we achieve efficient learning, resourceful thinking, and collaboration. These insights aim to inform the design of AI systems that better mirror human-like intelligence.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Paul Masset | Multi-timescale reinforcement learning in the brain</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/250319masset/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/250319masset/</guid>
-      <description>Recording Speaker Paul Masset
-Bio Paul Masset is an Assistant Professor in the Department of Psychology at McGill University working at the intersection of neuroscience, AI and cognitive science. The focus of his research group is to understand how the structure of neural circuits endows the brain with efficient distributed computations underlying cognition and how we can leverage these principles to design more efficient learning algorithms. Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1s8X6YFE5y/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&#34;&gt;https://www.bilibili.com/video/BV1s8X6YFE5y/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Paul Masset&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Paul Masset is an Assistant Professor in the Department of Psychology at McGill University  working at the intersection of neuroscience, AI and cognitive science. The focus of his research group is to understand how the structure of neural circuits endows the brain with efficient distributed computations underlying cognition and how we can leverage these principles to design more efficient learning algorithms.
+Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He obtained his PhD at Cold Spring Harbor Laboratory, his Masters in Cognitive Science at the École des hautes études en sciences sociales  (EHESS) and his M.Eng/B.A. in Information and Computer Engineering at the University of Cambridge.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Marcel Binz | Foundation models of human cognition</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/241119binz/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/241119binz/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1FxSwYBExo/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b
-Speaker Marcel Binz
-Bio Marcel Binz is a research scientist and deputy head of the Institute for Human-Centered AI at Helmholtz Munich. His research employs computational models to uncover the fundamental principles behind human cognition. He believes that for a more complete understanding of human cognition, we must consider the human mind as a whole. His current goal is therefore to establish foundation models of human cognition – models that cannot only simulate, predict, and explain human behavior in a single domain but those that offer a unified take on our mind.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1FxSwYBExo/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&#34;&gt;https://www.bilibili.com/video/BV1FxSwYBExo/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Marcel Binz&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Marcel Binz is a research scientist and deputy head of the Institute for Human-Centered AI at Helmholtz Munich. His research employs computational models to uncover the fundamental principles behind human cognition. He believes that for a more complete understanding of human cognition, we must consider the human mind as a whole. His current goal is therefore to establish foundation models of human cognition – models that cannot only simulate, predict, and explain human behavior in a single domain but those that offer a unified take on our mind. To accomplish this, he uses tools such as neural networks, Bayesian inference, meta-learning, information theory, and large language models.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Christopher Summerfield | Comparing the learning dynamics of humans and deep networks</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/240628christopher-summerfield/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/240628christopher-summerfield/</guid>
-      <description>Recording Speaker Christopher Summerfield
-Bio Christopher Summerfield is a Fellow by special election and principal investigator at the Summerfield lab which conducts research into how humans make decisions. Chris Summerfield was trained in psychology and neuroscience at University College London, Columbia University (New York), and the École normale supérieure (Paris). He is a Professor of Cognitive Neuroscience in the Department of Experimental Psychology, where he heads a lab focused on understanding the computational mechanisms by which humans make decisions, and how these processes are implemented in the brain.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Christopher Summerfield&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Christopher Summerfield is a Fellow by special election and principal investigator at the Summerfield lab which conducts research into how humans make decisions. Chris Summerfield was trained in psychology and neuroscience at University College London, Columbia University (New York), and the École normale supérieure (Paris).  He is a Professor of Cognitive Neuroscience in the Department of Experimental Psychology, where he heads a lab focused on understanding the computational mechanisms by which humans make decisions, and how these processes are implemented in the brain.  His work, which involves a combination of computer simulations, behavioural testing, and functional brain imaging, is funded by a grant from the European Research Council, the Wellcome Trust, and the National Institute of Health. Recently, he accepted the position as the director at UK AI Safety Institute.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Marc-Lluis Vives | On the relationship between semantic representations and decision-making</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/240614marc-lluis-vives/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/240614marc-lluis-vives/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1rs421T7xX/?share_source=copy_web
-Speaker Marc-Lluis Vives
-Bio Marc-Lluis Vives is an Assistant Professor at Leiden University. He is interested in how the structure of mental representations predicts behavior in general and decision-making in particular.
-Abstract Decision-making is driven by how the situation is mentally constructed. Past research has successfully manipulated these decision frames by changing how a situation is described. It remains unknown, however, how decision frames are spontaneously constructed in the first place.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rs421T7xX/?share_source=copy_web&#34;&gt;https://www.bilibili.com/video/BV1rs421T7xX/?share_source=copy_web&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Marc-Lluis Vives&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Marc-Lluis Vives is an Assistant Professor at Leiden University. He is interested in how the structure of mental representations predicts behavior in general and decision-making in particular.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Decision-making is driven by how the situation is mentally constructed. Past research has successfully manipulated these decision frames by changing how a situation is described. It remains unknown, however, how decision frames are spontaneously constructed in the first place. In this talk, I&amp;rsquo;ll present evidence that semantic representations play a crucial role in frame construction, demonstrating that the structure of semantic spaces predicts decision-making. Furthermore, I&amp;rsquo;ll explore the reverse logic by showing how a key component of decision-making—uncertainty aversion—can predict the structure of semantic representations. Overall, I&amp;rsquo;ll discuss the often-overlooked link between semantic representations and decision-making processes.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Arkady Konovalov | Strategic Computations and Learning in the Social Brain</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/240405konovalov/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/240405konovalov/</guid>
-      <description>Recording Speaker Arkady Konovalov
-Bio I am an Associate Professor in the School of Psychology at the University of Birmingham. My research focuses on neuroeconomics and decision making in general, including models of the choice process, value-based learning, and social and strategic interactions, using methods of computational neuroscience such as response times modeling, fMRI, EEG, eye-tracking, and mouse-tracking.
-I received my PhD from the Ohio State University, where I worked with Ian Krajbich, PJ Healy, and John Kagel; I then got my postdoctoral training with Christian Ruff at the University of Zurich.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Arkady Konovalov&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;I am an Associate Professor in the School of Psychology at the University of Birmingham. My research focuses on neuroeconomics and decision making in general, including models of the choice process, value-based learning, and social and strategic interactions, using methods of computational neuroscience such as response times modeling, fMRI, EEG, eye-tracking, and mouse-tracking.&lt;/p&gt;
+&lt;p&gt;I received my PhD from the Ohio State University, where I worked with Ian Krajbich, PJ Healy, and John Kagel; I then got my postdoctoral training with Christian Ruff at the University of Zurich.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title> Anne Collins | Deconstructing human reinforcement learning</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/230922fan/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/230922fan/</guid>
-      <description>Recording Speaker Anne Collins
-Bio I am currently an associate professor at UC Berkeley in the psychology department, with an affiliation in the Helen Wills Neuroscience institute. This semester, I&amp;rsquo;m also a visiting scholar at the University of Bordeaux, France. I did my undergrad at Ecole Polytechnique in France in Maths and engineering, and my PhD at Universite Pierre et Marie Curie, France. Then I was a postdoc at Brown university.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Anne Collins&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;I am currently an associate professor at UC Berkeley in the psychology department, with an affiliation in the Helen Wills Neuroscience institute. This semester, I&amp;rsquo;m also a visiting scholar at the University of Bordeaux, France. I did my undergrad at Ecole Polytechnique in France in Maths and engineering, and my PhD at Universite Pierre et Marie Curie, France. Then I was a postdoc at Brown university. I study human flexible learning and decision making using behavioral, computational and neuroscience methods.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Toby Wise | Learning about uncertainty: mechanisms and implications for mental health</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/240229wise/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/240229wise/</guid>
-      <description>Recording https://www.bilibili.com/video/BV12y421z7sj/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b
-Speaker Toby Wise
-Bio Toby Wise is a Senior Research Fellow in the Department of Neuroimaging at the Institute of Psychiatry, Psychology &amp;amp; Neuroscience (IoPPN) at King&amp;rsquo;s College London.Toby started his academic career with a BSc in Psychology and MSc in Cognitive Neuroscience at the University of Sussex, before completing a PhD at the Institute of Psychiatry, Psychology and Neuroscience at King’s College London, where he focused on neuroimaging markers of depression and bipolar disorder.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12y421z7sj/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&#34;&gt;https://www.bilibili.com/video/BV12y421z7sj/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Toby Wise&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Toby Wise is a Senior Research Fellow in the Department of Neuroimaging at the Institute of Psychiatry, Psychology &amp;amp; Neuroscience (IoPPN) at King&amp;rsquo;s College London.Toby started his academic career with a BSc in Psychology and MSc in Cognitive Neuroscience at the University of Sussex, before completing a PhD at the Institute of Psychiatry, Psychology and Neuroscience at King’s College London, where he focused on neuroimaging markers of depression and bipolar disorder. He then completed postdoctoral work at UCL and Caltech supported by a Sir Henry Wellcome postdoctoral fellowship from the Wellcome Trust. He returned to King&amp;rsquo;s College London in 2021 supported by a King&amp;rsquo;s Prize Fellowship, before starting his lab in 2023 supported by a Career Development Award from the Wellcome Trust.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Michael J. Frank | Clustering and generalization of abstract structures in reinforcement learning</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/231214frank/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/231214frank/</guid>
-      <description>Recording https://www.bilibili.com/video/BV14i4y1e7Lc/?vd_source=8b926cc5cb9e7d8fb85957e534d96e47
-Speaker Michael J. Frank
-Bio Michael J. Frank is Edgar L Marston Professor of Cognitive, Linguistic &amp;amp; Psychological Sciences at Brown University. He directs the Center for Computational Brain Science within the Carney Institute for Brain Science. He received his PhD in Neuroscience and Psychology in 2004 at the University of Colorado, following undergraduate and master&amp;rsquo;s degrees in electrical engineering. Frank’s work focuses primarily on theoretical models of frontostriatal circuits and their modulation by dopamine, especially their cognitive functions and implications for neurological and psychiatric disorders.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV14i4y1e7Lc/?vd_source=8b926cc5cb9e7d8fb85957e534d96e47&#34;&gt;https://www.bilibili.com/video/BV14i4y1e7Lc/?vd_source=8b926cc5cb9e7d8fb85957e534d96e47&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Michael J. Frank&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Michael J. Frank  is Edgar L Marston Professor of Cognitive, Linguistic &amp;amp; Psychological Sciences at Brown University. He directs the Center for Computational Brain Science within the Carney Institute for Brain Science. He received his PhD in Neuroscience and Psychology in 2004 at the University of Colorado, following undergraduate and master&amp;rsquo;s degrees in electrical engineering.  Frank’s work focuses primarily on theoretical models of frontostriatal circuits and their modulation by dopamine, especially their cognitive functions and implications for neurological and psychiatric disorders. The models are tested and refined with experiments across species, neural recording methods, and neuromodulation.  Honors include the Troland Research Award from the National Academy of Sciences (2021), Kavli Fellow (2016),  the Cognitive Neuroscience Society Young Investigator Award (2011), and the Janet T Spence Award for  early career transformative contributions (Association for Psychological Science, 2010). Dr Frank is a senior editor for eLife.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Robert C. Wilson | Information, randomization, and simulation in exploration and exploitation</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/231205wilson/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/231205wilson/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1vg4y1f7ey/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Robert C. Wilson
-Bio Bob Wilson is an Associate Professor of Psychology and Director of the Cognitive Science Program at the University of Arizona. Bob is interested in the computational neuroscience of decision-making, studying all kinds of choices from simple perceptual decisions to judgments about phishing emails. Outside of the lab, Bob enjoys raising chickens and learning the piano.
-Abstract Many decisions involve a trade-off between exploring unknown options for information and exploiting known options for a more certain payoff.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1vg4y1f7ey/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1vg4y1f7ey/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Robert C. Wilson&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Bob Wilson is an Associate Professor of Psychology and Director of the Cognitive Science Program at the University of Arizona. Bob is interested in the computational neuroscience of decision-making, studying all kinds of choices from simple perceptual decisions to judgments about phishing emails. Outside of the lab, Bob enjoys raising chickens and learning the piano.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Many decisions involve a trade-off between exploring unknown options for information and exploiting known options for a more certain payoff. In this talk, I will present evidence that people use two strategies to solve these explore-exploit dilemmas: directed exploration, driven by information, and random exploitation, driven by noise. These two strategies appear to rely on dissociable cognitive and neural processes, but I will show that they can arise from a single model based on mental simulation. This model accounts for the effects of uncertainty, time horizon, and the informativeness of feedback on directed and random exploitation as well as more recent findings suggesting that random exploitation is truly random. I will end with a discussion of our future work on real-world decisions.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Weiji Ma | The cognitive science of complex planning</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/231201ma/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/231201ma/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1ye411d7Ty/?spm_id_from=333.999.0.0&amp;amp;vd_source=8b926cc5cb9e7d8fb85957e534d96e47
-Speaker Weiji Ma
-Bio Wei Ji Ma is Professor of Neural Science and Psychology at New York University. He received his Ph.D. in Theoretical Physics from the University of Groningen, the Netherlands, in 2001. He switched to computational neuroscience and computational cognitive science, doing postdocs at Caltech and the University of Rochester. He was Assistant Professor of Neuroscience at Baylor College of Medicine from 2008 to 2013 before he joined New York University.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ye411d7Ty/?spm_id_from=333.999.0.0&amp;amp;vd_source=8b926cc5cb9e7d8fb85957e534d96e47&#34;&gt;https://www.bilibili.com/video/BV1ye411d7Ty/?spm_id_from=333.999.0.0&amp;amp;vd_source=8b926cc5cb9e7d8fb85957e534d96e47&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Weiji Ma&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Wei Ji Ma is Professor of Neural Science and Psychology at New York University. He received his Ph.D. in Theoretical Physics from the University of Groningen, the Netherlands, in 2001. He switched to computational neuroscience and computational cognitive science, doing postdocs at Caltech and the University of Rochester. He was Assistant Professor of Neuroscience at Baylor College of Medicine from 2008 to 2013 before he joined New York University. His lab uses behavioral experiments, computational models, and (through collaboration) neural measures to investigate how people make perceptual and cognitive decisions. Ma has worked on topics in visual decision-making, neural coding and computation, multisensory perception, working memory, metacognition, complex planning, procrastination, and mindsets. He is the lead author of the textbook Bayesian models of Perception and Action, published by MIT Press in 2023.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Charley Wu | Visual-spatial dynamics drive adaptive social learning in immersive environments</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/231108wu/</link>
       <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/231108wu/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1ZM411S7d7/
-Speaker Charley Wu
-Bio Charley Wu is a cognitive scientist who is interested in the specific shortcuts and cognitive algorithms that people use to make inference tractable. Using online and virtual reality experiments, He employs computational models to predict and understand human behavior. These models allow us to understand the strategies and approximations that allow people to do so much with so little. Originally trained in Philosophy at the University of British Columbia, He pivoted to cognitive science via a M.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ZM411S7d7/&#34;&gt;https://www.bilibili.com/video/BV1ZM411S7d7/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Charley Wu&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Charley Wu is a cognitive scientist who is interested in the specific shortcuts and cognitive algorithms that people use to make inference tractable. Using online and virtual reality experiments, He employs computational models to predict and understand human behavior. These models allow us to understand the strategies and approximations that allow people to do so much with so little. Originally trained in Philosophy at the University of British Columbia, He pivoted to cognitive science via a M.Sc. from the University of Vienna and a PhD in Psychology from Humboldt University of Berlin, while based at the Max Planck Institute for Human Development. Prior to joining the University of Tübingen, he was a postdoc at Harvard University working with Fiery Cushman and Sam Gershman.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title> Seongmin A. Park | Structural abstraction and behavioral flexibility</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/231020park/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/231020park/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Seongmin A. Park
-Bio Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
-Abstract Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Seongmin A. Park&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems. One proposed mechanism for achieving this behavioral flexibility is through the construction of an &amp;ldquo;internal model&amp;rdquo; or &amp;ldquo;cognitive map&amp;rdquo; - a structural knowledge representation that indicates the relationships between discrete entities learned from different events. However, we have yet to fully understand how the brain constructs low-dimensional representations from everyday experiences and leverages its cognitive map to promote generalization and flexible decision-making. In this talk, I will present research shedding light on these questions from human neuroimaging and neural network modeling. My findings suggest the brain organizes relationships between discrete entities into a graphical structure embedded in Euclidean space. Moreover, I will discuss how the geometry of the cognitive map interacts with changing task goals to facilitate flexible decision-making. Finally, I will provide evidence that the brain generalizes previously learned abstract knowledge structures to solve novel problems, akin to finding unexplored shortcuts during spatial navigation. By incorporating insights into the neural representation of cognitive maps into computational frameworks like reinforcement learning, my work indicates we can develop a deeper understanding of complex human cognition not fully accounted for by standard models. Uncovering the mechanisms underlying the brain&amp;rsquo;s remarkable behavioral flexibility has implications for advancing both cognitive science and artificial intelligence.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Matt Nassar | Dynamic representations for behavioral flexibility</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/231012nassar/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/231012nassar/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1G34y1g7Q6/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Matt Nassar
-Bio Matt Nassar is an Assistant Professor in the Department of Neuroscience at Brown University. He received his BA at Colgate University and his Doctorate from the University of Pennsylvania. He completed post-doctoral training at the University of Pennsylvania and Brown University before joining the faculty at Brown. His research examines how the brain prioritizes, segregates, and combines information collected in complex environments and how this process differs across individuals, pathologies, and over-healthy aging.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1G34y1g7Q6/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1G34y1g7Q6/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Matt Nassar&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Matt Nassar is an Assistant Professor in the Department of Neuroscience at Brown University. He received his BA at Colgate University and his Doctorate from the University of Pennsylvania. He completed post-doctoral training at the University of Pennsylvania and Brown University before joining the faculty at Brown. His research examines how the brain prioritizes, segregates, and combines information collected in complex environments and how this process differs across individuals, pathologies, and over-healthy aging. For example, why and how do people prioritize sensory information arriving at certain times or locations? How does this prioritization differ across individuals and change across healthy aging How does the internal state of the brain affect ongoing cognition and sensory processing? What functions might these dynamic fluctuations serve in the real world?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mark Ho | Construction of mental representations in human planning</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/231004ho/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/231004ho/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1P94y1a7Kf/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Mark Ho
-Bio Mark Ho is an Assistant Professor in the Computer Science Department at Stevens Institute of Technology. Previously, he was a faculty fellow at NYU and a postdoc at Princeton and UC Berkeley. He received his Ph.D in Cognitive Science and M.S. in Computer Science from Brown University. His research combines approaches from cognitive science, social psychology, and computer science to study the computational principles underlying human problem solving and social cognition.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1P94y1a7Kf/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1P94y1a7Kf/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Mark Ho&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Mark Ho is an Assistant Professor in the Computer Science Department at Stevens Institute of Technology. Previously, he was a faculty fellow at NYU and a postdoc at Princeton and UC Berkeley. He received his Ph.D in Cognitive Science and M.S. in Computer Science from Brown University. His research combines approaches from cognitive science, social psychology, and computer science to study the computational principles underlying human problem solving and social cognition.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Haoxue Fan | Trait somatic anxiety is associated with reduced directed exploration and underestimation of uncertainty</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/240329collins/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/240329collins/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1Rh4y1a7iq/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Haoxue Fan
-Bio Haoxue Fan is a fifth-year graduate student at Harvard working with Dr. Elizabeth Phelps. She is interested in how emotion interacts with decision-making under uncertainty, including cognitive processes such as exploration, information seeking, and planning. To answer these questions, she uses a combination of computational modeling, physiological measurements, and behavioral experiments. She is originally from Shanghai in China, and is always eager to know where is the best coffee and boba tea place in town :)</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Rh4y1a7iq/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1Rh4y1a7iq/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Haoxue Fan&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Haoxue Fan is a fifth-year graduate student at Harvard working with Dr. Elizabeth Phelps. She is interested in how emotion interacts with decision-making under uncertainty, including cognitive processes such as exploration, information seeking, and planning. To answer these questions, she uses a combination of computational modeling, physiological measurements, and behavioral experiments. She is originally from Shanghai in China, and is always eager to know where is the best coffee and boba tea place in town :)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Stefano Palminteri | Reinforcement learning biases that makes us smart</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/230915palminteri/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/230915palminteri/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1sh4y1A7eu/
-Speaker Stefano Palminteri
-Bio I am a Research Director (equivalent of Full Professor) and head of the Human Reinforcement Learning team, which is part of the Laboratoire de Neurosciences Cognitives et Computationelles. My goal is understanding how humans learn to make decisions at the behavioral, computational and neural levels. I am mainly (but not only!) interested in situations when decisions are based on past experience (a.k.a. reinforcement learning). In the last few years I mainly worked on two computational hypotheses, &amp;ldquo;relative value&amp;rdquo; and &amp;ldquo;learning bias&amp;rdquo;, concerning human reinforcement learning.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1sh4y1A7eu/&#34;&gt;https://www.bilibili.com/video/BV1sh4y1A7eu/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Stefano Palminteri&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;I am a Research Director (equivalent of Full Professor) and head of the Human Reinforcement Learning team, which is part of the Laboratoire de Neurosciences Cognitives et Computationelles.
+My goal is understanding how humans learn to make decisions at the behavioral, computational and neural levels. I am mainly (but not only!) interested in situations when decisions are based on past experience (a.k.a. reinforcement learning). In the last few years I mainly worked on two computational hypotheses, &amp;ldquo;relative value&amp;rdquo; and &amp;ldquo;learning bias&amp;rdquo;, concerning human reinforcement learning. In addition to extending these two frameworks, new lines of research in my team investigate social learning , the experience/description gap and, more recently, the intersection between cognitive science and artificial intelligence. I also enjoy questioning the epistemological and methodological foundations of decision-making, neuroeconomics and cognitive science research.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Zhaoyu Zuo | Working memory guides action valuation in model-based inference</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/230909zuo/</link>
       <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/230909zuo/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1Sj411C77e/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Zhaoyu Zuo
-Bio Zhaoyu Zuo obtained a master&amp;rsquo;s degree in pattern recognition and intelligent systems from the University of Science and Technology of China and is now a research assistant at Shanghai Jiao Tong University. He is concerned with the nature of human intelligence and the mechanisms that lead to behavior and mental disorders. He uses brain-inspired models to study the cognitive computational mechanisms behind complex decisions, particularly the cooperative relationship between memory systems and reinforcement learning.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Sj411C77e/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1Sj411C77e/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Zhaoyu Zuo&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Zhaoyu Zuo obtained a master&amp;rsquo;s degree in pattern recognition and intelligent systems from the University of Science and Technology of China and is now a research assistant at Shanghai Jiao Tong University. He is concerned with the nature of human intelligence and the mechanisms that lead to behavior and mental disorders. He uses brain-inspired models to study the cognitive computational mechanisms behind complex decisions, particularly the cooperative relationship between memory systems and reinforcement learning.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Huadong Xiong | Neural network modeling reveals diverse human exploration behaviors via state space analysis</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/230809xiong/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      
+      <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/posts/researchrecap/230809xiong/</guid>
-      <description>Recording https://www.bilibili.com/video/BV1au4y1R7kh/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Huadong Xiong
-Bio I am a first-year Ph.D student in the CNS program, the department of psychology at the University of Arizona, directed by Dr. Robert Wilson. I build models to understand behaviors and I study how computation could be implemented in neural networks. Following the release of GPT-4, my research interest has partially shifted towards understanding the emergence of intelligence within large language models.
-Abstract The exploration-exploitation trade-off, balancing the acquisition of new information with the utilization of known resources, is a fundamental dilemma faced by all adaptive intelligence.</description>
+      <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1au4y1R7kh/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1au4y1R7kh/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
+&lt;p&gt;Huadong Xiong&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;I am a first-year Ph.D student in the CNS program, the department of psychology at the University of Arizona, directed by Dr. Robert Wilson. I build models to understand behaviors and I study how computation could be implemented in neural networks. Following the release of GPT-4, my research interest has partially shifted towards understanding the emergence of intelligence within large language models.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The exploration-exploitation trade-off, balancing the acquisition of new information with the utilization of known resources, is a fundamental dilemma faced by all adaptive intelligence. Despite our understanding of models based on normative principles, the diverse explore-exploit behaviors of natural intelligence remain elusive. Here, using neural network behavioral modeling and state space analysis, we examined the diverse human exploration behaviors under a novel two-armed bandit task, designed to simulate real-world environmental volatility where exploration becomes essential. Examining behavior in the belief state space of this task, we characterized the disparities across artificial agents with decision boundaries. To extend this analysis to human data, a circumstance where choices are too sparse in the belief state space, we trained a recurrent neural network (RNN) model to predict humans’ choices given past observations. This RNN model outperforms all existing cognitive models. Probing the RNN’s decision boundaries, we found substantial individual differences that evade classical cognitive models. Additionally, our RNN revealed a model-based pattern employed by humans in response to higher environmental volatilities. Our work offers a promising approach for investigating diverse decision-making strategies in humans and animals.&lt;/p&gt;</description>
     </item>
     
   </channel>

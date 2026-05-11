@@ -7,11 +7,15 @@
 <meta name="robots" content="index, follow">
 <title> Seongmin A. Park | Structural abstraction and behavioral flexibility | MindRL hub</title>
 <meta name="keywords" content="">
-<meta name="description" content="Recording https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Seongmin A. Park
-Bio Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
-Abstract Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems.">
-<meta name="author" content="">
+<meta name="description" content="Recording
+https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
+Speaker
+Seongmin A. Park
+Bio
+Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
+Abstract
+Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems. One proposed mechanism for achieving this behavioral flexibility is through the construction of an &ldquo;internal model&rdquo; or &ldquo;cognitive map&rdquo; - a structural knowledge representation that indicates the relationships between discrete entities learned from different events. However, we have yet to fully understand how the brain constructs low-dimensional representations from everyday experiences and leverages its cognitive map to promote generalization and flexible decision-making. In this talk, I will present research shedding light on these questions from human neuroimaging and neural network modeling. My findings suggest the brain organizes relationships between discrete entities into a graphical structure embedded in Euclidean space. Moreover, I will discuss how the geometry of the cognitive map interacts with changing task goals to facilitate flexible decision-making. Finally, I will provide evidence that the brain generalizes previously learned abstract knowledge structures to solve novel problems, akin to finding unexplored shortcuts during spatial navigation. By incorporating insights into the neural representation of cognitive maps into computational frameworks like reinforcement learning, my work indicates we can develop a deeper understanding of complex human cognition not fully accounted for by standard models. Uncovering the mechanisms underlying the brain&rsquo;s remarkable behavioral flexibility has implications for advancing both cognitive science and artificial intelligence.">
+<meta name="author" content="Lynn">
 <link rel="canonical" href="https://RLDMJC.github.io/posts/researchrecap/231020park/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.bf5f9f73cf17311d52cedbcda82c922e91b2f566d88a85ad9f5b5a08b586bd5f.css" integrity="sha256-v1&#43;fc88XMR1SztvNqCySLpGy9WbYioWtn1taCLWGvV8=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js" integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo="
@@ -23,6 +27,7 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
 <link rel="mask-icon" href="https://RLDMJC.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://RLDMJC.github.io/posts/researchrecap/231020park/">
 <noscript>
     <style>
         #theme-toggle,
@@ -60,10 +65,14 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
 
     </style>
 </noscript><meta property="og:title" content=" Seongmin A. Park | Structural abstraction and behavioral flexibility" />
-<meta property="og:description" content="Recording https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Seongmin A. Park
-Bio Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
-Abstract Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems." />
+<meta property="og:description" content="Recording
+https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
+Speaker
+Seongmin A. Park
+Bio
+Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
+Abstract
+Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems. One proposed mechanism for achieving this behavioral flexibility is through the construction of an &ldquo;internal model&rdquo; or &ldquo;cognitive map&rdquo; - a structural knowledge representation that indicates the relationships between discrete entities learned from different events. However, we have yet to fully understand how the brain constructs low-dimensional representations from everyday experiences and leverages its cognitive map to promote generalization and flexible decision-making. In this talk, I will present research shedding light on these questions from human neuroimaging and neural network modeling. My findings suggest the brain organizes relationships between discrete entities into a graphical structure embedded in Euclidean space. Moreover, I will discuss how the geometry of the cognitive map interacts with changing task goals to facilitate flexible decision-making. Finally, I will provide evidence that the brain generalizes previously learned abstract knowledge structures to solve novel problems, akin to finding unexplored shortcuts during spatial navigation. By incorporating insights into the neural representation of cognitive maps into computational frameworks like reinforcement learning, my work indicates we can develop a deeper understanding of complex human cognition not fully accounted for by standard models. Uncovering the mechanisms underlying the brain&rsquo;s remarkable behavioral flexibility has implications for advancing both cognitive science and artificial intelligence." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://RLDMJC.github.io/posts/researchrecap/231020park/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-10-20T00:00:00+00:00" />
@@ -71,32 +80,36 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=" Seongmin A. Park | Structural abstraction and behavioral flexibility"/>
-<meta name="twitter:description" content="Recording https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
-Speaker Seongmin A. Park
-Bio Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
-Abstract Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems."/>
+<meta name="twitter:description" content="Recording
+https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5
+Speaker
+Seongmin A. Park
+Bio
+Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm
+Abstract
+Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems. One proposed mechanism for achieving this behavioral flexibility is through the construction of an &ldquo;internal model&rdquo; or &ldquo;cognitive map&rdquo; - a structural knowledge representation that indicates the relationships between discrete entities learned from different events. However, we have yet to fully understand how the brain constructs low-dimensional representations from everyday experiences and leverages its cognitive map to promote generalization and flexible decision-making. In this talk, I will present research shedding light on these questions from human neuroimaging and neural network modeling. My findings suggest the brain organizes relationships between discrete entities into a graphical structure embedded in Euclidean space. Moreover, I will discuss how the geometry of the cognitive map interacts with changing task goals to facilitate flexible decision-making. Finally, I will provide evidence that the brain generalizes previously learned abstract knowledge structures to solve novel problems, akin to finding unexplored shortcuts during spatial navigation. By incorporating insights into the neural representation of cognitive maps into computational frameworks like reinforcement learning, my work indicates we can develop a deeper understanding of complex human cognition not fully accounted for by standard models. Uncovering the mechanisms underlying the brain&rsquo;s remarkable behavioral flexibility has implications for advancing both cognitive science and artificial intelligence."/>
 
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [, 
+  "itemListElement": [
     {
       "@type": "ListItem",
-      "position":  2 ,
+      "position":  1 ,
       "name": "Talks",
       "item": "https://RLDMJC.github.io/posts/"
     }, 
     {
       "@type": "ListItem",
-      "position":  3 ,
+      "position":  2 ,
       "name": "Research Recap",
       "item": "https://RLDMJC.github.io/posts/researchrecap/"
     }, 
     {
       "@type": "ListItem",
-      "position":  4 ,
+      "position":  3 ,
       "name": " Seongmin A. Park | Structural abstraction and behavioral flexibility",
       "item": "https://RLDMJC.github.io/posts/researchrecap/231020park/"
     }
@@ -109,7 +122,7 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
   "@type": "BlogPosting",
   "headline": " Seongmin A. Park | Structural abstraction and behavioral flexibility",
   "name": " Seongmin A. Park | Structural abstraction and behavioral flexibility",
-  "description": "Recording https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5\nSpeaker Seongmin A. Park\nBio Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm\nAbstract Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems.",
+  "description": "Recording https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5\nSpeaker Seongmin A. Park\nBio Seongmin A. Park is a researcher at the Institute of Cognitive Science Marc Jeannerod, CNRS (UMR5229), where he focuses on human learning and decision-making. He received his Ph.D. from the Korea Advanced Institute of Science and Technology and completed his postdoctoral training at CNRS with Dr. Jean-Claude Dreher and at UC Davis with Dr. Erie Boorm\nAbstract Generalizing past experiences to new situations is a hallmark of human intelligence, but it remains challenging for many AI systems. One proposed mechanism for achieving this behavioral flexibility is through the construction of an \u0026ldquo;internal model\u0026rdquo; or \u0026ldquo;cognitive map\u0026rdquo; - a structural knowledge representation that indicates the relationships between discrete entities learned from different events. However, we have yet to fully understand how the brain constructs low-dimensional representations from everyday experiences and leverages its cognitive map to promote generalization and flexible decision-making. In this talk, I will present research shedding light on these questions from human neuroimaging and neural network modeling. My findings suggest the brain organizes relationships between discrete entities into a graphical structure embedded in Euclidean space. Moreover, I will discuss how the geometry of the cognitive map interacts with changing task goals to facilitate flexible decision-making. Finally, I will provide evidence that the brain generalizes previously learned abstract knowledge structures to solve novel problems, akin to finding unexplored shortcuts during spatial navigation. By incorporating insights into the neural representation of cognitive maps into computational frameworks like reinforcement learning, my work indicates we can develop a deeper understanding of complex human cognition not fully accounted for by standard models. Uncovering the mechanisms underlying the brain\u0026rsquo;s remarkable behavioral flexibility has implications for advancing both cognitive science and artificial intelligence.\n",
   "keywords": [
     
   ],
@@ -118,6 +131,10 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
   "inLanguage": "en",
   "datePublished": "2023-10-20T00:00:00Z",
   "dateModified": "2023-10-20T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": {"email":"lynn0503@outlook.com","name":"Lynn"}
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://RLDMJC.github.io/posts/researchrecap/231020park/"
@@ -149,7 +166,7 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://RLDMJC.github.io" accesskey="h" title="MindRL hub (Alt + H)">MindRL hub</a>
+            <a href="https://RLDMJC.github.io/" accesskey="h" title="MindRL hub (Alt + H)">MindRL hub</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -171,6 +188,8 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -210,9 +229,6 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
     <h1 class="post-title">
        Seongmin A. Park | Structural abstraction and behavioral flexibility
     </h1>
-    <div class="post-meta"><span title='2023-10-20 00:00:00 +0000 UTC'>2023-10-20</span>
-
-</div>
   </header> 
   <div class="post-content"><h2 id="recording">Recording<a hidden class="anchor" aria-hidden="true" href="#recording">#</a></h2>
 <p><a href="https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5">https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5</a></p>
@@ -288,7 +304,7 @@ Abstract Generalizing past experiences to new situations is a hallmark of human 
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="https://RLDMJC.github.io">MindRL hub</a></span>
+    <span>&copy; 2026 <a href="https://RLDMJC.github.io/">MindRL hub</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
