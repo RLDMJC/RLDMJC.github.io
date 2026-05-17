@@ -10,6 +10,15 @@
     <webMaster>lynn0503@outlook.com (Lynn)</webMaster>
     <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Computational Modeling Challenge 2026</title>
+      <link>https://RLDMJC.github.io/posts/modelingchallenge/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <author>lynn0503@outlook.com (Lynn)</author>
+      <guid>https://RLDMJC.github.io/posts/modelingchallenge/</guid>
+      <description>Exploring the next generation of cognitive modeling evaluation: Prediction, Explanation, and Robustness.</description>
+    </item>
+    
+    <item>
       <title>Jake Russin | Parallel trade-offs in human cognition and neural networks: The dynamic interplay between in-context and in-weight learning</title>
       <link>https://RLDMJC.github.io/posts/researchrecap/251010russin/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
