@@ -10,7 +10,7 @@
     <webMaster>lynn0503@outlook.com (Lynn)</webMaster>
     <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2026 Cognitive Modeling Challenge</title>
+      <title>Cognitive Modeling Challenge 2026</title>
       <link>https://RLDMJC.github.io/posts/modelingchallenge/</link>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
@@ -333,7 +333,7 @@ My goal is understanding how humans learn to make decisions at the behavioral, c
       <author>lynn0503@outlook.com (Lynn)</author>
       <guid>https://RLDMJC.github.io/upcoming/</guid>
       <description>&lt;div style=&#34;padding: 24px; border-radius: 12px; text-align: center; margin-bottom: 2.5rem; background: var(--theme); border: 2px solid #6366f1; box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.2);&#34;&gt;
-  &lt;h2 style=&#34;margin-top: 0; margin-bottom: 10px; color: #6366f1;&#34;&gt;🏆 Computational Modeling Challenge 2026&lt;/h2&gt;
+  &lt;h2 style=&#34;margin-top: 0; margin-bottom: 10px; color: #6366f1;&#34;&gt;🏆 Cognitive Modeling Challenge 2026&lt;/h2&gt;
   &lt;p style=&#34;font-size: 1.1em; margin-bottom: 20px; color: var(--primary);&#34;&gt;Exploring the next generation of cognitive modeling evaluation: Prediction, Explanation, and Robustness.&lt;/p&gt;
   &lt;a href=&#34;https://RLDMJC.github.io/posts/modelingchallenge/&#34; style=&#34;display: inline-block; padding: 12px 24px; background-color: #6366f1; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.05em; transition: all 0.2s ease-in-out; box-shadow: 0 4px 6px rgba(99, 102, 241, 0.3);&#34;&gt;
     View Challenge Details &amp;rarr;
