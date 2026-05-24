@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MindRL hub</title>
-    <link>https://RLDMJC.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on MindRL hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>lynn0503@outlook.com (Lynn)</managingEditor>
     <webMaster>lynn0503@outlook.com (Lynn)</webMaster>
-    <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://RLDMJC.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cognitive Modeling Challenge 2026</title>
-      <link>https://RLDMJC.github.io/posts/modelingchallenge/</link>
+      <link>http://localhost:1313/posts/modelingchallenge/</link>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/modelingchallenge/</guid>
+      <guid>http://localhost:1313/posts/modelingchallenge/</guid>
       <description>Exploring the next generation of cognitive modeling evaluation: Prediction, Explanation, and Robustness.</description>
     </item>
     
     <item>
       <title>Jake Russin | Parallel trade-offs in human cognition and neural networks: The dynamic interplay between in-context and in-weight learning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/251010russin/</link>
+      <link>http://localhost:1313/posts/researchrecap/251010russin/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/251010russin/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/251010russin/</guid>
       <description>&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
 &lt;p&gt;Jake Russin&lt;/p&gt;
 &lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Steven Miletić | Understanding trial-by-trial variability in decision making</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/250514miletic/</link>
+      <link>http://localhost:1313/posts/researchrecap/250514miletic/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/250514miletic/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/250514miletic/</guid>
       <description>&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
 &lt;p&gt;Steven Miletić&lt;/p&gt;
 &lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Tom Griffiths | The rational use of cognitive resources</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/250404griffiths/</link>
+      <link>http://localhost:1313/posts/researchrecap/250404griffiths/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/250404griffiths/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/250404griffiths/</guid>
       <description>&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
 &lt;p&gt;Tom Griffiths&lt;/p&gt;
 &lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
@@ -56,10 +56,10 @@
     
     <item>
       <title>Paul Masset | Multi-timescale reinforcement learning in the brain</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/250319masset/</link>
+      <link>http://localhost:1313/posts/researchrecap/250319masset/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/250319masset/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/250319masset/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1s8X6YFE5y/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&#34;&gt;https://www.bilibili.com/video/BV1s8X6YFE5y/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -71,10 +71,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Marcel Binz | Foundation models of human cognition</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/241119binz/</link>
+      <link>http://localhost:1313/posts/researchrecap/241119binz/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/241119binz/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/241119binz/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1FxSwYBExo/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&#34;&gt;https://www.bilibili.com/video/BV1FxSwYBExo/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -85,10 +85,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Christopher Summerfield | Comparing the learning dynamics of humans and deep networks</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/240628christopher-summerfield/</link>
+      <link>http://localhost:1313/posts/researchrecap/240628christopher-summerfield/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/240628christopher-summerfield/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/240628christopher-summerfield/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
 &lt;p&gt;Christopher Summerfield&lt;/p&gt;
@@ -98,10 +98,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Marc-Lluis Vives | On the relationship between semantic representations and decision-making</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/240614marc-lluis-vives/</link>
+      <link>http://localhost:1313/posts/researchrecap/240614marc-lluis-vives/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/240614marc-lluis-vives/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/240614marc-lluis-vives/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1rs421T7xX/?share_source=copy_web&#34;&gt;https://www.bilibili.com/video/BV1rs421T7xX/?share_source=copy_web&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -114,10 +114,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Arkady Konovalov | Strategic Computations and Learning in the Social Brain</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/240405konovalov/</link>
+      <link>http://localhost:1313/posts/researchrecap/240405konovalov/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/240405konovalov/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/240405konovalov/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
 &lt;p&gt;Arkady Konovalov&lt;/p&gt;
@@ -128,10 +128,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title> Anne Collins | Deconstructing human reinforcement learning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/230922fan/</link>
+      <link>http://localhost:1313/posts/researchrecap/230922fan/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/230922fan/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/230922fan/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
 &lt;p&gt;Anne Collins&lt;/p&gt;
@@ -141,10 +141,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Toby Wise | Learning about uncertainty: mechanisms and implications for mental health</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/240229wise/</link>
+      <link>http://localhost:1313/posts/researchrecap/240229wise/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/240229wise/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/240229wise/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV12y421z7sj/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&#34;&gt;https://www.bilibili.com/video/BV12y421z7sj/?share_source=copy_web&amp;amp;vd_source=afe9405056278e6f25d039a72daab83b&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -155,10 +155,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Michael J. Frank | Clustering and generalization of abstract structures in reinforcement learning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/231214frank/</link>
+      <link>http://localhost:1313/posts/researchrecap/231214frank/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/231214frank/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/231214frank/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV14i4y1e7Lc/?vd_source=8b926cc5cb9e7d8fb85957e534d96e47&#34;&gt;https://www.bilibili.com/video/BV14i4y1e7Lc/?vd_source=8b926cc5cb9e7d8fb85957e534d96e47&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -169,10 +169,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Robert C. Wilson | Information, randomization, and simulation in exploration and exploitation</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/231205wilson/</link>
+      <link>http://localhost:1313/posts/researchrecap/231205wilson/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/231205wilson/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/231205wilson/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1vg4y1f7ey/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1vg4y1f7ey/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -185,10 +185,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Weiji Ma | The cognitive science of complex planning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/231201ma/</link>
+      <link>http://localhost:1313/posts/researchrecap/231201ma/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/231201ma/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/231201ma/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ye411d7Ty/?spm_id_from=333.999.0.0&amp;amp;vd_source=8b926cc5cb9e7d8fb85957e534d96e47&#34;&gt;https://www.bilibili.com/video/BV1ye411d7Ty/?spm_id_from=333.999.0.0&amp;amp;vd_source=8b926cc5cb9e7d8fb85957e534d96e47&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -199,10 +199,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Charley Wu | Visual-spatial dynamics drive adaptive social learning in immersive environments</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/231108wu/</link>
+      <link>http://localhost:1313/posts/researchrecap/231108wu/</link>
       <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/231108wu/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/231108wu/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1ZM411S7d7/&#34;&gt;https://www.bilibili.com/video/BV1ZM411S7d7/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -213,10 +213,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Taicheng Huang | Beyond the hippocampus as a predictive map</title>
-      <link>https://RLDMJC.github.io/posts/journaljam/huang231028/</link>
+      <link>http://localhost:1313/posts/journaljam/huang231028/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/journaljam/huang231028/</guid>
+      <guid>http://localhost:1313/posts/journaljam/huang231028/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Cy4y1w7Wx/&#34;&gt;https://www.bilibili.com/video/BV1Cy4y1w7Wx/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -227,10 +227,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title> Seongmin A. Park | Structural abstraction and behavioral flexibility</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/231020park/</link>
+      <link>http://localhost:1313/posts/researchrecap/231020park/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/231020park/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/231020park/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1QN4y1C77n/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -243,10 +243,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Matt Nassar | Dynamic representations for behavioral flexibility</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/231012nassar/</link>
+      <link>http://localhost:1313/posts/researchrecap/231012nassar/</link>
       <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/231012nassar/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/231012nassar/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1G34y1g7Q6/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1G34y1g7Q6/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -257,10 +257,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Mark Ho | Construction of mental representations in human planning</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/231004ho/</link>
+      <link>http://localhost:1313/posts/researchrecap/231004ho/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/231004ho/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/231004ho/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1P94y1a7Kf/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1P94y1a7Kf/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -271,10 +271,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Haoxue Fan | Trait somatic anxiety is associated with reduced directed exploration and underestimation of uncertainty</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/240329collins/</link>
+      <link>http://localhost:1313/posts/researchrecap/240329collins/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/240329collins/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/240329collins/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Rh4y1a7iq/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1Rh4y1a7iq/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -285,10 +285,10 @@ Prior to joining McGill, he was a Postdoctoral Fellow at Harvard University. He 
     
     <item>
       <title>Stefano Palminteri | Reinforcement learning biases that makes us smart</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/230915palminteri/</link>
+      <link>http://localhost:1313/posts/researchrecap/230915palminteri/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/230915palminteri/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/230915palminteri/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1sh4y1A7eu/&#34;&gt;https://www.bilibili.com/video/BV1sh4y1A7eu/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -300,10 +300,10 @@ My goal is understanding how humans learn to make decisions at the behavioral, c
     
     <item>
       <title>Zhaoyu Zuo | Working memory guides action valuation in model-based inference</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/230909zuo/</link>
+      <link>http://localhost:1313/posts/researchrecap/230909zuo/</link>
       <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/230909zuo/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/230909zuo/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1Sj411C77e/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1Sj411C77e/?vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -314,10 +314,10 @@ My goal is understanding how humans learn to make decisions at the behavioral, c
     
     <item>
       <title>Shen Xu | Crash tutorials on fitting hierarchical Bayesian reinforcement learning models</title>
-      <link>https://RLDMJC.github.io/posts/tutorialtalk/xu230826/</link>
+      <link>http://localhost:1313/posts/tutorialtalk/xu230826/</link>
       <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/tutorialtalk/xu230826/</guid>
+      <guid>http://localhost:1313/posts/tutorialtalk/xu230826/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1qm4y1u7JU/?spm_id_from=333.999.0.0&amp;amp;vd_source=1a260a61416c0a766c7c16e727b2f404&#34;&gt;https://www.bilibili.com/video/BV1qm4y1u7JU/?spm_id_from=333.999.0.0&amp;amp;vd_source=1a260a61416c0a766c7c16e727b2f404&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -328,14 +328,14 @@ My goal is understanding how humans learn to make decisions at the behavioral, c
     
     <item>
       <title>Upcoming Events</title>
-      <link>https://RLDMJC.github.io/upcoming/</link>
+      <link>http://localhost:1313/upcoming/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/upcoming/</guid>
+      <guid>http://localhost:1313/upcoming/</guid>
       <description>&lt;div style=&#34;padding: 24px; border-radius: 12px; text-align: center; margin-bottom: 2.5rem; background: var(--theme); border: 2px solid #6366f1; box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.2);&#34;&gt;
   &lt;h2 style=&#34;margin-top: 0; margin-bottom: 10px; color: #6366f1;&#34;&gt;🏆 Cognitive Modeling Challenge 2026&lt;/h2&gt;
   &lt;p style=&#34;font-size: 1.1em; margin-bottom: 20px; color: var(--primary);&#34;&gt;Exploring the next generation of cognitive modeling evaluation: Prediction, Explanation, and Robustness.&lt;/p&gt;
-  &lt;a href=&#34;https://RLDMJC.github.io/posts/modelingchallenge/&#34; style=&#34;display: inline-block; padding: 12px 24px; background-color: #6366f1; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.05em; transition: all 0.2s ease-in-out; box-shadow: 0 4px 6px rgba(99, 102, 241, 0.3);&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/posts/modelingchallenge/&#34; style=&#34;display: inline-block; padding: 12px 24px; background-color: #6366f1; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.05em; transition: all 0.2s ease-in-out; box-shadow: 0 4px 6px rgba(99, 102, 241, 0.3);&#34;&gt;
     View Challenge Details &amp;rarr;
   &lt;/a&gt;
 &lt;/div&gt;</description>
@@ -343,10 +343,10 @@ My goal is understanding how humans learn to make decisions at the behavioral, c
     
     <item>
       <title>Huadong Xiong | Neural network modeling reveals diverse human exploration behaviors via state space analysis</title>
-      <link>https://RLDMJC.github.io/posts/researchrecap/230809xiong/</link>
+      <link>http://localhost:1313/posts/researchrecap/230809xiong/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/posts/researchrecap/230809xiong/</guid>
+      <guid>http://localhost:1313/posts/researchrecap/230809xiong/</guid>
       <description>&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1au4y1R7kh/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&#34;&gt;https://www.bilibili.com/video/BV1au4y1R7kh/?spm_id_from=333.999.0.0&amp;amp;vd_source=e9626f9767e6e22ece9d765f34ba01c5&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;
@@ -361,10 +361,10 @@ My goal is understanding how humans learn to make decisions at the behavioral, c
     
     <item>
       <title>What is MindRL</title>
-      <link>https://RLDMJC.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>lynn0503@outlook.com (Lynn)</author>
-      <guid>https://RLDMJC.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>about</description>
     </item>
     
