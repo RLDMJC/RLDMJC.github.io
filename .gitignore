@@ -1,0 +1,16 @@
+# Metadata cache, local audit output, preview files, and source backups.
+__pycache__/
+*.pyc
+.local/
+*.pre-library.bak
+data/preprints/cache/
+data/preprints/raw/
+data/preprints/*-raw.json
+data/preprints/arxiv.json
+data/preprints/biorxiv.json
+data/preprints/psyarxiv.json
+data/preprints/audit.json
+data/preprints/backfill/
+data/preprints/backfill-state.json
+data/preprints/psyarxiv-metrics-evidence.json
+

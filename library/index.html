@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preprint Library | MindRL hub</title>
+  <meta name="description" content="A searchable reading library at the intersection of reinforcement learning, minds, and AI. Explore arXiv, PsyArXiv, and bioRxiv preprints.">
+  <link rel="canonical" href="https://rldmjc.github.io/library/">
+  <link rel="icon" href="/img/logo.png">
+  <link rel="stylesheet" href="/assets/css/stylesheet.8d818efb25dcf7b0fe1297c54970695504de090cb25f13f441fd764cffe3cd24.css">
+  <link rel="stylesheet" href="./library.css">
+  <script src="./library.js" defer></script>
+</head>
+<body class="list library-page" id="top">
+  <script>
+    try {
+      const preference = localStorage.getItem('pref-theme');
+      if (preference === 'dark' || (!preference && matchMedia('(prefers-color-scheme: dark)').matches)) document.body.classList.add('dark');
+    } catch (_) {
+      if (matchMedia('(prefers-color-scheme: dark)').matches) document.body.classList.add('dark');
+    }
+  </script>
+  <a class="skip-link" href="#library-content">Skip to library</a>
+  <header class="header">
+    <nav class="nav" aria-label="Main navigation">
+      <div class="logo">
+        <a href="/" accesskey="h" title="MindRL hub (Alt + H)">MindRL hub</a>
+        <div class="logo-switches">
+          <button id="theme-toggle" type="button" accesskey="t" aria-label="Toggle dark mode" title="Toggle dark mode (Alt + T)">
+            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2m0 18v2M1 12h2m18 0h2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path></svg>
+          </button>
+        </div>
+      </div>
+      <ul id="menu">
+        <li><a href="/"><span>🏠 Home</span></a></li>
+        <li><a href="/about/"><span>ℹ️ About</span></a></li>
+        <li><a href="/upcoming/"><span>🚀 Upcoming</span></a></li>
+        <li><a href="/archives/"><span>✅ Archived</span></a></li>
+        <li><a href="/library/" aria-current="page"><span class="active">📚 Library</span></a></li>
+        <li><a href="/search/" accesskey="/"><span>🔍 Search</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main library-main" id="library-content">
+    <section class="library-hero" aria-labelledby="library-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> MindRL reading room <span class="preview-label">Growing collection</span></p>
+        <h1 id="library-title">Preprint library</h1>
+        <p class="hero-description">Follow new ideas about learning, minds, and AI. A focused reading list for our community, and a starting point for future conversations.</p>
+        <p class="hero-scope">Human &amp; animal learning <span aria-hidden="true">·</span> AI &amp; cognition <span aria-hidden="true">·</span> AI with implications for learning</p>
+      </div>
+      <div class="snapshot" aria-label="Library snapshot">
+        <div class="snapshot-number" id="snapshot-total">—</div>
+        <div class="snapshot-label">selected preprints</div>
+        <div class="snapshot-window" id="snapshot-window">Loading the collection…</div>
+        <div class="snapshot-updated" id="snapshot-updated"></div>
+      </div>
+    </section>
+
+    <div id="coverage-summary" class="coverage-summary" aria-label="Source coverage status"><p class="muted">Source coverage is loading…</p></div>
+    <details class="collection-note" id="collection-note">
+      <summary><span>About this collection &amp; its ranking</span><span class="note-cue">Coverage, screening, and metric limits</span></summary>
+      <div class="collection-note-body">
+        <p>Papers qualify for at least one of the three reading areas below. Each paper uses the <strong>latest available title, abstract, and authors</strong>. Metadata screening is a discovery aid; an abstract alone does not establish a paper’s quality or scientific validity. Preprints have not necessarily been peer reviewed.</p>
+        <p>Views and downloads are ranked <strong>within the platform that supplies the counters</strong>, using verified totals <strong>summed across all historical public versions</strong> and adjusted for time since first posting. The exposure adjustment assumes exponential saturation: count ÷ (1 − exp(−age / τ)), with a default time constant τ of seven days. A larger τ gives recently posted papers more compensation. This assumed accumulation curve is adjustable and has not been fitted to observed traffic.</p>
+        <p>Sources use different counters, so their scores are not pooled. Incomplete or unverified version totals do not enter usage ranking. A missing count is <strong>unavailable</strong>, never zero; those papers follow in newest-first order.</p>
+        <div id="coverage-details" class="coverage-details"></div>
+        <p id="screening-method"></p>
+        <p class="local-note">Your saved papers and tracked authors stay in this browser. Export them to keep a backup or move to another device. Author tracking filters this snapshot; it does not send invitations or notifications.</p>
+      </div>
+    </details>
+
+    <div class="library-workspace">
+      <aside class="library-sidebar" aria-label="Library filters">
+        <div class="sidebar-heading"><h2>Explore</h2><button type="button" class="text-button" id="reset-filters">Reset</button></div>
+        <fieldset class="filter-group">
+          <legend>Reading area</legend>
+          <div id="category-filters" class="category-filters">
+            <button type="button" class="category-choice is-selected" data-category="all" aria-pressed="true"><span>All reading areas</span><span class="filter-count" id="all-category-count">—</span></button>
+          </div>
+        </fieldset>
+        <fieldset class="filter-group">
+          <legend>Preprint source</legend>
+          <div id="source-filters" class="source-filters"></div>
+        </fieldset>
+        <fieldset class="filter-group date-filters">
+          <legend>First posted</legend>
+          <label for="date-from">From</label><input type="date" id="date-from">
+          <label for="date-to">To</label><input type="date" id="date-to">
+        </fieldset>
+        <fieldset class="filter-group personal-filters">
+          <legend>Your reading list</legend>
+          <label class="checkbox-label"><input type="checkbox" id="saved-only"><span>Saved papers</span><span class="filter-count" id="saved-count">0</span></label>
+          <label class="checkbox-label"><input type="checkbox" id="tracked-only"><span>Tracked authors</span><span class="filter-count" id="tracked-count">0</span></label>
+          <details class="tracked-details"><summary>Manage tracked authors</summary><div id="tracked-authors-list" class="tracked-authors-list"><p class="muted">Track an author from a paper.</p></div></details>
+          <div class="personal-actions"><button type="button" id="export-reading-list" class="text-button">Export list</button><button type="button" id="import-reading-list" class="text-button">Import list</button></div>
+          <input type="file" id="reading-list-file" accept="application/json,.json" hidden>
+          <p id="storage-note" class="sidebar-note">Saved only in this browser.</p>
+        </fieldset>
+        <div class="sidebar-footer"><span class="eyebrow">Take the collection</span><div class="collection-export"><button type="button" id="export-json" class="text-button">JSON</button><span aria-hidden="true">/</span><button type="button" id="export-csv" class="text-button">CSV</button></div><p class="sidebar-note">Exports your current filtered results.</p></div>
+      </aside>
+
+      <section class="library-results" aria-label="Preprint results">
+        <div class="search-bar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><label for="paper-search" class="visually-hidden">Search titles, abstracts, and authors</label><input type="search" id="paper-search" placeholder="Search titles, abstracts, authors…" autocomplete="off"><kbd aria-hidden="true">/</kbd></div>
+        <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite">Loading papers…</p><div class="sort-control"><label for="sort-order">Sort by</label><select id="sort-order"><option value="views">Age-adjusted views</option><option value="downloads">Age-adjusted downloads</option><option value="newest">Newest first</option><option value="relevance">Search relevance</option></select></div></div>
+        <div class="ranking-parameters"><label for="ranking-tau">Exposure time constant (days)</label><input id="ranking-tau" type="number" min="1" max="365" step="1" value="7" aria-describedby="ranking-tau-note"><p id="ranking-tau-note" class="ranking-parameter-note">Assumed accumulation curve; adjustable, not fitted to observed traffic.</p></div>
+        <p id="ranking-note" class="ranking-note">Ranking uses source-specific age-adjusted counts where available.</p>
+        <div id="paper-results" class="paper-results" aria-busy="true"><div class="empty-state loading-state"><span class="loading-mark" aria-hidden="true"></span><h2>Opening the reading room</h2><p>Loading the collected preprint metadata.</p></div></div>
+        <div class="pagination" id="pagination" hidden><button type="button" id="load-more" class="outline-button">Show more papers</button><p id="page-progress" class="muted"></p></div>
+        <noscript><div class="empty-state"><h2>JavaScript is needed for this library</h2><p>You can also open the <a href="./data.json">collected metadata as JSON</a>.</p></div></noscript>
+      </section>
+    </div>
+    <div id="library-announcement" class="visually-hidden" role="status" aria-live="polite"></div>
+  </main>
+  <footer class="footer"><span>&copy; 2026 <a href="/">MindRL hub</a></span><span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &amp; <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener noreferrer" target="_blank">PaperMod</a></span></footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{
+  "biorxiv:10.64898/2026.06.26.734637": {
+    "action": "exclude",
+    "reason": "Temporal difference refers to odorant onset asynchrony, not temporal-difference reinforcement learning. The abstract does not describe reward learning or a computational learning mechanism.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.1101/2025.11.21.689815": {
+    "action": "exclude",
+    "reason": "RL is applied to single-cell gene expression and virtual cell dynamics. A mouse cortical-cell dataset does not connect this method to human or animal learning.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.1101/2025.11.26.690662": {
+    "action": "exclude",
+    "reason": "Collaborative learning here denotes integration across omics modalities for cancer survival prediction; the abstract provides no implication for human learning or cognition.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.64898/2025.12.05.692598": {
+    "action": "exclude",
+    "reason": "Edge AI recognizes horse gaits for welfare monitoring. Psychological harm is mentioned as background, but the work does not introduce a cognitive or psychological task or learning method.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.1101/2025.10.17.682587": {
+    "action": "include",
+    "categories": [
+      "rl-learning"
+    ],
+    "reason": "Policy-gradient RL is used as a computational theory of practice-based human motor skill acquisition across learning tasks; this is a direct biological-learning connection.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.1101/2025.10.31.685818": {
+    "action": "include",
+    "categories": [
+      "rl-learning"
+    ],
+    "reason": "A probabilistic reversal-learning gambling task in thirty human volunteers tests reward/punishment learning and uncertainty in pain modulation.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.1101/2025.10.29.685457": {
+    "action": "include",
+    "categories": [
+      "ai-cognition"
+    ],
+    "reason": "The Latin Square reasoning task compares transformers with human behavior and 7T fMRI, with circuit-level analyses of relational computation; a concrete AI-cognitive modeling method.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.64898/2025.11.30.691459": {
+    "action": "include",
+    "categories": [
+      "ai-cognition",
+      "ai-implications"
+    ],
+    "reason": "A cooperative human-AI task and counterfactual simulations isolate human action constraints affecting group performance; offers a task and modeling approach for human-AI cognition and collaboration.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.1101/2025.10.20.683049": {
+    "action": "exclude",
+    "categories": [],
+    "reason": "Benchmarks fMRI connectivity pipelines to classify eye-open versus eye-closed states for biomarker reliability. Complex cognitive tasks are mentioned only as a contrasting background; no cognitive task or human-learning innovation is established in the abstract.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-12"
+  }
+}

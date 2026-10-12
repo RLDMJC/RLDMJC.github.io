@@ -1,0 +1,80 @@
+# MindRL Preprint Library
+
+The user has authorized publication of the current `/library/` snapshot at `https://rldmjc.github.io/library/`. The daily data-maintenance automation still updates local files only; publication of subsequent snapshots is a separate action. The collector never sends speaker invitations.
+
+## Run and review
+
+The harvester uses Python's standard library; it does not require an API key or a paid model. From this repository:
+
+```powershell
+python scripts/preprints/update_library.py --start 2026-09-12 --end 2026-10-12 --sources arxiv biorxiv psyarxiv
+python -m http.server 8766 --bind 127.0.0.1
+```
+
+Open `http://127.0.0.1:8766/library/`. If Windows resolves `python` to the Microsoft Store alias, use the bundled interpreter:
+
+```powershell
+& 'C:\Users\Hanbo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' scripts/preprints/update_library.py --start 2026-09-12 --end 2026-10-12 --sources arxiv biorxiv psyarxiv
+```
+
+The initial completed window was inclusive, **12 September 2026 through 12 October 2026**. The user has now authorized gradual expansion to the past calendar year: the current target is **12 October 2025 through 12 October 2026**. This uses the preprint's first posting date, rather than the date of a revision. Title, abstract, and authors are taken from the latest retrieved version. Usage counts cover all historical versions when the source permits verification. The daily updater refreshes the newest 30-day window and adds one historical month per run, newest first. Archived months and shared HTTP caches survive later updates. Missing months are explicitly marked as incomplete coverage, including when a batch fails. The exact queries, retrieval scope, source failures, and counts are recorded in the generated coverage report. A completed query means its pagination was completed; it does not establish exhaustive recall of every relevant paper.
+
+## Scope and screening
+
+The visible collection keeps only the **rolling past calendar year**, recomputed from each run's America/New_York date. Inclusion uses the **first public posting date**: a later revision does not extend retention. Papers older than the cutoff are omitted from the page, its search/filter counts, and collection exports; there is no separate old-paper section. Local source caches are only provenance and resume evidence, not another visible collection. Historical version counters can still contribute to a retained paper's verified total. With one historical month added per successful daily run, initial year backfill takes roughly twelve runs in total (about ten more after the first two months), subject to source availability and retries.
+
+A paper may enter more than one group; matching any one group is sufficient:
+
+1. **RL & biological learning**: reward learning, reinforcement learning, or related computational mechanisms tied to human or animal behavior, experiments, or neural data.
+2. **AI & cognition**: AI combined with cognitive science or psychology, with a task, paradigm, modeling method, measurement method, or research approach contribution.
+3. **AI with human implications**: a general AI result with a specific connection to human learning, reasoning, teaching, adaptation, collaboration, or behavioral research. A general performance improvement or a mention of “human feedback” alone is insufficient.
+
+The screening is based on title and abstract metadata and runs automatically. It does not require manually reading every article. Small samples and ambiguous cases can be reviewed to refine the rules. Automated selections are provisional research-discovery entries, not full-text quality judgments. Matched evidence and reasons are retained for auditing. Borderline candidates and exclusions remain available locally for later curation; editorial overrides persist between updates. Reviews by Codex are distinguished from review by a human.
+
+arXiv retrieval uses the exact keyword queries recorded in the coverage manifest across subject categories. bioRxiv retrieval paginates the selected **neuroscience, animal behavior and cognition, bioinformatics, and systems biology** categories for the whole window; it is not an all-category bioRxiv census. PsyArXiv uses its official provider API. Source-specific versions are consolidated; matching DOIs or normalized titles are used to detect cross-listed records, while original source links and provenance are retained.
+
+The database contains the requested title, abstract, author list, and original link, plus small fields needed for filtering, provenance, ranking, and updates. No PDFs are bulk-downloaded.
+
+## Views, downloads, and ranking
+
+Counts are used only when a public source provides **article-level** values. Version-specific counts are summed across every verified version, including earlier versions outside the retrieval window; a source's already-aggregated work-level total is used once. Partial version coverage is identified and is not presented as an all-version total. Missing values are `null`, never zero. Site-wide totals, citations, relevance scores, and visits to this library are not substituted for article views or downloads.
+
+For a measured article:
+
+```text
+age_days = max(1, elapsed days from first posting to metric observation)
+exposure_fraction = 1 - exp(-age_days / tau_days)
+views_age_adjusted = views / exposure_fraction
+downloads_age_adjusted = downloads / exposure_fraction
+tau_days = 7  # adjustable heuristic, not empirically fitted
+```
+
+The user selected exponential-saturation exposure correction so newer and older papers can be compared without assuming indefinite linear accumulation. This assumes cumulative attention follows `A * (1 - exp(-age / tau))`; the corrected score estimates `A` only under that assumption. It is a browsing heuristic, not measured recent growth or scientific quality. A single cumulative snapshot per paper cannot identify the true time constant separately from each paper's popularity. The default **7 days** is configurable with `--exposure-tau-days` and the page control; it is not a fitted estimate. Seven days is a time constant (about 63% of assumed cumulative exposure), not a half-life. Larger values compensate newer papers more strongly. Computation uses `-expm1(-age / tau)` for numerical stability.
+
+Ranking is within each source because definitions and audiences differ across servers. When a source lacks comparable article-level metrics, its default order falls back to latest first and the page says so. Users can also choose publication-date ordering. Observations and exact first-post timestamps are retained when available; otherwise age uses first-post midnight UTC as a date-level approximation. The one-day minimum limits unstable correction immediately after posting. Raw totals remain visible beside corrected scores, and JSON/CSV exports reflect the selected time constant.
+
+- [arXiv public-statistics FAQ](https://info.arxiv.org/help/faq/statfaq.html): arXiv does not publish individual-paper readership/download statistics. Its [API manual](https://info.arxiv.org/help/api/user-manual.html) documents bibliographic metadata without article-level usage fields.
+- [bioRxiv API documentation](https://api.biorxiv.org/): article metadata and **aggregate** monthly/yearly usage statistics. Aggregate usage does not support paper ranking. Article-level usage has not been retrieved in this collection; this does not mean bioRxiv has no article-level metrics. Public article metrics pages require separate retrieval and verification of whether their totals already cover all versions.
+- [OSF API documentation](https://developer.osf.io/) and [PsyArXiv's count explanation](https://blog.psyarxiv.com/2022/03/17/view-counts-psyarxiv-preprints/): article views/downloads exist; collection uses the fields actually returned by the current endpoint, with observation time and metric source.
+
+## Daily maintenance and editorial review
+
+The requested schedule is **every day at 09:00 America/New_York**. The active Codex chat automation is **MindRL 每日预印本资料库更新** (ID `mindrl`). It updates local metadata and screening output, preserves editorial overrides, and reports meaningful additions, failures, or decisions needed. It never commits, pushes, deploys, publishes, or contacts authors. Local scheduled work requires this computer and the desktop app to be running; see the [official scheduled-task documentation](https://learn.chatgpt.com/docs/automations).
+
+Each daily run refreshes the full rolling month and then resumes one historical batch. The new month output is staged locally so it does not temporarily replace the year view:
+
+```powershell
+python scripts/preprints/update_library.py --window-days 30 --full --refresh --strict --exposure-tau-days 7 --end YYYY-MM-DD --output .local/current-month-library.json
+python scripts/preprints/expand_library.py --end YYYY-MM-DD --batch-count 1
+python scripts/validate_library.py
+```
+
+Use the America/New_York calendar date for `YYYY-MM-DD`. Expansion stages each month under `data/preprints/backfill/`, reuses `data/preprints/cache/`, and validates the merged collection before replacing the page data. `--rebuild-only` rebuilds from saved batches without network access. `data/preprints/backfill-state.json` records progress and remaining per-source gaps. Archived history has its own retrieval dates; it is not represented as freshly checked every day. Once the year is covered, daily maintenance refreshes one oldest-checked historical batch using the pipeline with that batch's start/end, archive data directory, shared cache directory, and `--full --refresh --strict`, then merges it with `expand_library.py --rebuild-only`. This rotates historical revision and usage checks without refreshing the entire year each day. Do not run two expansion processes concurrently.
+
+The strict retrieval command reports incomplete source or PsyArXiv usage retrieval as a failure while retaining an honestly labeled local review artifact. It preserves earlier metadata during source failures; the page identifies incomplete or stale coverage. During backfill, run the validator without `--require-complete`: valid records and an incomplete year are distinct states. Require complete coverage only once every requested interval is verified. The validator checks requested metadata, the first-post window, duplicate IDs, all-version arithmetic, and the ranking denominator.
+
+The browser shortlist and author tracking are stored in this browser on this origin. Use their export control to preserve or share the list. They do not create invitations or infer that an author has agreed to speak; name-based tracking may group namesakes and needs editorial review.
+
+This repository contains a generated Hugo export, without the original theme/content source. `scripts/integrate_library.py` adds the Library navigation, home-page entry, and search-index entry and can be reapplied after a Hugo rebuild. It preserves adjacent `*.pre-library.bak` backups on the first edit. The new library files must also be retained during regeneration.
+
+Publication of this initial snapshot was authorized on 12 October 2026. Subsequent automated collection remains local unless the user authorizes automatic publishing.
