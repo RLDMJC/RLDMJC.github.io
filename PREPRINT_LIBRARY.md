@@ -73,6 +73,8 @@ Use the America/New_York calendar date for `YYYY-MM-DD`. Expansion stages each m
 
 The strict retrieval command reports incomplete source or PsyArXiv usage retrieval as a failure while retaining an honestly labeled local review artifact. It preserves earlier metadata during source failures; the page identifies incomplete or stale coverage. During backfill, run the validator without `--require-complete`: valid records and an incomplete year are distinct states. Require complete coverage only once every requested interval is verified. The validator checks requested metadata, the first-post window, duplicate IDs, all-version arithmetic, and the ranking denominator.
 
+When merging archives, a later successful source snapshot replaces older metadata for its overlapping first-post interval. Old snapshots must not resurrect papers that the fresh source removed or withdrew. Failed snapshots retain previous records with explicit gaps, while the rolling-year cutoff still removes expired works. Snapshot ordering uses checked timestamps, not archive directory names.
+
 The browser shortlist and author tracking are stored in this browser on this origin. Use their export control to preserve or share the list. They do not create invitations or infer that an author has agreed to speak; name-based tracking may group namesakes and needs editorial review.
 
 This repository contains a generated Hugo export, without the original theme/content source. `scripts/integrate_library.py` adds the Library navigation, home-page entry, and search-index entry and can be reapplied after a Hugo rebuild. It preserves adjacent `*.pre-library.bak` backups on the first edit. The new library files must also be retained during regeneration.

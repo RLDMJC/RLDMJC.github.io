@@ -21,6 +21,19 @@ const fixture = (age, count = 100) => ({ published: '2026-09-01', metrics: {
   views: count, downloads: count / 2, scope: 'all-versions', coverage_complete: true
 } });
 const close = (actual, expected) => assert.ok(Math.abs(actual - expected) <= 1e-9 * Math.max(1, Math.abs(expected)), `${actual} != ${expected}`);
+// Python preserves source microseconds; JavaScript Date truncates to milliseconds.
+// Bound that known timestamp resolution instead of relaxing all scoring tests.
+const closeWithTimestampResolution = (paper, kind, actual, stored) => {
+  const age = paper.metrics.age_days, browserAge = context.metricAgeDays(paper);
+  const resolutionDays = 1 / 86400000;
+  assert.ok(Math.abs(age - browserAge) <= resolutionDays + 1e-12, `Age precision mismatch: ${paper.id}`);
+  const count = paper.metrics[kind], tau = context.state.exposureTauDays;
+  const low = count / -Math.expm1(-Math.max(1, age + resolutionDays) / tau);
+  const high = count / -Math.expm1(-Math.max(1, age - resolutionDays) / tau);
+  close(stored, count / -Math.expm1(-age / tau));
+  const roundoff = 1e-9 * Math.max(1, Math.abs(stored));
+  assert.ok(actual >= low - roundoff && actual <= high + roundoff, `Score differs beyond millisecond precision: ${paper.id}`);
+};
 let checked = 0;
 const check = fn => { fn(); checked += 1; };
 check(() => close(score(fixture(7)), 100 / (1 - Math.exp(-1))));
@@ -47,7 +60,7 @@ for (const paper of data.papers) {
   for (const kind of ['views', 'downloads']) {
     const value = score(paper, kind), stored = paper.metrics[`${kind}_age_adjusted`];
     if (value === null) assert.equal(stored, null, `Unavailable ${paper.id} assigned a score`);
-    else { close(value, stored); if (kind === 'views') measured += 1; }
+    else { closeWithTimestampResolution(paper, kind, value, stored); if (kind === 'views') measured += 1; }
   }
 }
 console.log(`${checked} browser scoring checks passed; ${measured} measured papers match backend exponential scores.`);

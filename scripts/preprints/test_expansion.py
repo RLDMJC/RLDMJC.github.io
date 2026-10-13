@@ -10,6 +10,41 @@ import expand_library as expansion
 
 
 class ExpansionTests(unittest.TestCase):
+    def test_fresh_complete_window_does_not_resurrect_removed_work(self):
+        with tempfile.TemporaryDirectory(dir=expansion.DATA) as temp:
+            root = Path(temp)
+            old, fresh = root / "z-old", root / "a-new"
+            old.mkdir(); fresh.mkdir()
+            old_payload = {"records": [{"id": "gone", "published": "2026-01-15"},
+                                       {"id": "outside", "published": "2026-01-02"}],
+                           "coverage": {"source": "arxiv", "status": "complete",
+                                        "checked_at": "2026-02-01T00:00:00Z",
+                                        "window": {"start": "2026-01-01", "end": "2026-01-31"}}}
+            fresh_payload = {"records": [], "coverage": {"source": "arxiv", "status": "complete",
+                "checked_at": "2026-02-02T00:00:00Z",
+                "window": {"start": "2026-01-10", "end": "2026-01-31"}}}
+            for folder, payload in [(old, old_payload), (fresh, fresh_payload)]:
+                (folder / "arxiv.json").write_text(json.dumps(payload), encoding="utf-8")
+            with patch.object(expansion, "ARCHIVE", root):
+                results, _ = expansion.collect(date(2026, 1, 1), date(2026, 1, 31))
+                self.assertEqual([r["id"] for r in results[0]["records"]], ["outside"])
+                fresh_payload["coverage"]["status"] = "failed"
+                (fresh / "arxiv.json").write_text(json.dumps(fresh_payload), encoding="utf-8")
+                results, _ = expansion.collect(date(2026, 1, 1), date(2026, 1, 31))
+                self.assertEqual({r["id"] for r in results[0]["records"]}, {"gone", "outside"})
+                fresh_payload["coverage"]["status"] = "complete"
+                (fresh / "arxiv.json").write_text(json.dumps(fresh_payload), encoding="utf-8")
+                later = root / "later-narrow-refresh"
+                later.mkdir()
+                carried = {"records": [{"id": "gone", "published": "2026-01-15",
+                           "provenance": {"fetched_at": "2026-02-01T00:00:00Z"}}],
+                           "coverage": {"source": "arxiv", "status": "complete",
+                           "checked_at": "2026-02-03T00:00:00Z", "previous_checked_at": "2026-02-02T00:00:00Z",
+                           "window": {"start": "2026-02-01", "end": "2026-02-28"}}}
+                (later / "arxiv.json").write_text(json.dumps(carried), encoding="utf-8")
+                results, _ = expansion.collect(date(2026, 1, 1), date(2026, 2, 28))
+                self.assertEqual([r["id"] for r in results[0]["records"]], ["outside"])
+
     def test_calendar_boundaries(self):
         self.assertEqual(expansion.year_before(date(2024, 2, 29)), date(2023, 2, 28))
         self.assertEqual(expansion.month_before(date(2026, 3, 31)), date(2026, 2, 28))

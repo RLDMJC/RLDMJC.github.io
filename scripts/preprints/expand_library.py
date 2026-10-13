@@ -9,7 +9,7 @@ import argparse
 import calendar
 import json
 import shutil
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from common import utc_now, write_json
@@ -70,8 +70,16 @@ def collect(start, end):
     results, all_gaps = [], []
     for source in SOURCES:
         records, segments, intervals = [], [], []
-        for path in sorted(ARCHIVE.glob(f"*/{source}.json")):
-            snapshot = read(path)
+        snapshots = [(path, read(path)) for path in ARCHIVE.glob(f"*/{source}.json")]
+        def checked(item):
+            value = item[1]["coverage"].get("checked_at")
+            if not value:
+                return datetime.min.replace(tzinfo=timezone.utc)
+            parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+            return parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
+        # A successful later snapshot is authoritative for its first-post
+        # interval. Older archives must not resurrect removed/withdrawn works.
+        for path, snapshot in sorted(snapshots, key=checked):
             coverage = snapshot["coverage"]
             window = coverage.get("window", {})
             if not window.get("start") or not window.get("end"):
@@ -79,7 +87,26 @@ def collect(start, end):
             lo, hi = date.fromisoformat(window["start"]), date.fromisoformat(window["end"])
             if hi < start or lo > end:
                 continue
-            records.extend(snapshot["records"])
+            if coverage.get("status") == "complete":
+                records = [record for record in records
+                           if not str(lo) <= record.get("published", "")[:10] <= str(hi)]
+            excluded = set(coverage.get("excluded_ids", []))
+            records = [record for record in records if record["id"] not in excluded]
+            # A narrow refresh can carry older records in its saved corpus.
+            # They already belong to earlier archives and are not new source
+            # evidence. Re-importing them here could revive a later removal.
+            previous_check = coverage.get("previous_checked_at")
+            for record in snapshot["records"]:
+                in_batch = str(lo) <= record.get("published", "")[:10] <= str(hi)
+                fetched_at = record.get("provenance", {}).get("fetched_at")
+                if not in_batch and previous_check:
+                    if not fetched_at:
+                        continue
+                    fetched = datetime.fromisoformat(fetched_at.replace("Z", "+00:00"))
+                    previous = datetime.fromisoformat(previous_check.replace("Z", "+00:00"))
+                    if fetched <= previous:
+                        continue
+                records.append(record)
             segments.append({**coverage, "archive": str(path.relative_to(ROOT))})
             usage_pending = (coverage.get("metrics_error") or
                              coverage.get("metrics_enrichment", {}).get("failures") or
