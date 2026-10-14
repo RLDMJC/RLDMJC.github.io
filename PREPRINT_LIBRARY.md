@@ -1,6 +1,6 @@
 # MindRL Preprint Library
 
-The user has authorized publication of the current `/library/` snapshot at `https://rldmjc.github.io/library/`. The daily data-maintenance automation still updates local files only; publication of subsequent snapshots is a separate action. The collector never sends speaker invitations.
+The user authorized automatic publication of future successfully replenished `/library/` snapshots at `https://rldmjc.github.io/library/` on 13 October 2026. After successful retrieval and validation, the daily automation commits the relevant library changes, pushes to `origin main`, and verifies the GitHub Pages deployment. Remaining historical backfill gaps must be disclosed; a successful monthly batch can be published before the whole year is complete. Unresolved retrieval or validation failures remain local and are reported. The collector never sends speaker invitations.
 
 ## Run and review
 
@@ -59,7 +59,7 @@ Ranking is within each source because definitions and audiences differ across se
 
 ## Daily maintenance and editorial review
 
-The requested schedule is **every day at 09:00 America/New_York**. The active Codex chat automation is **MindRL 每日预印本资料库更新** (ID `mindrl`). It updates local metadata and screening output, preserves editorial overrides, and reports meaningful additions, failures, or decisions needed. It never commits, pushes, deploys, publishes, or contacts authors. Local scheduled work requires this computer and the desktop app to be running; see the [official scheduled-task documentation](https://learn.chatgpt.com/docs/automations).
+The requested schedule is **every day at 09:00 America/New_York**. The active Codex chat automation is **MindRL 每日预印本资料库更新** (ID `mindrl`). It updates metadata and screening output, preserves editorial overrides, and automatically publishes successfully validated changes. It reports meaningful additions, failures, or decisions needed, and never contacts authors. Commits include only relevant library changes, preserve unrelated edits, and never use force-push. Runs with no publishable changes do not create empty commits. Local scheduled work requires this computer and the desktop app to be running; see the [official scheduled-task documentation](https://learn.chatgpt.com/docs/automations).
 
 Each daily run refreshes the full rolling month and then resumes one historical batch. The new month output is staged locally so it does not temporarily replace the year view:
 
@@ -79,4 +79,6 @@ The browser shortlist and author tracking are stored in this browser on this ori
 
 This repository contains a generated Hugo export, without the original theme/content source. `scripts/integrate_library.py` adds the Library navigation, home-page entry, and search-index entry and can be reapplied after a Hugo rebuild. It preserves adjacent `*.pre-library.bak` backups on the first edit. The new library files must also be retained during regeneration.
 
-Publication of this initial snapshot was authorized on 12 October 2026. Subsequent automated collection remains local unless the user authorizes automatic publishing.
+Publication of the initial snapshot was authorized on 12 October 2026; automatic publication of subsequent successful updates was authorized on 13 October 2026.
+
+On 14 October 2026, the user explicitly authorized publication of the validated 884-paper snapshot despite the disclosed PsyArXiv author-account HTTP 410 failure. The affected work is excluded from the public collection, and the source failure and incomplete historical coverage remain recorded. This snapshot-specific approval does not remove the automatic publication checks for future runs.
