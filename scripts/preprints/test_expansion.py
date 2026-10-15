@@ -10,6 +10,30 @@ import expand_library as expansion
 
 
 class ExpansionTests(unittest.TestCase):
+    def test_cached_revision_history_preserves_first_post_in_uncovered_month(self):
+        with tempfile.TemporaryDirectory(dir=expansion.DATA) as temp:
+            root = Path(temp)
+            batch = root / "batch"
+            batch.mkdir()
+            record = {"id": "older-first-post", "published": "2025-12-20",
+                      "provenance": {"fetched_at": "2026-10-14T00:00:00Z"}}
+            payload = {"records": [record], "coverage": {"source": "biorxiv", "status": "complete",
+                "checked_at": "2026-10-15T00:00:00Z", "previous_checked_at": "2026-10-14T01:00:00Z",
+                "window": {"start": "2026-06-12", "end": "2026-07-11"}}}
+            (batch / "biorxiv.json").write_text(json.dumps(payload), encoding="utf-8")
+            with patch.object(expansion, "ARCHIVE", root):
+                results, _ = expansion.collect(date(2025, 10, 15), date(2026, 10, 15))
+            self.assertEqual(results[2]["records"], [record])
+            withdrawn = root / "withdrawn"
+            withdrawn.mkdir()
+            exclusion = {"records": [], "coverage": {"source": "biorxiv", "status": "complete",
+                "checked_at": "2026-10-14T12:00:00Z", "excluded_ids": [record["id"]],
+                "window": {"start": "2026-09-12", "end": "2026-10-12"}}}
+            (withdrawn / "biorxiv.json").write_text(json.dumps(exclusion), encoding="utf-8")
+            with patch.object(expansion, "ARCHIVE", root):
+                results, _ = expansion.collect(date(2025, 10, 15), date(2026, 10, 15))
+            self.assertEqual(results[2]["records"], [])
+
     def test_fresh_complete_window_does_not_resurrect_removed_work(self):
         with tempfile.TemporaryDirectory(dir=expansion.DATA) as temp:
             root = Path(temp)

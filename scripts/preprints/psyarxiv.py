@@ -21,6 +21,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, urlencode, urlparse
 from urllib.request import Request, urlopen
 
+from common import HTTPClient
+
 API = "https://api.osf.io/v2/"
 API_VERSION = "2.20"
 USER_AGENT = "RLDMJC-PreprintLibrary/1.0 (+https://rldmjc.github.io/)"
@@ -159,6 +161,41 @@ def _related(resource: dict, relation: str) -> str | None:
     return resource.get("relationships", {}).get(relation, {}).get("links", {}).get("related", {}).get("href")
 
 
+def _registered_authors(resource: dict, known_names: list[str | None], client: OSFClient) -> list[str]:
+    """Recover a deleted OSF user's name only from a matching version DOI."""
+    doi = resource.get("links", {}).get("preprint_doi", "")
+    doi = doi.removeprefix("https://doi.org/").removeprefix("https://dx.doi.org/")
+    if doi.casefold() != ("10.31234/osf.io/" + resource["id"]).casefold():
+        raise RuntimeError("No exact version DOI for deleted-author recovery")
+    url = "https://api.crossref.org/works/" + doi
+    response, observed = HTTPClient(client.cache_dir / "crossref", refresh=client.refresh).json(url)
+    registered = response.get("message", {})
+    normalize = lambda value: re.sub(r"\W+", "", value.casefold())
+    if (registered.get("DOI", "").casefold() != doi.casefold()
+            or not any(normalize(title) == normalize(resource["attributes"]["title"])
+                       for title in registered.get("title", []))):
+        raise RuntimeError("DOI registration does not match the preprint title/version")
+    names = [author.get("name") or " ".join(filter(None, [author.get("given"), author.get("family")]))
+             for author in registered.get("author", [])]
+    if len(names) != len(known_names) or not all(name.strip() for name in names):
+        raise RuntimeError("DOI registration has an incomplete author list")
+    def same_author(known, registered_name):
+        if normalize(known) == normalize(registered_name):
+            return True
+        left, right = re.findall(r"\w+", known.casefold()), re.findall(r"\w+", registered_name.casefold())
+        if len(left) < 2 or len(right) < 2 or (left[0], left[-1]) != (right[0], right[-1]):
+            return False
+        # One registration may omit middle initials. Conflicting initials or
+        # a differing first/family name are never accepted as the same author.
+        return ((not left[1:-1] and all(len(token) == 1 for token in right[1:-1]))
+                or (not right[1:-1] and all(len(token) == 1 for token in left[1:-1])))
+    if any(known and not same_author(known, name) for known, name in zip(known_names, names)):
+        raise RuntimeError("DOI author order/names disagree with accessible OSF contributors")
+    resource["_author_provenance"] = {"source_url": url, "observed_at": observed["fetched_at"],
+                                     "reason": "OSF author account HTTP 410; exact version DOI, title, contributor count and accessible author order verified"}
+    return [name.strip() for name in names]
+
+
 def _authors(resource: dict, client: OSFClient) -> list[str]:
     embedded = resource.get("embeds", {}).get("bibliographic_contributors")
     contributors: list[dict] = []
@@ -182,7 +219,8 @@ def _authors(resource: dict, client: OSFClient) -> list[str]:
         separator = "&" if "?" in related else "?"
         url = related + separator + urlencode({"embed": "users", "fields[users]": "full_name", "fields[contributors]": CONTRIBUTOR_FIELDS, "page[size]": 100, "version": API_VERSION})
         contributors, _ = client.collection(url)
-    names: list[str] = []
+    names: list[str | None] = []
+    deleted_account = False
     for contributor in sorted(contributors, key=lambda row: row.get("attributes", {}).get("index", 0)):
         attributes = contributor.get("attributes", {})
         if attributes.get("bibliographic") is False:
@@ -195,13 +233,22 @@ def _authors(resource: dict, client: OSFClient) -> list[str]:
             related = _related(contributor, "users")
             if related:
                 separator = "&" if "?" in related else "?"
-                response, _ = client.get(related + separator + urlencode({"fields[users]": "full_name", "version": API_VERSION}))
-                name = response.get("data", {}).get("attributes", {}).get("full_name")
+                try:
+                    response, _ = client.get(related + separator + urlencode({"fields[users]": "full_name", "version": API_VERSION}))
+                    name = response.get("data", {}).get("attributes", {}).get("full_name")
+                except RuntimeError as error:
+                    if "/v2/users/" not in related or "HTTP Error 410:" not in str(error):
+                        raise
+                    deleted_account = True
+                    names.append(None)
+                    continue
         if not name:
             raise RuntimeError("Missing author name for " + contributor.get("id", resource["id"]))
         names.append(name.strip())
     if not names:
         raise RuntimeError("Empty author list for " + resource["id"])
+    if deleted_account:
+        return _registered_authors(resource, names, client)
     return names
 
 
@@ -461,6 +508,8 @@ def _enrich_record(record: dict, client: OSFClient) -> dict | None:
         record["published_doi"] = attrs.get("doi")
         record.setdefault("provenance", {}).update(metadata_url=latest.get("links", {}).get("self"), version_list_url=versions_url,
                                                    latest_metadata_observed_at=max(version_observations) if version_observations else None)
+        if latest.get("_author_provenance"):
+            record["provenance"]["author_fallback"] = latest["_author_provenance"]
         record["_authors_pending"] = False
         first = min(public_versions, key=lambda row: _version(row))
         record["first_posted_at"] = first["attributes"]["date_published"]

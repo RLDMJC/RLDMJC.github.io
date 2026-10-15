@@ -57,6 +57,8 @@ Ranking is within each source because definitions and audiences differ across se
 - [bioRxiv API documentation](https://api.biorxiv.org/): article metadata and **aggregate** monthly/yearly usage statistics. Aggregate usage does not support paper ranking. Article-level usage has not been retrieved in this collection; this does not mean bioRxiv has no article-level metrics. Public article metrics pages require separate retrieval and verification of whether their totals already cover all versions.
 - [OSF API documentation](https://developer.osf.io/) and [PsyArXiv's count explanation](https://blog.psyarxiv.com/2022/03/17/view-counts-psyarxiv-preprints/): article views/downloads exist; collection uses the fields actually returned by the current endpoint, with observation time and metric source.
 
+If an OSF author account returns HTTP 410, the collector may recover the full ordered author list from Crossref's official registration for that exact version DOI. It requires matching DOI and title, the same bibliographic contributor count, and agreement with every accessible OSF author at the same position. An omitted middle initial is allowed when first and family names agree; conflicting initials or names are rejected. Any mismatch remains a retrieval failure. The registration response is cached and its URL, observation date, and reason are recorded in article provenance; usage counts still come exclusively from verified OSF version counters.
+
 ## Daily maintenance and editorial review
 
 The requested schedule is **every day at 09:00 America/New_York**. The active Codex chat automation is **MindRL 每日预印本资料库更新** (ID `mindrl`). It updates metadata and screening output, preserves editorial overrides, and automatically publishes successfully validated changes. It reports meaningful additions, failures, or decisions needed, and never contacts authors. Commits include only relevant library changes, preserve unrelated edits, and never use force-push. Runs with no publishable changes do not create empty commits. Local scheduled work requires this computer and the desktop app to be running; see the [official scheduled-task documentation](https://learn.chatgpt.com/docs/automations).
@@ -75,6 +77,8 @@ The strict retrieval command reports incomplete source or PsyArXiv usage retriev
 
 When merging archives, a later successful source snapshot replaces older metadata for its overlapping first-post interval. Old snapshots must not resurrect papers that the fresh source removed or withdrew. Failed snapshots retain previous records with explicit gaps, while the rolling-year cutoff still removes expired works. Snapshot ordering uses checked timestamps, not archive directory names.
 
+Replaying a cached DOI history must preserve an older first post discovered through a newer revision when that first-post month has not yet been covered. Such carried records are suppressed when a newer authoritative check covered their first-post date or explicitly excluded their ID; cache age alone must not erase this provenance.
+
 The browser shortlist and author tracking are stored in this browser on this origin. Use their export control to preserve or share the list. They do not create invitations or infer that an author has agreed to speak; name-based tracking may group namesakes and needs editorial review.
 
 This repository contains a generated Hugo export, without the original theme/content source. `scripts/integrate_library.py` adds the Library navigation, home-page entry, and search-index entry and can be reapplied after a Hugo rebuild. It preserves adjacent `*.pre-library.bak` backups on the first edit. The new library files must also be retained during regeneration.
@@ -82,3 +86,5 @@ This repository contains a generated Hugo export, without the original theme/con
 Publication of the initial snapshot was authorized on 12 October 2026; automatic publication of subsequent successful updates was authorized on 13 October 2026.
 
 On 14 October 2026, the user explicitly authorized publication of the validated 884-paper snapshot despite the disclosed PsyArXiv author-account HTTP 410 failure. The affected work is excluded from the public collection, and the source failure and incomplete historical coverage remain recorded. This snapshot-specific approval does not remove the automatic publication checks for future runs.
+
+On 15 October 2026, the deleted-account author failure was resolved through the exact-version Crossref registration checks above. The article now has a verified ordered author list and all-version OSF counters and can enter the collection; the earlier failure evidence remains local.

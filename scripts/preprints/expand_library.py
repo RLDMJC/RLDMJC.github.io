@@ -70,6 +70,7 @@ def collect(start, end):
     results, all_gaps = [], []
     for source in SOURCES:
         records, segments, intervals = [], [], []
+        authoritative_checks, excluded_checks = [], {}
         snapshots = [(path, read(path)) for path in ARCHIVE.glob(f"*/{source}.json")]
         def checked(item):
             value = item[1]["coverage"].get("checked_at")
@@ -91,12 +92,16 @@ def collect(start, end):
                 records = [record for record in records
                            if not str(lo) <= record.get("published", "")[:10] <= str(hi)]
             excluded = set(coverage.get("excluded_ids", []))
+            for identifier in excluded:
+                excluded_checks[identifier] = checked((path, snapshot))
             records = [record for record in records if record["id"] not in excluded]
             # A narrow refresh can carry older records in its saved corpus.
-            # They already belong to earlier archives and are not new source
-            # evidence. Re-importing them here could revive a later removal.
+            # Keep unique revision-history evidence, but do not let copied
+            # stale metadata undo a newer removal or withdrawal.
             previous_check = coverage.get("previous_checked_at")
             for record in snapshot["records"]:
+                if record["id"] in excluded:
+                    continue
                 in_batch = str(lo) <= record.get("published", "")[:10] <= str(hi)
                 fetched_at = record.get("provenance", {}).get("fetched_at")
                 if not in_batch and previous_check:
@@ -105,8 +110,19 @@ def collect(start, end):
                     fetched = datetime.fromisoformat(fetched_at.replace("Z", "+00:00"))
                     previous = datetime.fromisoformat(previous_check.replace("Z", "+00:00"))
                     if fetched <= previous:
-                        continue
+                        # Cached DOI histories can be the only evidence for an
+                        # older first post whose revision falls in this batch.
+                        # Reject carryover only if a newer authoritative check
+                        # actually covered that first-post date (or excluded ID).
+                        first_post = record.get("published", "")[:10]
+                        removed_by_window = any(str(a) <= first_post <= str(b) and observed >= fetched
+                                                for a, b, observed in authoritative_checks)
+                        removed_by_id = excluded_checks.get(record["id"], datetime.min.replace(tzinfo=timezone.utc)) >= fetched
+                        if removed_by_window or removed_by_id:
+                            continue
                 records.append(record)
+            if coverage.get("status") == "complete":
+                authoritative_checks.append((lo, hi, checked((path, snapshot))))
             segments.append({**coverage, "archive": str(path.relative_to(ROOT))})
             usage_pending = (coverage.get("metrics_error") or
                              coverage.get("metrics_enrichment", {}).get("failures") or
