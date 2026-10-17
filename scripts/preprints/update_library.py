@@ -335,16 +335,25 @@ def main(argv=None):
     # the shortlist, and preserve prior counters if a metrics request fails.
     for result in fetched:
         if result["coverage"]["source"] == "psyarxiv" and "psyarxiv" in args.sources and not args.offline:
+            if result["coverage"].get("status") == "failed":
+                result["coverage"]["metrics_refresh"] = "skipped after metadata retrieval failed; prior counter observation dates retained"
+                write_json(args.data_dir / "psyarxiv.json", result)
+                continue
             try:
                 module = importlib.import_module("psyarxiv")
                 selected = [r for r in result["records"] if within_window(r, start, args.end)
                             and (screen(r)["status"] == "retained" or overrides.get(r["id"], {}).get("action") == "include")
                             and overrides.get(r["id"], {}).get("action") != "exclude"]
-                summary = module.enrich_metrics(selected, cache_dir / "psyarxiv", refresh=args.refresh)
+                def save_progress(progress):
+                    result["coverage"]["metrics_enrichment"] = progress
+                    write_json(args.data_dir / "psyarxiv.json", result)
+                summary = module.enrich_metrics(selected, cache_dir / "psyarxiv", refresh=args.refresh,
+                                                on_progress=save_progress)
                 result["coverage"]["metrics_enrichment"] = summary
                 write_json(args.data_dir / "psyarxiv.json", result)
             except Exception as exc:
                 result["coverage"]["metrics_error"] = f"{type(exc).__name__}: {exc}"
+                write_json(args.data_dir / "psyarxiv.json", result)
     library, audits = build_library(fetched, start, args.end, overrides, args.exposure_tau_days)
     write_json(args.data_dir / "audit.json", {"generated_at": library["generated_at"], "window": library["window"], "rule_version": RULE_VERSION, "counts": library["screening"]["audit_counts"], "records": audits})
     write_json(args.data_dir / "manifest.json", {k: v for k, v in library.items() if k != "papers"})

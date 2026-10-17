@@ -61,6 +61,7 @@ class OSFClient:
         self.requests = 0
         self.cached = 0
         self.failures: list[dict] = []
+        self.network_failure: str | None = None
         self.rich_pages: dict[str, Path] = {}
         if not refresh and self.cache_dir.exists():
             for path in self.cache_dir.glob("psyarxiv-*.json"):
@@ -99,6 +100,8 @@ class OSFClient:
             return response, saved["fetched_at"]
         last_error: Exception | None = None
         for attempt in range(5):
+            if self.network_failure:
+                raise RuntimeError("OSF network requests paused after bounded transient failure: " + self.network_failure)
             # Shared by enrichment workers: at most one new request per second
             # across all in-flight work, while slow independent reads can overlap.
             with self.pace_lock:
@@ -127,6 +130,12 @@ class OSFClient:
                 last_error = error
                 time.sleep(min(45, 3 * (2 ** attempt)))
         self.failures.append({"url": url, "error": str(last_error)})
+        if ((isinstance(last_error, HTTPError) and last_error.code in (408, 429, 500, 502, 503, 504))
+                or (isinstance(last_error, (URLError, TimeoutError, OSError)) and not isinstance(last_error, HTTPError))):
+            # Share an exhausted outage across enrichment workers. Cached reads
+            # remain available, but queued records must not each repeat the
+            # same long retry cycle while the service is unavailable.
+            self.network_failure = url + ": " + str(last_error)
         raise RuntimeError("OSF request failed after bounded retries: " + url + ": " + str(last_error))
 
     def collection(self, url: str) -> tuple[list[dict], list[str]]:
@@ -541,7 +550,7 @@ def enrich_metrics(records: list[dict], cache_dir: Path, refresh: bool = False, 
     Partial/missing counts remain null, with errors reported. Zero is preserved
     only when OSF explicitly returns zero. Mutates matching records in place.
     """
-    client = OSFClient(cache_dir, refresh=refresh)
+    client = OSFClient(cache_dir, refresh=refresh, timeout=40)
     enriched = 0
     failures: list[dict] = []
     relevant = [row for row in records if row.get("source") == "psyarxiv"]
