@@ -1,25 +1,25 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T13:11:29Z",
+  "generated_at": "2026-10-18T14:15:08Z",
   "window": {
-    "start": "2025-10-17",
-    "end": "2026-10-17"
+    "start": "2025-10-18",
+    "end": "2026-10-18"
   },
   "coverage": [
     {
       "source": "arxiv",
       "status": "partial",
       "window": {
-        "start": "2025-10-17",
-        "end": "2026-10-17"
+        "start": "2025-10-18",
+        "end": "2026-10-18"
       },
-      "checked_at": "2026-10-17T13:11:07Z",
+      "checked_at": "2026-10-18T14:14:46Z",
       "fetched": 26478,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
-      "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-17 to 2026-04-11",
+      "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-18 to 2026-04-11",
       "missing_windows": [
         {
-          "start": "2025-10-17",
+          "start": "2025-10-18",
           "end": "2026-04-11"
         }
       ],
@@ -630,72 +630,6 @@
         {
           "source": "arxiv",
           "status": "complete",
-          "fetched": 5022,
-          "window": {
-            "start": "2026-05-12",
-            "end": "2026-06-11"
-          },
-          "query": "(all:reinforcement OR all:cognitive OR all:psychology OR all:human OR all:animal OR all:brain OR all:mice OR all:rodent OR all:monkey)",
-          "scope": "Broad all-metadata keyword retrieval across all arXiv categories, followed by conservative title/abstract screening; not an exhaustive census of all relevant papers.",
-          "intervals": [
-            {
-              "start": "2026-05-12",
-              "end": "2026-05-16",
-              "total": 892,
-              "fetched": 892,
-              "status": "complete"
-            },
-            {
-              "start": "2026-05-17",
-              "end": "2026-05-21",
-              "total": 827,
-              "fetched": 827,
-              "status": "complete"
-            },
-            {
-              "start": "2026-05-22",
-              "end": "2026-05-26",
-              "total": 665,
-              "fetched": 665,
-              "status": "complete"
-            },
-            {
-              "start": "2026-05-27",
-              "end": "2026-05-31",
-              "total": 874,
-              "fetched": 874,
-              "status": "complete"
-            },
-            {
-              "start": "2026-06-01",
-              "end": "2026-06-06",
-              "total": 980,
-              "fetched": 980,
-              "status": "complete"
-            },
-            {
-              "start": "2026-06-07",
-              "end": "2026-06-11",
-              "total": 784,
-              "fetched": 784,
-              "status": "complete"
-            }
-          ],
-          "failures": [],
-          "requests": 22,
-          "cache_hits": 0,
-          "checked_at": "2026-10-16T13:03:00Z",
-          "metrics_status": "Per-paper views/downloads not supplied by the public arXiv metadata API.",
-          "update_window": {
-            "start": "2026-05-12",
-            "end": "2026-06-11"
-          },
-          "incremental": false,
-          "archive": "data\\preprints\\backfill\\2026-05-12_2026-06-11\\arxiv.json"
-        },
-        {
-          "source": "arxiv",
-          "status": "complete",
           "fetched": 5161,
           "window": {
             "start": "2026-09-17",
@@ -826,6 +760,142 @@
           },
           "incremental": false,
           "archive": "data\\preprints\\backfill\\2026-04-12_2026-05-11\\arxiv.json"
+        },
+        {
+          "source": "arxiv",
+          "status": "complete",
+          "fetched": 4978,
+          "window": {
+            "start": "2026-09-18",
+            "end": "2026-10-18"
+          },
+          "query": "(all:reinforcement OR all:cognitive OR all:psychology OR all:human OR all:animal OR all:brain OR all:mice OR all:rodent OR all:monkey)",
+          "scope": "Broad all-metadata keyword retrieval across all arXiv categories, followed by conservative title/abstract screening; not an exhaustive census of all relevant papers.",
+          "intervals": [
+            {
+              "start": "2026-09-18",
+              "end": "2026-09-24",
+              "total": 979,
+              "fetched": 979,
+              "status": "complete"
+            },
+            {
+              "start": "2026-09-25",
+              "end": "2026-09-27",
+              "total": 460,
+              "fetched": 460,
+              "status": "complete"
+            },
+            {
+              "start": "2026-09-28",
+              "end": "2026-09-30",
+              "total": 953,
+              "fetched": 953,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-01",
+              "end": "2026-10-05",
+              "total": 819,
+              "fetched": 819,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-06",
+              "end": "2026-10-09",
+              "total": 812,
+              "fetched": 812,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-10",
+              "end": "2026-10-18",
+              "total": 955,
+              "fetched": 955,
+              "status": "complete"
+            }
+          ],
+          "failures": [],
+          "requests": 21,
+          "cache_hits": 0,
+          "checked_at": "2026-10-18T14:10:31Z",
+          "metrics_status": "Per-paper views/downloads not supplied by the public arXiv metadata API.",
+          "preserved_previous_records": 861,
+          "previous_checked_at": "2026-10-17T13:02:58Z",
+          "update_window": {
+            "start": "2026-09-18",
+            "end": "2026-10-18"
+          },
+          "incremental": false,
+          "archive": "data\\preprints\\backfill\\2026-09-18_2026-10-18\\arxiv.json"
+        },
+        {
+          "source": "arxiv",
+          "status": "complete",
+          "fetched": 5022,
+          "window": {
+            "start": "2026-05-12",
+            "end": "2026-06-11"
+          },
+          "query": "(all:reinforcement OR all:cognitive OR all:psychology OR all:human OR all:animal OR all:brain OR all:mice OR all:rodent OR all:monkey)",
+          "scope": "Broad all-metadata keyword retrieval across all arXiv categories, followed by conservative title/abstract screening; not an exhaustive census of all relevant papers.",
+          "intervals": [
+            {
+              "start": "2026-05-12",
+              "end": "2026-05-16",
+              "total": 892,
+              "fetched": 892,
+              "status": "complete"
+            },
+            {
+              "start": "2026-05-17",
+              "end": "2026-05-21",
+              "total": 827,
+              "fetched": 827,
+              "status": "complete"
+            },
+            {
+              "start": "2026-05-22",
+              "end": "2026-05-26",
+              "total": 665,
+              "fetched": 665,
+              "status": "complete"
+            },
+            {
+              "start": "2026-05-27",
+              "end": "2026-05-31",
+              "total": 874,
+              "fetched": 874,
+              "status": "complete"
+            },
+            {
+              "start": "2026-06-01",
+              "end": "2026-06-06",
+              "total": 980,
+              "fetched": 980,
+              "status": "complete"
+            },
+            {
+              "start": "2026-06-07",
+              "end": "2026-06-11",
+              "total": 784,
+              "fetched": 784,
+              "status": "complete"
+            }
+          ],
+          "failures": [],
+          "requests": 0,
+          "cache_hits": 22,
+          "checked_at": "2026-10-18T14:12:39Z",
+          "metrics_status": "Per-paper views/downloads not supplied by the public arXiv metadata API.",
+          "preserved_previous_records": 0,
+          "previous_checked_at": "2026-10-16T13:03:00Z",
+          "update_window": {
+            "start": "2026-05-12",
+            "end": "2026-06-11"
+          },
+          "incremental": false,
+          "archive": "data\\preprints\\backfill\\2026-05-12_2026-06-11\\arxiv.json"
         }
       ],
       "failures": [],
@@ -843,21 +913,17 @@
       "source": "psyarxiv",
       "status": "partial",
       "window": {
-        "start": "2025-10-17",
-        "end": "2026-10-17"
+        "start": "2025-10-18",
+        "end": "2026-10-18"
       },
-      "checked_at": "2026-10-17T13:11:08Z",
-      "fetched": 4544,
+      "checked_at": "2026-10-18T14:14:47Z",
+      "fetched": 3779,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
-      "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-17 to 2026-06-11; 2026-10-17 to 2026-10-17",
+      "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-18 to 2026-05-11",
       "missing_windows": [
         {
-          "start": "2025-10-17",
-          "end": "2026-06-11"
-        },
-        {
-          "start": "2026-10-17",
-          "end": "2026-10-17"
+          "start": "2025-10-18",
+          "end": "2026-05-11"
         }
       ],
       "batch_snapshots": [
@@ -1306,6 +1372,59 @@
           "source": "psyarxiv",
           "status": "complete",
           "complete": true,
+          "start": "2026-09-18",
+          "end": "2026-10-18",
+          "window": {
+            "start": "2026-09-18",
+            "end": "2026-10-18"
+          },
+          "date_basis": "first public version date_published; inclusive UTC calendar dates",
+          "query": "https://api.osf.io/v2/preprints/?filter%5Bprovider%5D=psyarxiv&filter%5Bdate_published%5D%5Bgte%5D=2026-09-18&filter%5Bdate_published%5D%5Blt%5D=2026-10-19&page%5Bsize%5D=100&sort=-date_created&fields%5Busers%5D=full_name&fields%5Bcontributors%5D=index%2Cbibliographic%2Cunregistered_contributor%2Cusers&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider&version=2.20",
+          "reported_version_records": 1278,
+          "retrieved_version_records": 1278,
+          "metadata_pages": 13,
+          "unique_first_posts": 765,
+          "old_work_revision_groups_excluded": 431,
+          "withdrawn_groups_excluded": 1,
+          "excluded_ids": [
+            "psyarxiv:4usk8",
+            "psyarxiv:qkdpw"
+          ],
+          "observed_from": "2026-10-18T14:09:06+00:00",
+          "observed_to": "2026-10-18T14:09:37+00:00",
+          "checked_at": "2026-10-18T14:09:37+00:00",
+          "network_requests": 13,
+          "cache_hits": 0,
+          "authors_pending": 765,
+          "limitations": [
+            "Public accepted metadata only; withdrawn/deleted/private works can be absent.",
+            "Snapshot pages are cached; --refresh is needed to obtain a new source snapshot.",
+            "Classification remains a separate title/abstract screening step.",
+            "Full bibliographic authors and usage metrics are enriched after topic screening; raw candidates can have pending author lists."
+          ],
+          "preserved_previous_records": 109,
+          "previous_checked_at": "2026-10-17T13:02:22Z",
+          "update_window": {
+            "start": "2026-09-18",
+            "end": "2026-10-18"
+          },
+          "incremental": false,
+          "metrics_enrichment": {
+            "source": "psyarxiv",
+            "requested": 23,
+            "enriched": 23,
+            "failures": [],
+            "network_requests": 72,
+            "cache_hits": 0,
+            "scope": "all-versions",
+            "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"
+          },
+          "archive": "data\\preprints\\backfill\\2026-09-18_2026-10-18\\psyarxiv.json"
+        },
+        {
+          "source": "psyarxiv",
+          "status": "complete",
+          "complete": true,
           "start": "2026-05-12",
           "end": "2026-06-11",
           "window": {
@@ -1323,7 +1442,7 @@
           "excluded_ids": [],
           "observed_from": "2026-10-16T13:01:00+00:00",
           "observed_to": "2026-10-16T13:01:57+00:00",
-          "checked_at": "2026-10-17T13:07:20+00:00",
+          "checked_at": "2026-10-18T14:12:39+00:00",
           "network_requests": 0,
           "cache_hits": 13,
           "authors_pending": 771,
@@ -1334,7 +1453,7 @@
             "Full bibliographic authors and usage metrics are enriched after topic screening; raw candidates can have pending author lists."
           ],
           "preserved_previous_records": 0,
-          "previous_checked_at": "2026-10-16T13:01:57+00:00",
+          "previous_checked_at": "2026-10-17T13:07:20+00:00",
           "update_window": {
             "start": "2026-05-12",
             "end": "2026-06-11"
@@ -1343,158 +1462,9 @@
           "metrics_enrichment": {
             "source": "psyarxiv",
             "requested": 37,
-            "enriched": 0,
-            "failures": [
-              {
-                "source_id": "cb2uk_v1",
-                "error": "OSF request failed after bounded retries: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "drchp_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "695gp_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "6e5du_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "ktc6j_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "wzhm7_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "tckb9_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "m5pvy_v2",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "79pum_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "2mdu8_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "k3xu6_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "vrb5a_v2",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "m8p42_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "qtkzh_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "rdp52_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "jvkuy_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "xphm9_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "prvkt_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "2tj5f_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "ujqxc_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "a29e3_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "2yvnt_v2",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "yr6d3_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "m9cwu_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "bg6pq_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "ytmup_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "vbjd3_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "f6wev_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "f4mzp_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "w5jpb_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "b58tg_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "9gu5m_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "nwz9q_v2",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "nq6yb_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "4w3g5_v1",
-                "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "8d96p_v1",
-                "error": "OSF request failed after bounded retries: https://api.osf.io/v2/preprints/8d96p/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              },
-              {
-                "source_id": "tey6j_v1",
-                "error": "OSF request failed after bounded retries: https://api.osf.io/v2/preprints/tey6j/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-              }
-            ],
-            "network_requests": 0,
+            "enriched": 37,
+            "failures": [],
+            "network_requests": 122,
             "cache_hits": 0,
             "scope": "all-versions",
             "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"
@@ -1502,167 +1472,14 @@
           "archive": "data\\preprints\\backfill\\2026-05-12_2026-06-11\\psyarxiv.json"
         }
       ],
-      "failures": [
-        {
-          "error": "RuntimeError: OSF request failed after bounded retries: https://api.osf.io/v2/preprints/?filter%5Bprovider%5D=psyarxiv&filter%5Bdate_published%5D%5Bgte%5D=2026-09-17&filter%5Bdate_published%5D%5Blt%5D=2026-10-18&page%5Bsize%5D=100&sort=-date_created&fields%5Busers%5D=full_name&fields%5Bcontributors%5D=index%2Cbibliographic%2Cunregistered_contributor%2Cusers&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider&version=2.20: HTTP Error 503: Service Temporarily Unavailable"
-        }
-      ],
+      "failures": [],
       "metrics_enrichment": {
-        "failures": [
-          {
-            "source_id": "cb2uk_v1",
-            "error": "OSF request failed after bounded retries: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "drchp_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "695gp_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "6e5du_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "ktc6j_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "wzhm7_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "tckb9_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "m5pvy_v2",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "79pum_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "2mdu8_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "k3xu6_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "vrb5a_v2",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "m8p42_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "qtkzh_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "rdp52_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "jvkuy_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "xphm9_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "prvkt_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "2tj5f_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "ujqxc_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "a29e3_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "2yvnt_v2",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "yr6d3_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "m9cwu_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "bg6pq_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "ytmup_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "vbjd3_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "f6wev_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "f4mzp_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "w5jpb_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "b58tg_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "9gu5m_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "nwz9q_v2",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "nq6yb_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "4w3g5_v1",
-            "error": "OSF network requests paused after bounded transient failure: https://api.osf.io/v2/preprints/cb2uk/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "8d96p_v1",
-            "error": "OSF request failed after bounded retries: https://api.osf.io/v2/preprints/8d96p/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          },
-          {
-            "source_id": "tey6j_v1",
-            "error": "OSF request failed after bounded retries: https://api.osf.io/v2/preprints/tey6j/versions/?version=2.20&page%5Bsize%5D=100&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider: HTTP Error 503: Service Temporarily Unavailable"
-          }
-        ]
+        "failures": []
       },
       "metrics_status": "Version totals retain the actual observation dates; missing counters are unavailable.",
-      "unique_records": 3742,
-      "retained": 102,
-      "candidates": 93,
+      "unique_records": 3741,
+      "retained": 138,
+      "candidates": 56,
       "rejected": 3547,
       "outside_window": 0
     },
@@ -1670,16 +1487,16 @@
       "source": "biorxiv",
       "status": "partial",
       "window": {
-        "start": "2025-10-17",
-        "end": "2026-10-17"
+        "start": "2025-10-18",
+        "end": "2026-10-18"
       },
-      "checked_at": "2026-10-17T13:11:08Z",
-      "fetched": 12710,
+      "checked_at": "2026-10-18T14:14:47Z",
+      "fetched": 12774,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
-      "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-17 to 2026-04-11",
+      "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-18 to 2026-04-11",
       "missing_windows": [
         {
-          "start": "2025-10-17",
+          "start": "2025-10-18",
           "end": "2026-04-11"
         }
       ],
@@ -2123,59 +1940,6 @@
         {
           "source": "biorxiv",
           "status": "complete",
-          "fetched": 2440,
-          "window": {
-            "start": "2026-05-12",
-            "end": "2026-06-11"
-          },
-          "source_categories": [
-            "neuroscience",
-            "animal behavior and cognition",
-            "bioinformatics",
-            "systems biology"
-          ],
-          "scope": "All paginated date-range records in the named subject categories; relevant papers assigned to other categories may be missed.",
-          "intervals": [
-            {
-              "category": "neuroscience",
-              "fetched": 1421,
-              "total": 1421,
-              "status": "complete"
-            },
-            {
-              "category": "animal behavior and cognition",
-              "fetched": 97,
-              "total": 97,
-              "status": "complete"
-            },
-            {
-              "category": "bioinformatics",
-              "fetched": 783,
-              "total": 783,
-              "status": "complete"
-            },
-            {
-              "category": "systems biology",
-              "fetched": 108,
-              "total": 108,
-              "status": "complete"
-            }
-          ],
-          "failures": [],
-          "requests": 91,
-          "cache_hits": 3,
-          "checked_at": "2026-10-16T13:06:10Z",
-          "metrics_status": "bioRxiv /usage supplies platform aggregates, not paper-level views/downloads; no aggregate assigned to a paper.",
-          "update_window": {
-            "start": "2026-05-12",
-            "end": "2026-06-11"
-          },
-          "incremental": false,
-          "archive": "data\\preprints\\backfill\\2026-05-12_2026-06-11\\biorxiv.json"
-        },
-        {
-          "source": "biorxiv",
-          "status": "complete",
           "fetched": 2547,
           "window": {
             "start": "2026-09-17",
@@ -2280,6 +2044,116 @@
           },
           "incremental": false,
           "archive": "data\\preprints\\backfill\\2026-04-12_2026-05-11\\biorxiv.json"
+        },
+        {
+          "source": "biorxiv",
+          "status": "complete",
+          "fetched": 2506,
+          "window": {
+            "start": "2026-09-18",
+            "end": "2026-10-18"
+          },
+          "source_categories": [
+            "neuroscience",
+            "animal behavior and cognition",
+            "bioinformatics",
+            "systems biology"
+          ],
+          "scope": "All paginated date-range records in the named subject categories; relevant papers assigned to other categories may be missed.",
+          "intervals": [
+            {
+              "category": "neuroscience",
+              "fetched": 1423,
+              "total": 1423,
+              "status": "complete"
+            },
+            {
+              "category": "animal behavior and cognition",
+              "fetched": 145,
+              "total": 145,
+              "status": "complete"
+            },
+            {
+              "category": "bioinformatics",
+              "fetched": 767,
+              "total": 767,
+              "status": "complete"
+            },
+            {
+              "category": "systems biology",
+              "fetched": 135,
+              "total": 135,
+              "status": "complete"
+            }
+          ],
+          "failures": [],
+          "requests": 95,
+          "cache_hits": 0,
+          "checked_at": "2026-10-18T14:10:21Z",
+          "metrics_status": "bioRxiv /usage supplies platform aggregates, not paper-level views/downloads; no aggregate assigned to a paper.",
+          "preserved_previous_records": 443,
+          "previous_checked_at": "2026-10-17T13:02:30Z",
+          "update_window": {
+            "start": "2026-09-18",
+            "end": "2026-10-18"
+          },
+          "incremental": false,
+          "archive": "data\\preprints\\backfill\\2026-09-18_2026-10-18\\biorxiv.json"
+        },
+        {
+          "source": "biorxiv",
+          "status": "complete",
+          "fetched": 2440,
+          "window": {
+            "start": "2026-05-12",
+            "end": "2026-06-11"
+          },
+          "source_categories": [
+            "neuroscience",
+            "animal behavior and cognition",
+            "bioinformatics",
+            "systems biology"
+          ],
+          "scope": "All paginated date-range records in the named subject categories; relevant papers assigned to other categories may be missed.",
+          "intervals": [
+            {
+              "category": "neuroscience",
+              "fetched": 1421,
+              "total": 1421,
+              "status": "complete"
+            },
+            {
+              "category": "animal behavior and cognition",
+              "fetched": 97,
+              "total": 97,
+              "status": "complete"
+            },
+            {
+              "category": "bioinformatics",
+              "fetched": 783,
+              "total": 783,
+              "status": "complete"
+            },
+            {
+              "category": "systems biology",
+              "fetched": 108,
+              "total": 108,
+              "status": "complete"
+            }
+          ],
+          "failures": [],
+          "requests": 0,
+          "cache_hits": 94,
+          "checked_at": "2026-10-18T14:12:39Z",
+          "metrics_status": "bioRxiv /usage supplies platform aggregates, not paper-level views/downloads; no aggregate assigned to a paper.",
+          "preserved_previous_records": 11,
+          "previous_checked_at": "2026-10-16T13:06:10Z",
+          "update_window": {
+            "start": "2026-05-12",
+            "end": "2026-06-11"
+          },
+          "incremental": false,
+          "archive": "data\\preprints\\backfill\\2026-05-12_2026-06-11\\biorxiv.json"
         }
       ],
       "failures": [],
@@ -2287,10 +2161,10 @@
         "failures": []
       },
       "metrics_status": "Version totals retain the actual observation dates; missing counters are unavailable.",
-      "unique_records": 11492,
+      "unique_records": 11516,
       "retained": 113,
       "candidates": 103,
-      "rejected": 11255,
+      "rejected": 11279,
       "outside_window": 21
     }
   ],
@@ -2313,9 +2187,9 @@
     "method": "Conservative, reproducible title/abstract triage with optional persistent editorial overrides.",
     "human_reviewed": false,
     "audit_counts": {
-      "rejected": 38468,
-      "candidate": 1775,
-      "retained": 1448,
+      "rejected": 38492,
+      "candidate": 1738,
+      "retained": 1484,
       "outside-window": 21
     },
     "limitations": "Automatic selection can miss relevant studies and include keyword matches; scientific novelty, validity, and speaker suitability require reading the paper."
@@ -2324,7 +2198,7 @@
     "requested_default": "exponential-adjusted-views",
     "default": "exponential-adjusted-views",
     "fallback": "newest",
-    "measured_papers": 102,
+    "measured_papers": 138,
     "missing_metrics": 1345,
     "model": "exponential-saturation",
     "exposure_tau_days": 7.0,
