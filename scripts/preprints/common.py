@@ -24,7 +24,9 @@ def write_json(path, value):
 
 
 class FetchError(RuntimeError):
-    pass
+    def __init__(self, message, *, http_status=None):
+        super().__init__(message)
+        self.http_status = http_status
 
 
 class HTTPClient:
@@ -44,7 +46,7 @@ class HTTPClient:
         if raw.exists() and metadata.exists() and not self.refresh:
             self.cache_hits += 1
             return raw.read_bytes(), json.loads(metadata.read_text(encoding="utf-8"))
-        last_error = None
+        last_error, last_http_status = None, None
         for attempt in range(self.retries):
             try:
                 with self._lock:
@@ -66,11 +68,12 @@ class HTTPClient:
                 return content, meta
             except (HTTPError, URLError, TimeoutError, OSError) as exc:
                 last_error = str(exc)
+                last_http_status = exc.code if isinstance(exc, HTTPError) else None
                 if isinstance(exc, HTTPError) and exc.code not in (408, 429, 500, 502, 503, 504):
                     break
                 retry_after = exc.headers.get("Retry-After", "") if isinstance(exc, HTTPError) else ""
                 time.sleep(min(60, int(retry_after) if retry_after.isdigit() else 2 ** (attempt + 1)))
-        raise FetchError(f"{url}: {last_error}")
+        raise FetchError(f"{url}: {last_error}", http_status=last_http_status)
 
     def json(self, url):
         raw, meta = self.get(url)

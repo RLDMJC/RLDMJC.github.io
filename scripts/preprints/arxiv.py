@@ -61,6 +61,7 @@ def parse_atom(raw, meta):
 def harvest(start, end, cache_dir, refresh=False):
     client = HTTPClient(cache_dir, refresh=refresh, delay=3.1)
     records, intervals, failures = [], [], []
+    rate_limited = False
 
     def page(lo, hi, offset=0, limit=500):
         query = SEARCH + f" AND submittedDate:[{str(lo).replace('-', '')}0000 TO {str(hi).replace('-', '')}2359]"
@@ -70,6 +71,11 @@ def harvest(start, end, cache_dir, refresh=False):
         return parse_atom(raw, meta)
 
     def interval(lo, hi):
+        nonlocal rate_limited
+        if rate_limited:
+            failures.append({"start": str(lo), "end": str(hi), "status": "not_attempted",
+                             "error": "arXiv requests paused after exhausted HTTP 429 retries; retry this interval next run."})
+            return
         try:
             _, total = page(lo, hi, limit=1)
             if total > 1000 and lo < hi:
@@ -89,6 +95,8 @@ def harvest(start, end, cache_dir, refresh=False):
             intervals.append({"start": str(lo), "end": str(hi), "total": total, "fetched": fetched, "status": "complete"})
         except (FetchError, ValueError) as exc:
             failures.append({"start": str(lo), "end": str(hi), "error": str(exc)})
+            if getattr(exc, "http_status", None) == 429:
+                rate_limited = True
             print(f"arxiv FAILED {lo}..{hi}: {exc}", flush=True)
 
     # Inclusive monthly intervals keep changing API result sets small.
@@ -102,6 +110,7 @@ def harvest(start, end, cache_dir, refresh=False):
         "source": "arxiv", "status": "complete" if not failures else ("partial" if records else "failed"),
         "fetched": len(records), "window": {"start": start, "end": end}, "query": SEARCH,
         "scope": "Broad all-metadata keyword retrieval across all arXiv categories, followed by conservative title/abstract screening; not an exhaustive census of all relevant papers.",
-        "intervals": intervals, "failures": failures, "requests": client.requests, "cache_hits": client.cache_hits,
+        "intervals": intervals, "failures": failures, "rate_limited": rate_limited,
+        "requests": client.requests, "cache_hits": client.cache_hits,
         "checked_at": utc_now(), "metrics_status": "Per-paper views/downloads not supplied by the public arXiv metadata API.",
     }}
