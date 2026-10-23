@@ -510,7 +510,15 @@ def _enrich_record(record: dict, client: OSFClient) -> dict | None:
         record["withdrawn"] = bool(attrs.get("date_withdrawn"))
         record["date_withdrawn"] = attrs.get("date_withdrawn")
         if record["withdrawn"]:
-            raise RuntimeError("Latest public preprint version has been withdrawn; exclude the work from the library")
+            observed = max(version_observations) if version_observations else None
+            record.setdefault("provenance", {}).update(version_list_url=versions_url,
+                                                       latest_metadata_observed_at=observed)
+            record["metrics"] = {"views": None, "downloads": None, "observed_at": observed,
+                                 "source_url": versions_url, "scope": "withdrawn",
+                                 "coverage_complete": False, "components": []}
+            return {"source_id": latest["id"], "status": "withdrawn",
+                    "date_withdrawn": record["date_withdrawn"], "source_url": versions_url,
+                    "observed_at": observed}
         record.update({"source_id": latest["id"], "title": (attrs.get("title") or "").strip(), "abstract": (attrs.get("description") or "").strip(), "authors": _authors(latest, client), "version": _version(latest), "updated": (attrs.get("date_modified") or attrs.get("date_published") or "")[:10], "url": latest.get("links", {}).get("html") or record["url"]})
         doi_url = latest.get("links", {}).get("preprint_doi")
         record["doi"] = doi_url.removeprefix("https://doi.org/").removeprefix("https://dx.doi.org/") if doi_url else record.get("doi")
@@ -553,22 +561,26 @@ def enrich_metrics(records: list[dict], cache_dir: Path, refresh: bool = False, 
     client = OSFClient(cache_dir, refresh=refresh, timeout=40)
     enriched = 0
     failures: list[dict] = []
+    withdrawals: list[dict] = []
     relevant = [row for row in records if row.get("source") == "psyarxiv"]
     with ThreadPoolExecutor(max_workers=max(1, min(3, workers))) as pool:
         futures = [pool.submit(_enrich_record, record, client) for record in relevant]
         for index, future in enumerate(as_completed(futures), 1):
             failure = future.result()
-            if failure:
+            if failure and failure.get("status") == "withdrawn":
+                withdrawals.append(failure)
+            elif failure:
                 failures.append(failure)
             else:
                 enriched += 1
             progress = {"source": "psyarxiv", "requested": len(relevant), "checked": index, "enriched": enriched,
-                        "failures": list(failures), "status": "complete" if index == len(relevant) else "in_progress"}
+                        "failures": list(failures), "withdrawals": list(withdrawals),
+                        "status": "complete" if index == len(relevant) else "in_progress"}
             if on_progress:
                 on_progress(progress)
             if index == 1 or index % 5 == 0 or index == len(relevant):
                 print(f"PsyArXiv genuine usage metrics: {index}/{len(relevant)} checked; {enriched} complete", file=sys.stderr, flush=True)
-    return {"source": "psyarxiv", "requested": len(relevant), "enriched": enriched, "failures": failures, "network_requests": client.requests, "cache_hits": client.cached, "scope": "all-versions", "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"}
+    return {"source": "psyarxiv", "requested": len(relevant), "enriched": enriched, "failures": failures, "withdrawals": withdrawals, "network_requests": client.requests, "cache_hits": client.cached, "scope": "all-versions", "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"}
 
 
 def main() -> None:
