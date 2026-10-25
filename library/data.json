@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T13:06:14Z",
+  "generated_at": "2026-10-25T13:07:55Z",
   "window": {
     "start": "2025-10-25",
     "end": "2026-10-25"
@@ -13,7 +13,7 @@
         "start": "2025-10-25",
         "end": "2026-10-25"
       },
-      "checked_at": "2026-10-25T13:05:39Z",
+      "checked_at": "2026-10-25T13:07:20Z",
       "fetched": 46822,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
       "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-25 to 2025-11-11",
@@ -1731,7 +1731,7 @@
         "start": "2025-10-25",
         "end": "2026-10-25"
       },
-      "checked_at": "2026-10-25T13:05:39Z",
+      "checked_at": "2026-10-25T13:07:20Z",
       "fetched": 8255,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
       "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-25 to 2025-11-11",
@@ -2996,7 +2996,7 @@
         "start": "2025-10-25",
         "end": "2026-10-25"
       },
-      "checked_at": "2026-10-25T13:05:40Z",
+      "checked_at": "2026-10-25T13:07:21Z",
       "fetched": 22721,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
       "scope": "Monthly archive snapshots; historical expansion in progress. Still missing: 2025-10-25 to 2025-11-11",
@@ -4324,8 +4324,8 @@
       },
       "metrics_status": "Version totals retain the actual observation dates; missing counters are unavailable.",
       "unique_records": 19098,
-      "retained": 186,
-      "candidates": 174,
+      "retained": 187,
+      "candidates": 173,
       "rejected": 18690,
       "outside_window": 48
     }
@@ -266454,6 +266454,106 @@
       "age_days": null
     },
     {
+      "id": "biorxiv:10.64898/2025.11.30.691382",
+      "source": "biorxiv",
+      "source_id": "10.64898/2025.11.30.691382",
+      "title": "Transition from plasticity to dynamics-based value update for meta-learning",
+      "abstract": "The ability to estimate the value associated with a specific stimulus or action is essential for adaptive behavior. Value can be updated either incrementally through experience or rapidly by inference based on latent environmental structure. Yet, how the brain implements and transitions between these modes of value computation remains unclear. To address this question, we examined the neuronal mechanisms underlying reversal learning. Mice were trained in an odor-outcome association task either with stable contingencies or with dynamically changing contingencies. Mice trained on stable contingencies formed long-term value representations that depended on synaptic plasticity in the basolateral amygdala (BLA). In contrast, mice exposed to repeated reversals acquired the ability to infer values, independent from plasticity in BLA, enabling faster learning but with more rapid memory decay. Recurrent neural network models (RNNs) trained with continuous weight updates recapitulated this transition, shifting from plasticity-based to dynamics-based value computation. Neural activity in the BLA encoded both value and contextual information necessary for computing value based on latent task structure, similar to those found in the RNNs. Disrupting BLA activity before cue delivery preferentially impaired dynamics-based value updating. Furthermore, mice could learn distinct correlation structures that enabled structure-specific value inference. Together, these findings provide a mechanistic framework for fast value updates via inference, a core feature of intelligent behavior.",
+      "authors": [
+        "Lee, J.",
+        "Hennig, J.",
+        "Frelih, V.",
+        "Gershman, S. J.",
+        "Uchida, N."
+      ],
+      "published": "2025-12-02",
+      "updated": "2025-12-02",
+      "doi": "10.64898/2025.11.30.691382",
+      "journal_doi": null,
+      "url": "https://www.biorxiv.org/content/10.64898/2025.11.30.691382",
+      "version": 1,
+      "withdrawn": false,
+      "source_categories": [
+        "neuroscience"
+      ],
+      "provenance": {
+        "metadata_url": "https://api.biorxiv.org/details/biorxiv/2025-11-12/2025-12-11/780?category=neuroscience",
+        "fetched_at": "2026-10-25T13:03:43Z",
+        "sha256": "b168a281be97ad544942e542377eaea6fa841e257fa495ca94ae7fe8480429e1",
+        "first_post_verified": true
+      },
+      "metrics": {
+        "views": null,
+        "downloads": null,
+        "observed_at": null,
+        "source_url": null,
+        "age_days": null,
+        "age_basis": "first-post-date-midnight-UTC",
+        "age_validation_error": "missing-observation-time",
+        "exposure_fraction": null,
+        "exposure_tau_days": 7.0,
+        "views_age_adjusted": null,
+        "downloads_age_adjusted": null
+      },
+      "categories": [
+        "rl-learning"
+      ],
+      "tags": [
+        "meta-learning"
+      ],
+      "screening": {
+        "status": "retained",
+        "reason": "Latest title/abstract still directly link mouse odor-outcome reversal learning and BLA value representations to recurrent neural network models of plasticity-based versus dynamics-based value updates. Retain under biological reward learning despite removal of the literal reinforcement-learning phrase from the updated title.",
+        "evidence": [
+          "Transition from plasticity to dynamics-based value update for meta-learning."
+        ],
+        "implication": null,
+        "rule_version": "2026-10-12.1",
+        "editorial_override": {
+          "action": "include",
+          "categories": [
+            "rl-learning"
+          ],
+          "reason": "Latest title/abstract still directly link mouse odor-outcome reversal learning and BLA value representations to recurrent neural network models of plasticity-based versus dynamics-based value updates. Retain under biological reward learning despite removal of the literal reinforcement-learning phrase from the updated title.",
+          "reviewer": "codex",
+          "reviewed_at": "2026-10-25"
+        },
+        "method": "title-and-abstract rules",
+        "human_reviewed": false,
+        "editorial_reviewed": true,
+        "editorial_reviewer": "codex"
+      },
+      "aliases": [
+        {
+          "id": "biorxiv:10.64898/2025.11.30.691382",
+          "source": "biorxiv",
+          "url": "https://www.biorxiv.org/content/10.64898/2025.11.30.691382",
+          "published": "2025-12-02"
+        }
+      ],
+      "duplicate_count": 0,
+      "source_records": [
+        {
+          "source": "biorxiv",
+          "id": "biorxiv:10.64898/2025.11.30.691382",
+          "doi": "10.64898/2025.11.30.691382",
+          "provenance": {
+            "metadata_url": "https://api.biorxiv.org/details/biorxiv/2025-11-12/2025-12-11/780?category=neuroscience",
+            "fetched_at": "2026-10-25T13:03:43Z",
+            "sha256": "b168a281be97ad544942e542377eaea6fa841e257fa495ca94ae7fe8480429e1",
+            "first_post_verified": true
+          },
+          "metrics": {
+            "views": null,
+            "downloads": null,
+            "observed_at": null,
+            "source_url": null
+          }
+        }
+      ],
+      "age_days": null
+    },
+    {
       "id": "biorxiv:10.1101/2025.11.28.691119",
       "source": "biorxiv",
       "source_id": "10.1101/2025.11.28.691119",
@@ -287082,8 +287182,8 @@
     "human_reviewed": false,
     "audit_counts": {
       "rejected": 67364,
-      "candidate": 3299,
-      "retained": 2873,
+      "candidate": 3298,
+      "retained": 2874,
       "outside-window": 48
     },
     "limitations": "Automatic selection can miss relevant studies and include keyword matches; scientific novelty, validity, and speaker suitability require reading the paper."
@@ -287093,7 +287193,7 @@
     "default": "exponential-adjusted-views",
     "fallback": "newest",
     "measured_papers": 291,
-    "missing_metrics": 2575,
+    "missing_metrics": 2576,
     "model": "exponential-saturation",
     "exposure_tau_days": 7.0,
     "minimum_age_days": 1,

@@ -66,5 +66,14 @@
     "reason": "Benchmarks fMRI connectivity pipelines to classify eye-open versus eye-closed states for biomarker reliability. Complex cognitive tasks are mentioned only as a contrasting background; no cognitive task or human-learning innovation is established in the abstract.",
     "reviewer": "codex",
     "reviewed_at": "2026-10-12"
+  },
+  "biorxiv:10.64898/2025.11.30.691382": {
+    "action": "include",
+    "categories": [
+      "rl-learning"
+    ],
+    "reason": "Latest title/abstract still directly link mouse odor-outcome reversal learning and BLA value representations to recurrent neural network models of plasticity-based versus dynamics-based value updates. Retain under biological reward learning despite removal of the literal reinforcement-learning phrase from the updated title.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-25"
   }
 }
