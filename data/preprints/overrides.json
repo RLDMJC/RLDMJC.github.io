@@ -75,5 +75,23 @@
     "reason": "Latest title/abstract still directly link mouse odor-outcome reversal learning and BLA value representations to recurrent neural network models of plasticity-based versus dynamics-based value updates. Retain under biological reward learning despite removal of the literal reinforcement-learning phrase from the updated title.",
     "reviewer": "codex",
     "reviewed_at": "2026-10-25"
+  },
+  "arxiv:2608.15394": {
+    "action": "include",
+    "categories": [
+      "ai-cognition"
+    ],
+    "reason": "Updated abstract introduces 6,684 paired narrative scenarios across five temporal illusions, compares 60 human participants with 14 LLMs, and tests perspective and lexical controls. This is an explicit task/paradigm contribution to human-AI cognitive comparison despite omission of the screener cognitive keywords.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-28"
+  },
+  "psyarxiv:fjdn6": {
+    "action": "include",
+    "categories": [
+      "ai-cognition"
+    ],
+    "reason": "Updated abstract develops and validates a Japanese psychometric measure of AI attitudes, with retest and cross-national measurement-invariance analysis. Retain as an AI-psychology measurement-method contribution; not a claim that the instrument or cultural differences are fully validated.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-28"
   }
 }
