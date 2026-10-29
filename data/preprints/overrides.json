@@ -93,5 +93,23 @@
     "reason": "Updated abstract develops and validates a Japanese psychometric measure of AI attitudes, with retest and cross-national measurement-invariance analysis. Retain as an AI-psychology measurement-method contribution; not a claim that the instrument or cultural differences are fully validated.",
     "reviewer": "codex",
     "reviewed_at": "2026-10-28"
+  },
+  "arxiv:2607.20803": {
+    "action": "include",
+    "categories": [
+      "ai-cognition"
+    ],
+    "reason": "Latest abstract introduces a joint-personality steering method and NarrationDB resource connecting character narratives to eight Jungian-inspired functions, with questionnaire evaluation. Retain as an AI/psychology method contribution; score controllability does not validate psychological trait structure.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-29"
+  },
+  "arxiv:2607.21534": {
+    "action": "include",
+    "categories": [
+      "ai-implications"
+    ],
+    "reason": "Latest abstract tests whether GenAI availability substitutes for student learning using human-validated LLM extraction of course assessments and university grades/satisfaction data. It has a specific human-learning implication and observational design, with effects sensitive to COVID modeling; no causal learning benefit inferred.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-10-29"
   }
 }
