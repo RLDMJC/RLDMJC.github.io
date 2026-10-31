@@ -1,20 +1,20 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-30T14:38:41Z",
+  "generated_at": "2026-10-31T13:12:45Z",
   "window": {
-    "start": "2025-10-30",
-    "end": "2026-10-30"
+    "start": "2025-10-31",
+    "end": "2026-10-31"
   },
   "coverage": [
     {
       "source": "arxiv",
       "status": "complete",
       "window": {
-        "start": "2025-10-30",
-        "end": "2026-10-30"
+        "start": "2025-10-31",
+        "end": "2026-10-31"
       },
-      "checked_at": "2026-10-30T14:37:42Z",
-      "fetched": 51237,
+      "checked_at": "2026-10-31T13:12:07Z",
+      "fetched": 51528,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
       "scope": "Completed dated batches for the requested year; source query/category limits still apply.",
       "missing_windows": [],
@@ -489,72 +489,6 @@
           },
           "incremental": false,
           "archive": "data\\preprints\\backfill\\2026-09-17_2026-10-17\\arxiv.json"
-        },
-        {
-          "source": "arxiv",
-          "status": "complete",
-          "fetched": 4211,
-          "window": {
-            "start": "2026-04-12",
-            "end": "2026-05-11"
-          },
-          "query": "(all:reinforcement OR all:cognitive OR all:psychology OR all:human OR all:animal OR all:brain OR all:mice OR all:rodent OR all:monkey)",
-          "scope": "Broad all-metadata keyword retrieval across all arXiv categories, followed by conservative title/abstract screening; not an exhaustive census of all relevant papers.",
-          "intervals": [
-            {
-              "start": "2026-04-12",
-              "end": "2026-04-16",
-              "total": 773,
-              "fetched": 773,
-              "status": "complete"
-            },
-            {
-              "start": "2026-04-17",
-              "end": "2026-04-21",
-              "total": 666,
-              "fetched": 666,
-              "status": "complete"
-            },
-            {
-              "start": "2026-04-22",
-              "end": "2026-04-26",
-              "total": 536,
-              "fetched": 536,
-              "status": "complete"
-            },
-            {
-              "start": "2026-04-27",
-              "end": "2026-04-30",
-              "total": 611,
-              "fetched": 611,
-              "status": "complete"
-            },
-            {
-              "start": "2026-05-01",
-              "end": "2026-05-06",
-              "total": 726,
-              "fetched": 726,
-              "status": "complete"
-            },
-            {
-              "start": "2026-05-07",
-              "end": "2026-05-11",
-              "total": 899,
-              "fetched": 899,
-              "status": "complete"
-            }
-          ],
-          "failures": [],
-          "requests": 22,
-          "cache_hits": 0,
-          "checked_at": "2026-10-17T13:11:00Z",
-          "metrics_status": "Per-paper views/downloads not supplied by the public arXiv metadata API.",
-          "update_window": {
-            "start": "2026-04-12",
-            "end": "2026-05-11"
-          },
-          "incremental": false,
-          "archive": "data\\preprints\\backfill\\2026-04-12_2026-05-11\\arxiv.json"
         },
         {
           "source": "arxiv",
@@ -2144,6 +2078,151 @@
           },
           "incremental": false,
           "archive": "data\\preprints\\backfill\\2026-06-12_2026-07-11\\arxiv.json"
+        },
+        {
+          "source": "arxiv",
+          "status": "complete",
+          "fetched": 4686,
+          "window": {
+            "start": "2026-10-01",
+            "end": "2026-10-31"
+          },
+          "query": "(all:reinforcement OR all:cognitive OR all:psychology OR all:human OR all:animal OR all:brain OR all:mice OR all:rodent OR all:monkey)",
+          "scope": "Broad all-metadata keyword retrieval across all arXiv categories, followed by conservative title/abstract screening; not an exhaustive census of all relevant papers.",
+          "intervals": [
+            {
+              "start": "2026-10-01",
+              "end": "2026-10-04",
+              "total": 631,
+              "fetched": 631,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-05",
+              "end": "2026-10-08",
+              "total": 841,
+              "fetched": 841,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-09",
+              "end": "2026-10-12",
+              "total": 555,
+              "fetched": 555,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-13",
+              "end": "2026-10-16",
+              "total": 820,
+              "fetched": 820,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-17",
+              "end": "2026-10-20",
+              "total": 570,
+              "fetched": 570,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-21",
+              "end": "2026-10-24",
+              "total": 572,
+              "fetched": 572,
+              "status": "complete"
+            },
+            {
+              "start": "2026-10-25",
+              "end": "2026-10-31",
+              "total": 697,
+              "fetched": 697,
+              "status": "complete"
+            }
+          ],
+          "failures": [],
+          "rate_limited": false,
+          "requests": 27,
+          "cache_hits": 0,
+          "checked_at": "2026-10-31T13:04:29Z",
+          "metrics_status": "Per-paper views/downloads not supplied by the public arXiv metadata API.",
+          "preserved_previous_records": 3258,
+          "previous_checked_at": "2026-10-30T14:33:07Z",
+          "update_window": {
+            "start": "2026-10-01",
+            "end": "2026-10-31"
+          },
+          "incremental": false,
+          "archive": "data\\preprints\\backfill\\2026-10-01_2026-10-31\\arxiv.json"
+        },
+        {
+          "source": "arxiv",
+          "status": "complete",
+          "fetched": 4206,
+          "window": {
+            "start": "2026-04-12",
+            "end": "2026-05-11"
+          },
+          "query": "(all:reinforcement OR all:cognitive OR all:psychology OR all:human OR all:animal OR all:brain OR all:mice OR all:rodent OR all:monkey)",
+          "scope": "Broad all-metadata keyword retrieval across all arXiv categories, followed by conservative title/abstract screening; not an exhaustive census of all relevant papers.",
+          "intervals": [
+            {
+              "start": "2026-04-12",
+              "end": "2026-04-16",
+              "total": 772,
+              "fetched": 772,
+              "status": "complete"
+            },
+            {
+              "start": "2026-04-17",
+              "end": "2026-04-21",
+              "total": 665,
+              "fetched": 665,
+              "status": "complete"
+            },
+            {
+              "start": "2026-04-22",
+              "end": "2026-04-26",
+              "total": 536,
+              "fetched": 536,
+              "status": "complete"
+            },
+            {
+              "start": "2026-04-27",
+              "end": "2026-04-30",
+              "total": 611,
+              "fetched": 611,
+              "status": "complete"
+            },
+            {
+              "start": "2026-05-01",
+              "end": "2026-05-06",
+              "total": 726,
+              "fetched": 726,
+              "status": "complete"
+            },
+            {
+              "start": "2026-05-07",
+              "end": "2026-05-11",
+              "total": 896,
+              "fetched": 896,
+              "status": "complete"
+            }
+          ],
+          "failures": [],
+          "rate_limited": false,
+          "requests": 23,
+          "cache_hits": 0,
+          "checked_at": "2026-10-31T13:08:23Z",
+          "metrics_status": "Per-paper views/downloads not supplied by the public arXiv metadata API.",
+          "preserved_previous_records": 0,
+          "previous_checked_at": "2026-10-17T13:11:00Z",
+          "update_window": {
+            "start": "2026-04-12",
+            "end": "2026-05-11"
+          },
+          "incremental": false,
+          "archive": "data\\preprints\\backfill\\2026-04-12_2026-05-11\\arxiv.json"
         }
       ],
       "failures": [],
@@ -2151,21 +2230,21 @@
         "failures": []
       },
       "metrics_status": "Version totals retain the actual observation dates; missing counters are unavailable.",
-      "unique_records": 49204,
-      "retained": 2496,
-      "candidates": 3194,
-      "rejected": 43035,
-      "outside_window": 479
+      "unique_records": 49199,
+      "retained": 2489,
+      "candidates": 3176,
+      "rejected": 42903,
+      "outside_window": 631
     },
     {
       "source": "psyarxiv",
       "status": "complete",
       "window": {
-        "start": "2025-10-30",
-        "end": "2026-10-30"
+        "start": "2025-10-31",
+        "end": "2026-10-31"
       },
-      "checked_at": "2026-10-30T14:37:42Z",
-      "fetched": 8881,
+      "checked_at": "2026-10-31T13:12:07Z",
+      "fetched": 8897,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
       "scope": "Completed dated batches for the requested year; source query/category limits still apply.",
       "missing_windows": [],
@@ -2608,54 +2687,6 @@
             "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"
           },
           "archive": "data\\preprints\\backfill\\2026-09-19_2026-10-19\\psyarxiv.json"
-        },
-        {
-          "source": "psyarxiv",
-          "status": "complete",
-          "complete": true,
-          "start": "2026-04-12",
-          "end": "2026-05-11",
-          "window": {
-            "start": "2026-04-12",
-            "end": "2026-05-11"
-          },
-          "date_basis": "first public version date_published; inclusive UTC calendar dates",
-          "query": "https://api.osf.io/v2/preprints/?filter%5Bprovider%5D=psyarxiv&filter%5Bdate_published%5D%5Bgte%5D=2026-04-12&filter%5Bdate_published%5D%5Blt%5D=2026-05-12&page%5Bsize%5D=100&sort=-date_created&fields%5Busers%5D=full_name&fields%5Bcontributors%5D=index%2Cbibliographic%2Cunregistered_contributor%2Cusers&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider&version=2.20",
-          "reported_version_records": 1097,
-          "retrieved_version_records": 1097,
-          "metadata_pages": 11,
-          "unique_first_posts": 715,
-          "old_work_revision_groups_excluded": 314,
-          "withdrawn_groups_excluded": 0,
-          "excluded_ids": [],
-          "observed_from": "2026-10-19T13:09:08+00:00",
-          "observed_to": "2026-10-19T13:09:34+00:00",
-          "checked_at": "2026-10-19T13:09:34+00:00",
-          "network_requests": 11,
-          "cache_hits": 0,
-          "authors_pending": 715,
-          "limitations": [
-            "Public accepted metadata only; withdrawn/deleted/private works can be absent.",
-            "Snapshot pages are cached; --refresh is needed to obtain a new source snapshot.",
-            "Classification remains a separate title/abstract screening step.",
-            "Full bibliographic authors and usage metrics are enriched after topic screening; raw candidates can have pending author lists."
-          ],
-          "update_window": {
-            "start": "2026-04-12",
-            "end": "2026-05-11"
-          },
-          "incremental": false,
-          "metrics_enrichment": {
-            "source": "psyarxiv",
-            "requested": 29,
-            "enriched": 29,
-            "failures": [],
-            "network_requests": 96,
-            "cache_hits": 0,
-            "scope": "all-versions",
-            "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"
-          },
-          "archive": "data\\preprints\\backfill\\2026-04-12_2026-05-11\\psyarxiv.json"
         },
         {
           "source": "psyarxiv",
@@ -3776,6 +3807,110 @@
             "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"
           },
           "archive": "data\\preprints\\backfill\\2026-06-12_2026-07-11\\psyarxiv.json"
+        },
+        {
+          "source": "psyarxiv",
+          "status": "complete",
+          "complete": true,
+          "start": "2026-10-01",
+          "end": "2026-10-31",
+          "window": {
+            "start": "2026-10-01",
+            "end": "2026-10-31"
+          },
+          "date_basis": "first public version date_published; inclusive UTC calendar dates",
+          "query": "https://api.osf.io/v2/preprints/?filter%5Bprovider%5D=psyarxiv&filter%5Bdate_published%5D%5Bgte%5D=2026-10-01&filter%5Bdate_published%5D%5Blt%5D=2026-11-01&page%5Bsize%5D=100&sort=-date_created&fields%5Busers%5D=full_name&fields%5Bcontributors%5D=index%2Cbibliographic%2Cunregistered_contributor%2Cusers&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider&version=2.20",
+          "reported_version_records": 1364,
+          "retrieved_version_records": 1364,
+          "metadata_pages": 14,
+          "unique_first_posts": 762,
+          "old_work_revision_groups_excluded": 509,
+          "withdrawn_groups_excluded": 1,
+          "excluded_ids": [
+            "psyarxiv:4usk8"
+          ],
+          "observed_from": "2026-10-31T13:02:22+00:00",
+          "observed_to": "2026-10-31T13:03:02+00:00",
+          "checked_at": "2026-10-31T13:03:02+00:00",
+          "network_requests": 14,
+          "cache_hits": 0,
+          "authors_pending": 762,
+          "limitations": [
+            "Public accepted metadata only; withdrawn/deleted/private works can be absent.",
+            "Snapshot pages are cached; --refresh is needed to obtain a new source snapshot.",
+            "Classification remains a separate title/abstract screening step.",
+            "Full bibliographic authors and usage metrics are enriched after topic screening; raw candidates can have pending author lists."
+          ],
+          "preserved_previous_records": 444,
+          "previous_checked_at": "2026-10-30T14:31:49+00:00",
+          "update_window": {
+            "start": "2026-10-01",
+            "end": "2026-10-31"
+          },
+          "incremental": false,
+          "metrics_enrichment": {
+            "source": "psyarxiv",
+            "requested": 22,
+            "enriched": 22,
+            "failures": [],
+            "withdrawals": [],
+            "network_requests": 68,
+            "cache_hits": 0,
+            "scope": "all-versions",
+            "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"
+          },
+          "archive": "data\\preprints\\backfill\\2026-10-01_2026-10-31\\psyarxiv.json"
+        },
+        {
+          "source": "psyarxiv",
+          "status": "complete",
+          "complete": true,
+          "start": "2026-04-12",
+          "end": "2026-05-11",
+          "window": {
+            "start": "2026-04-12",
+            "end": "2026-05-11"
+          },
+          "date_basis": "first public version date_published; inclusive UTC calendar dates",
+          "query": "https://api.osf.io/v2/preprints/?filter%5Bprovider%5D=psyarxiv&filter%5Bdate_published%5D%5Bgte%5D=2026-04-12&filter%5Bdate_published%5D%5Blt%5D=2026-05-12&page%5Bsize%5D=100&sort=-date_created&fields%5Busers%5D=full_name&fields%5Bcontributors%5D=index%2Cbibliographic%2Cunregistered_contributor%2Cusers&fields%5Bpreprints%5D=title%2Cdescription%2Cdate_published%2Cdate_modified%2Cdate_created%2Cversion%2Cis_latest_version%2Cdate_withdrawn%2Cdoi%2Ctags%2Cbibliographic_contributors%2Cprovider&version=2.20",
+          "reported_version_records": 1097,
+          "retrieved_version_records": 1097,
+          "metadata_pages": 11,
+          "unique_first_posts": 715,
+          "old_work_revision_groups_excluded": 314,
+          "withdrawn_groups_excluded": 0,
+          "excluded_ids": [],
+          "observed_from": "2026-10-31T13:05:56+00:00",
+          "observed_to": "2026-10-31T13:06:26+00:00",
+          "checked_at": "2026-10-31T13:11:56+00:00",
+          "network_requests": 0,
+          "cache_hits": 11,
+          "authors_pending": 715,
+          "limitations": [
+            "Public accepted metadata only; withdrawn/deleted/private works can be absent.",
+            "Snapshot pages are cached; --refresh is needed to obtain a new source snapshot.",
+            "Classification remains a separate title/abstract screening step.",
+            "Full bibliographic authors and usage metrics are enriched after topic screening; raw candidates can have pending author lists."
+          ],
+          "preserved_previous_records": 0,
+          "previous_checked_at": "2026-10-31T13:06:26+00:00",
+          "update_window": {
+            "start": "2026-04-12",
+            "end": "2026-05-11"
+          },
+          "incremental": false,
+          "metrics_enrichment": {
+            "source": "psyarxiv",
+            "requested": 29,
+            "enriched": 29,
+            "failures": [],
+            "withdrawals": [],
+            "network_requests": 0,
+            "cache_hits": 96,
+            "scope": "all-versions",
+            "official_usage_definition": "https://help.osf.io/article/376-preprints-home-page"
+          },
+          "archive": "data\\preprints\\backfill\\2026-04-12_2026-05-11\\psyarxiv.json"
         }
       ],
       "failures": [],
@@ -3783,21 +3918,21 @@
         "failures": []
       },
       "metrics_status": "Version totals retain the actual observation dates; missing counters are unavailable.",
-      "unique_records": 8843,
-      "retained": 306,
+      "unique_records": 8859,
+      "retained": 303,
       "candidates": 118,
-      "rejected": 8304,
-      "outside_window": 115
+      "rejected": 8274,
+      "outside_window": 164
     },
     {
       "source": "biorxiv",
       "status": "complete",
       "window": {
-        "start": "2025-10-30",
-        "end": "2026-10-30"
+        "start": "2025-10-31",
+        "end": "2026-10-31"
       },
-      "checked_at": "2026-10-30T14:37:44Z",
-      "fetched": 24510,
+      "checked_at": "2026-10-31T13:12:09Z",
+      "fetched": 24761,
       "retrieval_scope": "Progressive year backfill using the existing source queries/categories; archived snapshots retain their observation dates.",
       "scope": "Completed dated batches for the requested year; source query/category limits still apply.",
       "missing_windows": [],
@@ -4131,59 +4266,6 @@
           },
           "incremental": false,
           "archive": "data\\preprints\\backfill\\2026-09-17_2026-10-17\\biorxiv.json"
-        },
-        {
-          "source": "biorxiv",
-          "status": "complete",
-          "fetched": 1994,
-          "window": {
-            "start": "2026-04-12",
-            "end": "2026-05-11"
-          },
-          "source_categories": [
-            "neuroscience",
-            "animal behavior and cognition",
-            "bioinformatics",
-            "systems biology"
-          ],
-          "scope": "All paginated date-range records in the named subject categories; relevant papers assigned to other categories may be missed.",
-          "intervals": [
-            {
-              "category": "neuroscience",
-              "fetched": 1137,
-              "total": 1137,
-              "status": "complete"
-            },
-            {
-              "category": "animal behavior and cognition",
-              "fetched": 83,
-              "total": 83,
-              "status": "complete"
-            },
-            {
-              "category": "bioinformatics",
-              "fetched": 609,
-              "total": 609,
-              "status": "complete"
-            },
-            {
-              "category": "systems biology",
-              "fetched": 129,
-              "total": 129,
-              "status": "complete"
-            }
-          ],
-          "failures": [],
-          "requests": 78,
-          "cache_hits": 2,
-          "checked_at": "2026-10-17T13:10:30Z",
-          "metrics_status": "bioRxiv /usage supplies platform aggregates, not paper-level views/downloads; no aggregate assigned to a paper.",
-          "update_window": {
-            "start": "2026-04-12",
-            "end": "2026-05-11"
-          },
-          "incremental": false,
-          "archive": "data\\preprints\\backfill\\2026-04-12_2026-05-11\\biorxiv.json"
         },
         {
           "source": "biorxiv",
@@ -5496,6 +5578,116 @@
           },
           "incremental": false,
           "archive": "data\\preprints\\backfill\\2026-06-12_2026-07-11\\biorxiv.json"
+        },
+        {
+          "source": "biorxiv",
+          "status": "complete",
+          "fetched": 2572,
+          "window": {
+            "start": "2026-10-01",
+            "end": "2026-10-31"
+          },
+          "source_categories": [
+            "neuroscience",
+            "animal behavior and cognition",
+            "bioinformatics",
+            "systems biology"
+          ],
+          "scope": "All paginated date-range records in the named subject categories; relevant papers assigned to other categories may be missed.",
+          "intervals": [
+            {
+              "category": "neuroscience",
+              "fetched": 1458,
+              "total": 1458,
+              "status": "complete"
+            },
+            {
+              "category": "animal behavior and cognition",
+              "fetched": 141,
+              "total": 141,
+              "status": "complete"
+            },
+            {
+              "category": "bioinformatics",
+              "fetched": 809,
+              "total": 809,
+              "status": "complete"
+            },
+            {
+              "category": "systems biology",
+              "fetched": 132,
+              "total": 132,
+              "status": "complete"
+            }
+          ],
+          "failures": [],
+          "requests": 97,
+          "cache_hits": 0,
+          "checked_at": "2026-10-31T13:03:32Z",
+          "metrics_status": "bioRxiv /usage supplies platform aggregates, not paper-level views/downloads; no aggregate assigned to a paper.",
+          "preserved_previous_records": 1456,
+          "previous_checked_at": "2026-10-30T14:32:29Z",
+          "update_window": {
+            "start": "2026-10-01",
+            "end": "2026-10-31"
+          },
+          "incremental": false,
+          "archive": "data\\preprints\\backfill\\2026-10-01_2026-10-31\\biorxiv.json"
+        },
+        {
+          "source": "biorxiv",
+          "status": "complete",
+          "fetched": 1994,
+          "window": {
+            "start": "2026-04-12",
+            "end": "2026-05-11"
+          },
+          "source_categories": [
+            "neuroscience",
+            "animal behavior and cognition",
+            "bioinformatics",
+            "systems biology"
+          ],
+          "scope": "All paginated date-range records in the named subject categories; relevant papers assigned to other categories may be missed.",
+          "intervals": [
+            {
+              "category": "neuroscience",
+              "fetched": 1137,
+              "total": 1137,
+              "status": "complete"
+            },
+            {
+              "category": "animal behavior and cognition",
+              "fetched": 83,
+              "total": 83,
+              "status": "complete"
+            },
+            {
+              "category": "bioinformatics",
+              "fetched": 609,
+              "total": 609,
+              "status": "complete"
+            },
+            {
+              "category": "systems biology",
+              "fetched": 129,
+              "total": 129,
+              "status": "complete"
+            }
+          ],
+          "failures": [],
+          "requests": 80,
+          "cache_hits": 0,
+          "checked_at": "2026-10-31T13:06:42Z",
+          "metrics_status": "bioRxiv /usage supplies platform aggregates, not paper-level views/downloads; no aggregate assigned to a paper.",
+          "preserved_previous_records": 13,
+          "previous_checked_at": "2026-10-17T13:10:30Z",
+          "update_window": {
+            "start": "2026-04-12",
+            "end": "2026-05-11"
+          },
+          "incremental": false,
+          "archive": "data\\preprints\\backfill\\2026-04-12_2026-05-11\\biorxiv.json"
         }
       ],
       "failures": [],
@@ -5503,11 +5695,11 @@
         "failures": []
       },
       "metrics_status": "Version totals retain the actual observation dates; missing counters are unavailable.",
-      "unique_records": 20113,
+      "unique_records": 20200,
       "retained": 190,
-      "candidates": 180,
-      "rejected": 19452,
-      "outside_window": 291
+      "candidates": 179,
+      "rejected": 19479,
+      "outside_window": 352
     }
   ],
   "categories": [
@@ -5529,10 +5721,10 @@
     "method": "Conservative, reproducible title/abstract triage with optional persistent editorial overrides.",
     "human_reviewed": false,
     "audit_counts": {
-      "rejected": 70791,
-      "candidate": 3492,
-      "retained": 2992,
-      "outside-window": 885
+      "rejected": 70656,
+      "candidate": 3473,
+      "retained": 2982,
+      "outside-window": 1147
     },
     "limitations": "Automatic selection can miss relevant studies and include keyword matches; scientific novelty, validity, and speaker suitability require reading the paper."
   },
@@ -5540,8 +5732,8 @@
     "requested_default": "exponential-adjusted-views",
     "default": "exponential-adjusted-views",
     "fallback": "newest",
-    "measured_papers": 306,
-    "missing_metrics": 2679,
+    "measured_papers": 303,
+    "missing_metrics": 2672,
     "model": "exponential-saturation",
     "exposure_tau_days": 7.0,
     "minimum_age_days": 1,
