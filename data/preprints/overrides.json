@@ -120,5 +120,23 @@
     "reason": "Latest abstract manipulates timing of AI integration into creative work across multiple experiments, tests effort/authenticity judgments and equal-contribution controls, and examines expertise and disclosure. Retain as an AI-psychology experimental paradigm contribution even though rewritten wording lacks the screener literal cognitive terms.",
     "reviewer": "codex",
     "reviewed_at": "2026-10-31"
+  },
+  "arxiv:2605.30058": {
+    "action": "include",
+    "categories": [
+      "ai-cognition"
+    ],
+    "reason": "Latest HEART-Bench abstract introduces Big Five-anchored synthetic characters and DIAMONDS-guided scenarios for memory-grounded persona decisions, expert adjudication and a matched human comparison. Retain as an AI/psychology benchmark method, without treating synthetic character accuracy as validated human psychology.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-01"
+  },
+  "arxiv:2605.30539": {
+    "action": "include",
+    "categories": [
+      "ai-implications"
+    ],
+    "reason": "Latest abstract presents environment-log-grounded LLM scaffolding for high-school STEM+C computational modeling, with 11 dyads and mixed-methods classroom evidence. This directly concerns human learning and AI tutoring; exploratory observations do not establish causal learning gains. Latest metadata verified by direct arXiv ID query after absence from keyword results.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-01"
   }
 }
