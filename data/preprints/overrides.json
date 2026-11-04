@@ -138,5 +138,32 @@
     "reason": "Latest abstract presents environment-log-grounded LLM scaffolding for high-school STEM+C computational modeling, with 11 dyads and mixed-methods classroom evidence. This directly concerns human learning and AI tutoring; exploratory observations do not establish causal learning gains. Latest metadata verified by direct arXiv ID query after absence from keyword results.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-01"
+  },
+  "arxiv:2602.21262": {
+    "action": "include",
+    "categories": [
+      "ai-cognition"
+    ],
+    "reason": "Latest abstract explicitly operationalizes human epistemic vigilance in three agent tasks and tests a Bayesian advice-selection method. This connects an established human social-cognitive construct to a new AI evaluation paradigm; it does not demonstrate a human vigilance mechanism.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-04"
+  },
+  "arxiv:2603.09989": {
+    "action": "include",
+    "categories": [
+      "ai-cognition"
+    ],
+    "reason": "Latest abstract introduces a human-perceived reliability questionnaire modeled on SUS/SCS, with a 193-participant validation study and multidimensional Likert measurement. This is a concrete AI-psychological measurement contribution, distinct from objective factual correctness.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-04"
+  },
+  "arxiv:2603.02258": {
+    "action": "include",
+    "categories": [
+      "ai-cognition"
+    ],
+    "reason": "Latest abstract probes multilingual model conceptual geometry against human-language colexification, phonetic distances, and the Berlin and Kay color hierarchy with confound controls and a released toolkit. This is a cognitive-linguistic representational method; it does not establish human-model mechanistic equivalence. Latest metadata confirmed by official direct-ID lookup after keyword omission.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-04"
   }
 }
