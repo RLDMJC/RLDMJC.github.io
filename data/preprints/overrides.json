@@ -165,5 +165,23 @@
     "reason": "Latest abstract probes multilingual model conceptual geometry against human-language colexification, phonetic distances, and the Berlin and Kay color hierarchy with confound controls and a released toolkit. This is a cognitive-linguistic representational method; it does not establish human-model mechanistic equivalence. Latest metadata confirmed by official direct-ID lookup after keyword omission.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-04"
+  },
+  "arxiv:2611.13388": {
+    "action": "exclude",
+    "reason": "Financial forecasting using fuzzy cognitive maps and LSTMs. The title and abstract describe market prediction and contain no study of cognition or human learning.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-11"
+  },
+  "arxiv:2611.13960": {
+    "action": "exclude",
+    "reason": "Agentic coding sandbox security and permission enforcement. Cognitive architecture is used as an engineering term; the abstract describes no human or animal learning or psychological question.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-11"
+  },
+  "arxiv:2611.06956": {
+    "action": "exclude",
+    "reason": "GPU serving and multi-agent RL for information retrieval. Working memory refers to the model runtime; the abstract provides no substantive tie to biological learning, cognition research, or human learning.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-11"
   }
 }
