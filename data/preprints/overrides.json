@@ -183,5 +183,17 @@
     "reason": "GPU serving and multi-agent RL for information retrieval. Working memory refers to the model runtime; the abstract provides no substantive tie to biological learning, cognition research, or human learning.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-11"
+  },
+  "arxiv:2611.15439": {
+    "action": "exclude",
+    "reason": "The paper evaluates test-time optimization for audio models. Human listening is used as inspiration; the abstract supplies no substantive human learning question or cognitive comparison.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-13"
+  },
+  "arxiv:2611.17060": {
+    "action": "exclude",
+    "reason": "The study develops robotics data and simulation infrastructure from human demonstrations, without a human cognition, learning, or collaboration outcome.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-13"
   }
 }
