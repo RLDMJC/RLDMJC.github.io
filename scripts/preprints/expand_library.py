@@ -89,8 +89,17 @@ def collect(start, end):
             if hi < start or lo > end:
                 continue
             if coverage.get("status") == "complete":
+                # bioRxiv date-range pages cover version posting dates. An
+                # earlier version can confirm the work is still present without
+                # superseding a verified revision from after this batch.
+                refreshed = {record["id"]: record for record in snapshot["records"]} if source == "biorxiv" else {}
                 records = [record for record in records
-                           if not str(lo) <= record.get("published", "")[:10] <= str(hi)]
+                           if not str(lo) <= record.get("published", "")[:10] <= str(hi)
+                           or (record["id"] in refreshed
+                               and not refreshed[record["id"]].get("withdrawn")
+                               and record.get("provenance", {}).get("first_post_verified")
+                               and record.get("updated", "")[:10] > str(hi)
+                               and record.get("version", 1) > refreshed[record["id"]].get("version", 1))]
             excluded = set(coverage.get("excluded_ids", []))
             for identifier in excluded:
                 excluded_checks[identifier] = checked((path, snapshot))

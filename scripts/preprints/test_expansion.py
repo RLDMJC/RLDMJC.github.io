@@ -10,6 +10,31 @@ import expand_library as expansion
 
 
 class ExpansionTests(unittest.TestCase):
+    def test_biorxiv_first_post_refresh_preserves_later_revision(self):
+        with tempfile.TemporaryDirectory(dir=expansion.DATA) as temp:
+            root = Path(temp)
+            old, fresh = root / "revision", root / "first-post"
+            old.mkdir()
+            fresh.mkdir()
+            first = {"id": "paper", "published": "2026-01-15", "updated": "2026-01-15",
+                     "version": 1, "provenance": {"first_post_verified": True}}
+            latest = {**first, "updated": "2026-02-15", "version": 2}
+            payload = {"records": [latest], "coverage": {"source": "biorxiv", "status": "complete",
+                       "checked_at": "2026-03-01T00:00:00Z",
+                       "window": {"start": "2026-02-01", "end": "2026-02-28"}}}
+            (old / "biorxiv.json").write_text(json.dumps(payload), encoding="utf-8")
+            payload["coverage"].update(checked_at="2026-03-02T00:00:00Z",
+                                        window={"start": "2026-01-01", "end": "2026-01-31"})
+            for fresh_records, expected in [([first], [latest, first]),
+                                            ([], []),
+                                            ([{**first, "withdrawn": True}], [{**first, "withdrawn": True}])]:
+                with self.subTest(fresh_records=fresh_records):
+                    payload["records"] = fresh_records
+                    (fresh / "biorxiv.json").write_text(json.dumps(payload), encoding="utf-8")
+                    with patch.object(expansion, "ARCHIVE", root):
+                        results, _ = expansion.collect(date(2026, 1, 1), date(2026, 2, 28))
+                    self.assertEqual(results[2]["records"], expected)
+
     def test_cached_revision_history_preserves_first_post_in_uncovered_month(self):
         with tempfile.TemporaryDirectory(dir=expansion.DATA) as temp:
             root = Path(temp)
