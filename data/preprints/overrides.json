@@ -195,5 +195,11 @@
     "reason": "The study develops robotics data and simulation infrastructure from human demonstrations, without a human cognition, learning, or collaboration outcome.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-13"
+  },
+  "arxiv:2611.18397": {
+    "action": "exclude",
+    "reason": "Mouse refers to the input device. The reinforcement-learning experiments evaluate a game agent, using human players as a performance benchmark without studying biological learning or cognition.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-16"
   }
 }
