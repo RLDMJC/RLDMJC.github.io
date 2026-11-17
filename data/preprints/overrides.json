@@ -201,5 +201,11 @@
     "reason": "Mouse refers to the input device. The reinforcement-learning experiments evaluate a game agent, using human players as a performance benchmark without studying biological learning or cognition.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-16"
+  },
+  "arxiv:2611.19169": {
+    "action": "exclude",
+    "reason": "Cognitive architecture describes adaptive wireless channel coding. The study evaluates network latency, energy, and reliability without a human cognition or learning question.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-17"
   }
 }
