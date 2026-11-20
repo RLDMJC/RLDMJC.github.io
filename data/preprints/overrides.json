@@ -207,5 +207,17 @@
     "reason": "Cognitive architecture describes adaptive wireless channel coding. The study evaluates network latency, energy, and reliability without a human cognition or learning question.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-17"
+  },
+  "arxiv:2611.25868": {
+    "action": "exclude",
+    "reason": "Human fast-slow cognition motivates a traffic-understanding agent architecture. Evaluation concerns machine benchmark accuracy and inference costs, without a substantive human cognitive or learning investigation.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-20"
+  },
+  "arxiv:2611.25461": {
+    "action": "exclude",
+    "reason": "The memory-perception distinction motivates a robotic control architecture. The abstract reports robotic manipulation performance without investigating human or animal learning or testing a cognitive mechanism.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-20"
   }
 }
