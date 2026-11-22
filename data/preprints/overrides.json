@@ -219,5 +219,17 @@
     "reason": "The memory-perception distinction motivates a robotic control architecture. The abstract reports robotic manipulation performance without investigating human or animal learning or testing a cognitive mechanism.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-20"
+  },
+  "arxiv:2610.17306": {
+    "action": "exclude",
+    "reason": "Official arXiv abstract page identifies v2, posted October 27, 2026, as withdrawn by Dong Shu. The API still returns the original abstract. Verified at https://arxiv.org/abs/2610.17306 on November 22, 2026.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-22"
+  },
+  "arxiv:2611.23264": {
+    "action": "exclude",
+    "reason": "Human working-memory limitations motivate proposed software architecture. The abstract develops software-engineering arguments without a substantive cognitive or human-learning investigation.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-22"
   }
 }
