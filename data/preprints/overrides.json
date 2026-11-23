@@ -231,5 +231,11 @@
     "reason": "Human working-memory limitations motivate proposed software architecture. The abstract develops software-engineering arguments without a substantive cognitive or human-learning investigation.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-22"
+  },
+  "arxiv:2611.27729": {
+    "action": "exclude",
+    "reason": "Autonomous cryptanalysis harness and attack results; human working memory and discovery appear as motivation, without a cognitive experiment, behavioral model, or evaluated human learning/knowledge-transfer method.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-23"
   }
 }
