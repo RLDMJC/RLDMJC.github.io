@@ -237,5 +237,17 @@
     "reason": "Autonomous cryptanalysis harness and attack results; human working memory and discovery appear as motivation, without a cognitive experiment, behavioral model, or evaluated human learning/knowledge-transfer method.",
     "reviewer": "codex",
     "reviewed_at": "2026-11-23"
+  },
+  "arxiv:2611.28486": {
+    "action": "exclude",
+    "reason": "RAT denotes radio access technology in UAV communication, not biological rats. Lifelong reinforcement learning improves network recovery without a human/animal learning experiment, cognitive model, or specific human-learning implication.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-24"
+  },
+  "arxiv:2611.28245": {
+    "action": "exclude",
+    "reason": "Federated CNN phishing detection on mobile platforms; human behavior is background motivation, with no behavioral study, cognitive task, or evaluated method for human learning or reasoning.",
+    "reviewer": "codex",
+    "reviewed_at": "2026-11-24"
   }
 }
